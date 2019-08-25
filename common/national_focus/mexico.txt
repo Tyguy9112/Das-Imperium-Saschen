@@ -385,7 +385,7 @@ focus_tree = {
 					desc = "POLITICS_PLUTARCO_E_CALLES_DESC"
 					picture = GFX_portrait_mex_calles_civil
 					expire = "1965.1.1"
-					ideology = Monarchist
+					ideology = despotism
 					traits = {
 						el_jefe_maximo
 					}
@@ -411,7 +411,7 @@ focus_tree = {
 					desc = "POLITICS_PLUTARCO_E_CALLES_DESC"
 					picture = GFX_portrait_mex_calles_civil
 					expire = "1965.1.1"
-					ideology = Monarchist
+					ideology = despotism
 					traits = {
 						el_jefe_maximo
 					}
@@ -2289,7 +2289,7 @@ focus_tree = {
 					desc = "POLITICS_PLUTARCO_E_CALLES_DESC"
 					picture = GFX_portrait_mex_calles_civil
 					expire = "1965.1.1"
-					ideology = Monarchist
+					ideology = despotism
 					traits = {
 						el_jefe_maximo
 					}
