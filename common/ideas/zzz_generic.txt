@@ -251,7 +251,7 @@ ideas = {
 					AND = {
 						tag = SOV
 						has_government = communism
-						GER = {
+						SAX = {
 							has_government = fascism
 						}
 					}

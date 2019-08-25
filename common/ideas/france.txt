@@ -59,19 +59,19 @@ ideas = {
 					OR = {
 						AND = {
 							has_government = democratic
-							GER = {
+							SAX = {
 								has_government = democratic
 							}
 						}
 						AND = {
 							has_government = communism
-							GER = {
+							SAX = {
 								has_government = communism
 							}
 						}
 						AND = {	
 							has_government = fascism
-							GER = {
+							SAX = {
 								has_government = fascism
 							}
 						}
@@ -1114,7 +1114,7 @@ ideas = {
 				modifier = {
 					factor = 0
 
-					GER = { is_ai = yes }
+					SAX = { is_ai = yes }
 					date < 1939.1.1
 				}
 			}

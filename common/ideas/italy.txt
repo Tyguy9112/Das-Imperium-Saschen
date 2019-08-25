@@ -63,19 +63,19 @@ ideas = {
 				OR = {
 					AND = {
 						has_government = fascism
-						GER = {
+						SAX = {
 							has_government = fascism
 						}
 					}
 					AND = {
 						has_government = communism
-						GER = {
+						SAX = {
 							has_government = communism
 						}
 					}
 					AND = {
 						has_government = democratic
-						GER = {
+						SAX = {
 							has_government = democratic
 						}
 					}
