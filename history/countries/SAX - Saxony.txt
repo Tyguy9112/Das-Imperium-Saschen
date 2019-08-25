@@ -1,6 +1,6 @@
 ﻿capital = 65
 
-oob = "GER_1936"
+oob = "SAX_1936"
 
 set_fuel_ratio = 0.8
 
@@ -53,7 +53,7 @@ if = {
 		early_battlecruiser = 1
 		transport = 1
 	}
-	set_naval_oob = "GER_1936_naval"
+	set_naval_oob = "SAX_1936_naval"
 }
 if = {
 	limit = {
@@ -85,13 +85,9 @@ if = {
 		sonar = 1
 		basic_cruiser_armor_scheme = 1
 	}
-	set_naval_oob = "GER_1936_naval_mtg"
+	set_naval_oob = "SAX_1936_naval_mtg"
 }
 
-set_variable = { var = ger_gateway_to_europe_influence value = 0 }
-
-set_variable = { var = wehrmacht_anger value = 0 }
-set_variable = { var = ss_anger value = 0 }
 set_research_slots = 4
 set_convoys = 200
 set_stability = 0.75 
@@ -118,14 +114,14 @@ create_import = {
 		rudolf_hess
 		ludwig_beck
 		gerd_von_rundstedt
-		GER_autarky_idea
+		SAX_autarky_idea
 
 		#laws
 		war_economy
 		extensive_conscription
 	}
 	
-	oob = "GER_1939"
+	oob = "SAX_1939"
 	
 	set_autonomy = {
 		target = SLO
@@ -147,50 +143,50 @@ create_import = {
 	}
 
 	#MR pact effect, Also has a part scripted in soviet history file
-	unlock_national_focus = GER_mol_rib_pact
+	unlock_national_focus = SAX_mol_rib_pact
 	every_other_country = {
 		limit = {
 			has_government = fascism 
 		}
-		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
+		add_opinion_modifier = { target = SAX modifier = MR_pact_fascists }
 	}
 	diplomatic_relation = { country = SOV relation = non_aggression_pact }
 	add_opinion_modifier = { target = SOV modifier = MR_pact }
 	#MR pact end
 
 	#Soviet treaty
-	unlock_national_focus = GER_soviet_treaty
+	unlock_national_focus = SAX_soviet_treaty
 	add_tech_bonus = {
 		bonus = 1.0
 		uses = 2
 		category = armor
 	}
 	SOV = {
-		add_opinion_modifier = { target = GER modifier = sov_ger_treaty }
-		add_opinion_modifier = { target = GER modifier = sov_ger_treaty_trade }
+		add_opinion_modifier = { target = SAX modifier = sov_ger_treaty }
+		add_opinion_modifier = { target = SAX modifier = sov_ger_treaty_trade }
 	}
 	#Soviet treaty end
 	
-	unlock_national_focus = GER_rhineland
-	unlock_national_focus = GER_anschluss
-	unlock_national_focus = GER_demand_sudetenland
-	unlock_national_focus = GER_first_vienna_award
-	unlock_national_focus = GER_end_of_czechoslovakia
-	unlock_national_focus = GER_demand_memel
-	unlock_national_focus = GER_four_year_plan
-	unlock_national_focus = GER_autarky
-	unlock_national_focus = GER_synthetic_rubber
+	unlock_national_focus = SAX_rhineland
+	unlock_national_focus = SAX_anschluss
+	unlock_national_focus = SAX_demand_sudetenland
+	unlock_national_focus = SAX_first_vienna_award
+	unlock_national_focus = SAX_end_of_czechoslovakia
+	unlock_national_focus = SAX_demand_memel
+	unlock_national_focus = SAX_four_year_plan
+	unlock_national_focus = SAX_autarky
+	unlock_national_focus = SAX_synthetic_rubber
 
 	set_global_flag = end_of_czechoslovakia
 	set_global_flag = olympics_1936
-	set_variable = { var = GER_mefo_bill_counter value = 90 }
-	complete_national_focus = GER_autobahn
-	complete_national_focus = GER_west_wall
-	complete_national_focus = GER_army_innovation
-	complete_national_focus = GER_hermann_goring_werke
-	complete_national_focus = GER_kdf_wagen
-	complete_national_focus = GER_coal_liquidization
-	complete_national_focus = GER_extra_tech_slot
+	set_variable = { var = SAX_mefo_bill_counter value = 90 }
+	complete_national_focus = SAX_autobahn
+	complete_national_focus = SAX_west_wall
+	complete_national_focus = SAX_army_innovation
+	complete_national_focus = SAX_hermann_goring_werke
+	complete_national_focus = SAX_kdf_wagen
+	complete_national_focus = SAX_coal_liquidization
+	complete_national_focus = SAX_extra_tech_slot
 
 	#BUILDINGS
 	
@@ -263,7 +259,7 @@ create_import = {
 			basic_carrier = 1
 			improved_carrier = 1
 		}
-		set_naval_oob = "GER_1939_naval_legacy"
+		set_naval_oob = "SAX_1939_naval_legacy"
 	}
 	if = {
 		limit = {
@@ -277,7 +273,7 @@ create_import = {
 			improved_heavy_battery = 1
 			basic_heavy_armor_scheme = 1
 		}
-		set_naval_oob = "GER_1939_naval_mtg"
+		set_naval_oob = "SAX_1939_naval_mtg"
 	}
 }
 
@@ -294,7 +290,7 @@ set_popularities = {
 }
 
 create_faction = Axis
-add_to_faction = GER
+add_to_faction = SAX
 
 
 add_ideas = {
@@ -304,9 +300,9 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 }
-add_ideas = GER_mefo_bills_1
+add_ideas = SAX_mefo_bills_1
 
-activate_mission = GER_mefo_bills_mission
+activate_mission = SAX_mefo_bills_mission
 
 create_country_leader = {
 	name = "Drekgxl Madek"
@@ -772,7 +768,7 @@ if = {
 	create_equipment_variant = {
 		name = "Deutschland Class"
 		type = ship_hull_cruiser_panzerschiff
-		name_group = GER_CA_HISTORICAL
+		name_group = SAX_CA_HISTORICAL
 		parent_version = 0
 		modules = {
         	fixed_ship_anti_air_slot = ship_anti_air_1
@@ -788,7 +784,7 @@ if = {
 	create_equipment_variant = {
 		name = "Type 24 Class"
 		type = ship_hull_light_1
-		name_group = GER_TB_HISTORICAL
+		name_group = SAX_TB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -804,7 +800,7 @@ if = {
 	create_equipment_variant = {
 		name = "Zerstörer 1934 Class"
 		type = ship_hull_light_2
-		name_group = GER_DD_HISTORICAL
+		name_group = SAX_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_2
@@ -821,7 +817,7 @@ if = {
 	create_equipment_variant = {
 		name = "Zerstörer 1934A Class"
 		type = ship_hull_light_2
-		name_group = GER_DD_HISTORICAL
+		name_group = SAX_DD_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_2
@@ -837,7 +833,7 @@ if = {
 	create_equipment_variant = {
 		name = "Type II Class"
 		type = ship_hull_submarine_1
-		name_group = GER_SS_HISTORICAL
+		name_group = SAX_SS_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_1
@@ -849,7 +845,7 @@ if = {
 	create_equipment_variant = {
 		name = "Type VII Class"
 		type = ship_hull_submarine_2
-		name_group = GER_SS_HISTORICAL
+		name_group = SAX_SS_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_torpedo_slot = ship_torpedo_sub_2
@@ -860,7 +856,7 @@ if = {
 	create_equipment_variant = {
 		name = "Königsberg Class"
 		type = ship_hull_cruiser_1
-		name_group = GER_CL_HISTORICAL
+		name_group = SAX_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1
@@ -878,7 +874,7 @@ if = {
 	create_equipment_variant = {
 		name = "Emden Class"
 		type = ship_hull_cruiser_1
-		name_group = GER_CL_HISTORICAL
+		name_group = SAX_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1
@@ -896,7 +892,7 @@ if = {
 	create_equipment_variant = {
 		name = "Bremse Class"
 		type = ship_hull_cruiser_1
-		name_group = GER_CL_HISTORICAL
+		name_group = SAX_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
@@ -913,7 +909,7 @@ if = {
 	create_equipment_variant = {
 		name = "Leipzig Class"
 		type = ship_hull_cruiser_2
-		name_group = GER_CL_HISTORICAL
+		name_group = SAX_CL_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1
@@ -931,7 +927,7 @@ if = {
 	create_equipment_variant = {
 		name = "Admiral Hipper Class"
 		type = ship_hull_cruiser_2
-		name_group = GER_CA_HISTORICAL
+		name_group = SAX_CA_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_medium_battery_2
@@ -949,7 +945,7 @@ if = {
 	create_equipment_variant = {
 		name = "Scharnhorst Class"
 		type = ship_hull_heavy_2
-		name_group = GER_BB_HISTORICAL
+		name_group = SAX_BB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_2
@@ -968,7 +964,7 @@ if = {
 	create_equipment_variant = {
 		name = "Deutschland Class"
 		type = ship_hull_pre_dreadnought
-		name_group = GER_BB_HISTORICAL
+		name_group = SAX_BB_HISTORICAL
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
@@ -1049,7 +1045,7 @@ create_equipment_variant = {
 		create_equipment_variant = {
 			name = "Zerstörer 1936 Class"
 			type = ship_hull_light_2
-			name_group = GER_DD_HISTORICAL
+			name_group = SAX_DD_HISTORICAL
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_light_battery_2
@@ -1064,7 +1060,7 @@ create_equipment_variant = {
 		create_equipment_variant = {
 			name = "Bismarck Class"
 			type = ship_hull_heavy_2
-			name_group = GER_BB_HISTORICAL
+			name_group = SAX_BB_HISTORICAL
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_3
@@ -1083,7 +1079,7 @@ create_equipment_variant = {
 		create_equipment_variant = {
 			name = "Graf Zeppelin Class"
 			type = ship_hull_carrier_1
-			name_group = GER_CV_HISTORICAL
+			name_group = SAX_CV_HISTORICAL
 			parent_version = 0
 			modules = {
 				fixed_ship_deck_slot_1 = ship_deck_space

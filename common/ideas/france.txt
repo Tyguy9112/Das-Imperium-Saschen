@@ -1136,7 +1136,7 @@ ideas = {
 				modifier = {
 					factor = 0
 
-					GER = { is_ai = yes }
+					SAX = { is_ai = yes }
 					date < 1939.1.1
 				}
 			}
