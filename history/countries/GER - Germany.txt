@@ -282,7 +282,7 @@ create_import = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = Monarchist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
