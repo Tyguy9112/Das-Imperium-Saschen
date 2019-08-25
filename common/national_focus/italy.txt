@@ -1747,20 +1747,20 @@ focus_tree = {
 		mutually_exclusive = { focus = ITA_italy_first }
 		available = {
 			has_government = fascism
-			NOT = { has_war_with = GER }
+			NOT = { has_war_with = SAX }
 			OR = {
 				AND = {
 					has_government = fascism
-					GER = { 
+					SAX = { 
 						has_government = fascism 
-						country_exists = GER
+						country_exists = SAX
 					}
 				}
 				AND = {
 					has_government = neutrality
-					GER = { 
+					SAX = { 
 						has_government = neutrality
-						country_exists = GER
+						country_exists = SAX
 					}
 				}
 			}
@@ -1791,13 +1791,13 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				OR = {
-					GER = { has_completed_focus = GER_reestablish_free_elections }
-					GER = { has_completed_focus = GER_expatriate_the_communists }
+					SAX = { has_completed_focus = SAX_reestablish_free_elections }
+					SAX = { has_completed_focus = SAX_expatriate_the_communists }
 				}
 			}
 		}
 		completion_reward = {
-			GER = {
+			SAX = {
 				add_opinion_modifier = { target = ITA modifier = pact_of_steel_opinion }
 			}
 			hidden_effect = {
@@ -1812,7 +1812,7 @@ focus_tree = {
 		prerequisite = { focus = ITA_pact_of_steel }
 
 		available = {
-			NOT = { has_war_with = GER }
+			NOT = { has_war_with = SAX }
 			NOT = { has_country_flag = ENG_ditched_by_the_germans_flag }
 		}
 		
@@ -1838,7 +1838,7 @@ focus_tree = {
 		available = {
 			is_subject = no
 			NOT = { has_war_with = BUL }
-			NOT = { is_in_faction_with = GER }
+			NOT = { is_in_faction_with = SAX }
 			NOT = { is_in_faction_with = ENG }
 			OR = {
 				owns_state = 44
@@ -1854,7 +1854,7 @@ focus_tree = {
 			is_in_faction_with = FRA
 		}
 		cancel = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 		}
 		x = 1
 		y = 1
@@ -2009,7 +2009,7 @@ focus_tree = {
 		available = {
 			NOT = { has_country_flag = ENG_ditched_by_the_germans_flag }
 		}
-		cancel = { has_war_with = GER }
+		cancel = { has_war_with = SAX }
 		x = -1
 		y = 1
 		relative_position_id = ITA_pact_of_steel
@@ -2021,7 +2021,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			GER = {
+			SAX = {
 				country_event = { id = italy.5 days = 1 }
 				custom_effect_tooltip = needs_approval
 			}
@@ -2288,10 +2288,10 @@ focus_tree = {
 		prerequisite = { focus = ITA_pact_of_steel }
 		available = {
 			is_puppet = no
-			is_in_faction_with = GER
-			GER = { 
+			is_in_faction_with = SAX
+			SAX = { 
 				controls_state = 16 				
-				GER = { is_faction_leader = yes }
+				SAX = { is_faction_leader = yes }
 			}
 			custom_trigger_tooltip = {
 			 tooltip = ITA_claims_on_france_tt
@@ -2349,7 +2349,7 @@ focus_tree = {
 				set_global_flag = ITA_claims_on_france_1
 			}
 
-			GER = { country_event = germany.104 }			
+			SAX = { country_event = germany.104 }			
 		}
 	}
 	
@@ -2410,7 +2410,7 @@ focus_tree = {
 		bypass = {
 			OR = {
 				has_war_with = ENG
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 				NOT = { country_exists = ENG }
 			}
 		}

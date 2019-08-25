@@ -1427,15 +1427,15 @@ focus_tree = {
 		}
 
 		available = {
-			country_exists = GER
+			country_exists = SAX
 			is_subject = no
 			NOT = {
-				has_war_with = GER
+				has_war_with = SAX
 			}
 		}
 
 		bypass = {
-			GER = {
+			SAX = {
 				OR = {
 					exists = no
 					is_subject = yes
@@ -1448,7 +1448,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			GER = {
+			SAX = {
 				country_event = {
 					id = mexico.34
 					days = 1
@@ -1456,7 +1456,7 @@ focus_tree = {
 			}
 			custom_effect_tooltip = if_they_accept
 			effect_tooltip = {
-				GER = {
+				SAX = {
 					if = {
 						limit = {
 							has_dlc = "Death or Dishonor"
@@ -1598,7 +1598,7 @@ focus_tree = {
 						}
 					}
 				}
-				give_resource_rights = { receiver = GER state = 476 }
+				give_resource_rights = { receiver = SAX state = 476 }
 			}
 		}
 	}
@@ -1620,9 +1620,9 @@ focus_tree = {
 		available = {
 			is_subject = no
 			NOT = {
-				has_war_with = GER
+				has_war_with = SAX
 			}
-			GER = {
+			SAX = {
 				is_in_faction = yes
 			}
 		}
@@ -1630,10 +1630,10 @@ focus_tree = {
 		bypass = {
 			OR = {
 				is_in_faction = yes
-				GER = {
+				SAX = {
 					exists = no
 				}
-				GER = {
+				SAX = {
 					is_subject = yes
 				}
 			}
@@ -1646,7 +1646,7 @@ focus_tree = {
 		completion_reward = {
 			if = {
 				limit = {
-					GER = { has_government = neutrality }
+					SAX = { has_government = neutrality }
 				}
 				add_popularity = {
 					ideology = neutrality
@@ -1655,7 +1655,7 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {
-					GER = { has_government = democratic }
+					SAX = { has_government = democratic }
 				}
 				add_popularity = {
 					ideology = democratic
@@ -1664,7 +1664,7 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {
-					GER = { has_government = fascism }
+					SAX = { has_government = fascism }
 				}
 				add_popularity = {
 					ideology = fascism
@@ -1673,7 +1673,7 @@ focus_tree = {
 			}
 			else_if = {
 				limit = {
-					GER = { has_government = communism }
+					SAX = { has_government = communism }
 				}
 				add_popularity = {
 					ideology = communism
@@ -1682,11 +1682,11 @@ focus_tree = {
 			}
 
 			add_opinion_modifier = {
-				target = GER
+				target = SAX
 				modifier = german_mexican_diplomacy
 			}
 			
-			GER = {
+			SAX = {
 				add_opinion_modifier = {
 					target = ROOT
 					modifier = german_mexican_diplomacy
@@ -6177,7 +6177,7 @@ focus_tree = {
 			
 			modifier = {
 				factor = 10
-				has_war_with = GER
+				has_war_with = SAX
 			}
 			
 			modifier = {
@@ -6243,7 +6243,7 @@ focus_tree = {
 			
 			modifier = {
 				factor = 10
-				has_war_with = GER
+				has_war_with = SAX
 			}
 			
 			modifier = {
@@ -6309,7 +6309,7 @@ focus_tree = {
 			
 			modifier = {
 				factor = 10
-				has_war_with = GER
+				has_war_with = SAX
 			}
 			
 			modifier = {
@@ -6369,7 +6369,7 @@ focus_tree = {
 			
 			modifier = {
 				factor = 10
-				has_war_with = GER
+				has_war_with = SAX
 			}
 			
 			modifier = {

@@ -98,7 +98,7 @@ focus_tree = {
 			factor = 10
 			modifier = {
 				factor = 0
-				NOT = { has_war_with = GER }
+				NOT = { has_war_with = SAX }
 			}
 		}
 
@@ -1255,7 +1255,7 @@ focus_tree = {
 				OR = {
 					AND = {
 						has_completed_focus = SOV_war_with_germany
-						GER = { has_capitulated = no }
+						SAX = { has_capitulated = no }
 					}
 					AND = {
 						has_completed_focus = SOV_war_with_uk
@@ -1429,7 +1429,7 @@ focus_tree = {
 				factor = 0
 				date < 1939.1.1
 				NOT = { 
-					GER = { has_completed_focus = GER_demand_memel }
+					SAX = { has_completed_focus = SAX_demand_memel }
 				}
 			}
 		}
@@ -1552,7 +1552,7 @@ focus_tree = {
 			}	
 			modifier = {
 				factor = 200
-				GER = { has_government = democratic }
+				SAX = { has_government = democratic }
 			}
 		}
 
@@ -1811,7 +1811,7 @@ focus_tree = {
 			}	
 			modifier = {
 				factor = 200
-				GER = { has_government = democratic }
+				SAX = { has_government = democratic }
 			}		
 		}
 		bypass = {
@@ -1888,7 +1888,7 @@ focus_tree = {
 		icon = GFX_focus_attack_germany
 		prerequisite = { focus = SOV_claim_bessarabia }
 		available = {
-			country_exists = GER
+			country_exists = SAX
 			custom_trigger_tooltip = {
 				tooltip = SOV_war_with_germany_tt
 				NOT = { has_idea = SOV_molotov_ribbentrop_pact }
@@ -1909,9 +1909,9 @@ focus_tree = {
 			}
 		}
 		bypass = {
-			has_war_with = GER
+			has_war_with = SAX
 		}
-		will_lead_to_war_with = GER
+		will_lead_to_war_with = SAX
 		x = 0
 		y = 1
 		relative_position_id = SOV_claim_bessarabia
@@ -1945,20 +1945,20 @@ focus_tree = {
 				factor = 2
 
 				ROM = {
-					is_in_faction_with = GER
+					is_in_faction_with = SAX
 				}
 			}
 			modifier = {
 				factor = 200
-				GER = { has_government = democratic }
+				SAX = { has_government = democratic }
 				FRA = { has_government = fascism }
-				GER = { has_war_with = FRA }
+				SAX = { has_war_with = FRA }
 			}
 		}	
 		completion_reward = {
 			create_wargoal = {
 				type = puppet_wargoal_focus
-				target = GER
+				target = SAX
 			} 
 		}
 	}
@@ -2134,7 +2134,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
-				has_war_with = GER
+				has_war_with = SAX
 				factor = 0
 			}
 			modifier = {
@@ -2271,7 +2271,7 @@ focus_tree = {
 					}
 					AND = {
 						has_completed_focus = SOV_war_with_germany
-						GER = { has_capitulated = no }
+						SAX = { has_capitulated = no }
 					}
 					has_war = yes
 				}
@@ -2864,7 +2864,7 @@ focus_tree = {
 		prerequisite = { focus = SOV_great_purge }
 		available = {
 			OR = {
-				has_war_with = GER
+				has_war_with = SAX
 				has_war_with = JAP
 				has_war_with = ENG
 				has_war_with = FRA

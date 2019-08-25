@@ -351,7 +351,7 @@ ideas = {
 				modifier = {
 					factor = 0
 
-					tag = GER
+					tag = SAX
 					NOT = { has_tech = volkssturm }
 					has_war = yes
 					date < 1944.01.01
@@ -430,7 +430,7 @@ ideas = {
 				modifier = {
 					factor = 600
 					tag = ROM
-					is_in_faction_with = GER
+					is_in_faction_with = SAX
 				}
    			}
 		}

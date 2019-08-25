@@ -1036,7 +1036,7 @@ focus_tree = {
 					modifier = FRA_extend_the_maginot_line_focus_neg
 				}
 				add_opinion_modifier = {
-					target = GER
+					target = SAX
 					modifier = FRA_extend_the_maginot_line_focus_pos
 				}
 			}
@@ -1260,9 +1260,9 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				NOT = { GER = { has_completed_focus = GER_rhineland } }
-				NOT = { GER = { has_completed_focus = GER_reestablish_free_elections } }
-				NOT = { GER = { has_completed_focus = GER_expatriate_the_communists } }
+				NOT = { SAX = { has_completed_focus = SAX_rhineland } }
+				NOT = { SAX = { has_completed_focus = SAX_reestablish_free_elections } }
+				NOT = { SAX = { has_completed_focus = SAX_expatriate_the_communists } }
 			}
 		}
 		completion_reward = {
@@ -1292,7 +1292,7 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 10
-				GER = { has_completed_focus = GER_reestablish_free_elections }
+				SAX = { has_completed_focus = SAX_reestablish_free_elections }
 			}
 		}
 
@@ -1569,13 +1569,13 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				has_idea = GER_communist_refugees
+				has_idea = SAX_communist_refugees
 			}
 			modifier = {
 				factor = 0
-				NOT = { GER = { has_completed_focus = GER_rhineland } }
-				NOT = { GER = { has_completed_focus = GER_reestablish_free_elections } }
-				NOT = { GER = { has_completed_focus = GER_focus_on_the_true_enemy } }
+				NOT = { SAX = { has_completed_focus = SAX_rhineland } }
+				NOT = { SAX = { has_completed_focus = SAX_reestablish_free_elections } }
+				NOT = { SAX = { has_completed_focus = SAX_focus_on_the_true_enemy } }
 			}
 		}
 		completion_reward = {
@@ -1698,7 +1698,7 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				has_idea = GER_communist_refugees
+				has_idea = SAX_communist_refugees
 			}
 		}
 		completion_reward = {
@@ -1876,11 +1876,11 @@ focus_tree = {
 			factor = 0.1
 			modifier = {
 				factor = 0
-				has_idea = GER_communist_refugees
+				has_idea = SAX_communist_refugees
 			}
 			modifier = {
 				factor = 100
-				GER = { has_completed_focus = GER_reestablish_free_elections }
+				SAX = { has_completed_focus = SAX_reestablish_free_elections }
 			}
 		}
 		completion_reward = {
@@ -2123,7 +2123,7 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 10
-				GER = { has_completed_focus = GER_reestablish_free_elections }
+				SAX = { has_completed_focus = SAX_reestablish_free_elections }
 			}
 		}
 		completion_reward = {
@@ -2327,7 +2327,7 @@ focus_tree = {
 				}
 	 			if = {
 	 				limit = {
-	 					GER = { has_completed_focus = GER_reestablish_free_elections }
+	 					SAX = { has_completed_focus = SAX_reestablish_free_elections }
 	 				}
 	 				random_other_country = {
 	 					limit = {
@@ -2346,10 +2346,10 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 	 	available = {
 	 		is_puppet = no
-	 		GER = { has_government = democratic }
+	 		SAX = { has_government = democratic }
 		}
 	 	prerequisite = { focus = FRA_woo_italy }
-	 	will_lead_to_war_with = GER
+	 	will_lead_to_war_with = SAX
 		x = 0
 		y = 1
 		relative_position_id = FRA_woo_italy
@@ -2362,17 +2362,17 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 0
-				NOT = { GER = { has_completed_focus = GER_central_european_alliance } }
+				NOT = { SAX = { has_completed_focus = SAX_central_european_alliance } }
 			}
 			modifier = {
 				factor = 200
-				GER = { has_war_with = SOV }
+				SAX = { has_war_with = SOV }
 			}
 		}
 		completion_reward = {
 			create_wargoal = {
 				type = annex_everything
-				target = GER
+				target = SAX
 			}
 		}
 	}
@@ -2384,13 +2384,13 @@ focus_tree = {
 	 	available = {
 	 		is_puppet = no
 			is_in_faction = no
-	 		NOT = { has_war_with = GER }
+	 		NOT = { has_war_with = SAX }
 	 		OR = {
 	 			has_government = fascism
 	 			fascism > 0.4
 	 		}
 	 		
-	 		GER = {
+	 		SAX = {
 	 			exists = yes
 	 			has_government = fascism
  				is_faction_leader = yes
@@ -2408,8 +2408,8 @@ focus_tree = {
 		#	factor = 1
 		#}
 		completion_reward = {
-			### EVENT ASKING GERMANY TO JOIN FACTION
-			GER = { country_event = { id = germany.91 days = 1 } }			
+			### EVENT ASKING SAXMANY TO JOIN FACTION
+			SAX = { country_event = { id = germany.91 days = 1 } }			
 		}
 	}
 

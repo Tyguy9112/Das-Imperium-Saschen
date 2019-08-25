@@ -1365,7 +1365,7 @@ ideas = {
 			}
 
 			available = {
-				has_country_flag = GER_mot_chosen
+				has_country_flag = SAX_mot_chosen
 			}
 			
 			research_bonus = {

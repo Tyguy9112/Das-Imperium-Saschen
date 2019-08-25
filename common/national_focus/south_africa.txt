@@ -811,7 +811,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0.45
 			modifier = {
-				GER = { has_war = yes }
+				SAX = { has_war = yes }
 				factor = 0
 			}
 		}
@@ -904,7 +904,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0.75
 			modifier = {
-				GER = { surrender_progress > 0.5 }
+				SAX = { surrender_progress > 0.5 }
 				factor = 10 #nopenopnenope
 			}
 		}
@@ -1049,10 +1049,10 @@ focus_tree = {
 				}
 				random_country = {
 					limit = {
-						original_tag = GER
+						original_tag = SAX
 						has_government = fascism
 					}
-					set_country_flag = saf_fascist_uprising # Affects GER ai_strategy
+					set_country_flag = saf_fascist_uprising # Affects SAX ai_strategy
 				}
 			}
 		}
@@ -1137,7 +1137,7 @@ focus_tree = {
 		y = 5
 		relative_position_id = SAF_support_the_afrikaner_broederbond
 		available = {
-			GER = { has_government = fascism }
+			SAX = { has_government = fascism }
 		}
 
 		cost = 10
@@ -1148,7 +1148,7 @@ focus_tree = {
 
 		available = {
 			
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}
 		
@@ -1161,7 +1161,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			GER = { add_to_tech_sharing_group = axis_research }
+			SAX = { add_to_tech_sharing_group = axis_research }
 			add_to_tech_sharing_group = axis_research
 		}
 	}

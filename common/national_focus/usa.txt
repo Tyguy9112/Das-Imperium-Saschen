@@ -932,16 +932,16 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					GER = {
+					SAX = {
 						OR = {
-							has_completed_focus = GER_return_of_the_kaiser
-							has_completed_focus = GER_the_monarchy_compromise
+							has_completed_focus = SAX_return_of_the_kaiser
+							has_completed_focus = SAX_the_monarchy_compromise
 						}
 						not = { is_in_faction_with = ROOT }
 					}
 				}
 				create_wargoal = {
-					target = GER
+					target = SAX
 					type = topple_government
 				}
 			}
@@ -1023,13 +1023,13 @@ focus_tree = {
 						not = { is_core_of = FRA }
 					}
 				}
-				GER = {
+				SAX = {
 					exists = yes
 					not = { has_war_with = ROOT }
 					not = { is_in_faction_with = ROOT }
 					any_state = {
-						is_controlled_by = GER
-						not = { is_core_of = GER }
+						is_controlled_by = SAX
+						not = { is_core_of = SAX }
 					}
 				}
 			}
@@ -1124,21 +1124,21 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					GER = {
+					SAX = {
 						exists = yes
 						not = { has_war_with = ROOT }
 						not = { is_in_faction_with = ROOT }
 						any_state = {
-							is_controlled_by = GER
-							not = { is_core_of = GER }
+							is_controlled_by = SAX
+							not = { is_core_of = SAX }
 						}
 					}
 				}
 				every_country = {
 					limit = {
 						OR = {
-							original_tag = GER
-							is_subject_of = GER
+							original_tag = SAX
+							is_subject_of = SAX
 						}
 					}
 					ROOT = {
@@ -1541,7 +1541,7 @@ focus_tree = {
 		
 		bypass = {
 			OR = {
-				has_war_with = GER
+				has_war_with = SAX
 				has_war_with = ENG
 				has_war_with = FRA
 			}
@@ -3058,7 +3058,7 @@ focus_tree = {
 
 		available = {
 			not = {
-				has_war_with = GER
+				has_war_with = SAX
 			}
 		}
 		
@@ -3072,7 +3072,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.05
-			GER = { add_opinion_modifier = { target = ROOT modifier = USA_work_with_the_bund } }
+			SAX = { add_opinion_modifier = { target = ROOT modifier = USA_work_with_the_bund } }
 			set_country_flag = MTG_work_with_the_bund # to check if the focus was completed regularly or bypassed
 			custom_effect_tooltip = USA_work_with_the_bund_tt
 		}
@@ -4222,7 +4222,7 @@ focus_tree = {
 		#	factor = 1
 		#}
 		completion_reward = {
-			GER = {
+			SAX = {
 				add_opinion_modifier = { target = USA modifier = war_plan_black }
 			}
 			unlock_decision_tooltip = { decision = USA_execute_war_plan_black show_effect_tooltip = yes show_modifiers = yes }
@@ -4233,10 +4233,10 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_cruiser
 		prerequisite = { focus = USA_war_plan_black }
 		available = {
-			country_exists = GER
+			country_exists = SAX
 			is_subject = no
 			ENG = {
-				NOT = { is_in_faction_with = GER }
+				NOT = { is_in_faction_with = SAX }
 			}
 			ENG = {
 				has_government = ROOT
@@ -5214,7 +5214,7 @@ focus_tree = {
 		available = {
 			has_war = yes
 			OR = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 				is_in_faction_with = JAP
 				is_in_faction_with = ITA
 				is_in_faction_with = SOV

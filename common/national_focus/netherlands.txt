@@ -104,7 +104,7 @@ focus_tree = {
 				has_war = yes
 			}
 			OR = {
-				GER = {
+				SAX = {
 					is_in_faction_with = ROOT
 				}
 				AND = {
@@ -175,7 +175,7 @@ focus_tree = {
 			has_full_control_of_state = 309
 			OR = {
 				has_war = yes
-				GER = {
+				SAX = {
 					is_in_faction_with = ROOT
 				}
 				AND = {
@@ -2160,7 +2160,7 @@ focus_tree = {
 			has_full_control_of_state = 36
 		}
 		bypass = {
-			has_defensive_war_with = GER
+			has_defensive_war_with = SAX
 			NOT = {
 				focus_progress = {
 					focus = HOL_protect_against_britain
@@ -2209,7 +2209,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}	
-			GER = {
+			SAX = {
 				add_opinion_modifier = { target = HOL modifier = HOL_germany_is_the_greater_threat }
 			}	
 		}
@@ -2507,7 +2507,7 @@ focus_tree = {
 		available = {
 			threat > 0.15
 			OR = {
-				GER = { has_added_tension_amount > 10 }
+				SAX = { has_added_tension_amount > 10 }
 				ENG = { has_added_tension_amount > 10 }
 				FRA = { has_added_tension_amount > 10 }
 			}
@@ -3123,15 +3123,15 @@ focus_tree = {
 		id = HOL_the_battlecruiser_plan
 		prerequisite = { focus = HOL_rely_on_submarines focus = HOL_modernize_the_cruiser_fleet focus = HOL_join_germany }
 		available = {
-			GER = {
+			SAX = {
 				AND = {
-						country_exists = GER
+						country_exists = SAX
 						has_opinion = { target = HOL value > 74 } 
 				}
 			}
 		}
 		bypass = {
-			has_war_with = GER
+			has_war_with = SAX
 		}
 		icon = GFX_goal_generic_navy_battleship
 		x = 1
@@ -3169,7 +3169,7 @@ focus_tree = {
 				}
 			}
 			custom_effect_tooltip = HOL_the_battlecruiser_plan_tt
-			GER = { country_event = { id = mtg_netherlands.7 hours = 6 } }
+			SAX = { country_event = { id = mtg_netherlands.7 hours = 6 } }
 		}
 	}
 
@@ -3283,7 +3283,7 @@ focus_tree = {
 		prerequisite = { focus = HOL_form_new_government }
 		bypass = {
 			OR = {
-				has_war_with = GER
+				has_war_with = SAX
 				has_war_with = ENG
 			}
 		}
@@ -3309,7 +3309,7 @@ focus_tree = {
 		available = {
 			custom_trigger_tooltip = {
 				tooltip = HOL_cave_to_the_germans2_tt
-				check_variable = { var = GER.ger_gateway_to_europe_influence value = 25 compare = greater_than_or_equals }
+				check_variable = { var = SAX.ger_gateway_to_europe_influence value = 25 compare = greater_than_or_equals }
 			}
 			custom_trigger_tooltip = {
 				tooltip = HOL_cave_to_the_germans_tt
@@ -3318,9 +3318,9 @@ focus_tree = {
 		}
 		bypass = {
 			OR = {
-				GER = { NOT = { has_government = fascism } }
-				GER = { exists = no }
-				GER = { has_completed_focus = GER_oppose_hitler }
+				SAX = { NOT = { has_government = fascism } }
+				SAX = { exists = no }
+				SAX = { has_completed_focus = SAX_oppose_hitler }
 				has_war_with = ENG
 			}
 			NOT = {
@@ -3351,21 +3351,21 @@ focus_tree = {
 			modifier = {
 				factor = 100
 				is_historical_focus_on = no
-				GER = { is_ai = no }
+				SAX = { is_ai = no }
 				check_variable = { var = ger_temp_trade_influence value = 15 compare = greater_than_or_equals }
 			}
 		}
 
 		completion_reward = {
 			effect_tooltip = {
-				GER = {
+				SAX = {
 					custom_effect_tooltip = HOL_trade_influence_tt
 					add_political_power = HOL.gateway_to_europe_influence_pp_total
 				}
 			}
 			add_ideas = free_trade
 			add_timed_idea = { idea = HOL_caved_to_the_germans days = 1095 }
-			GER = {
+			SAX = {
 				add_opinion_modifier = { target = HOL modifier = HOL_caved_to_the_germans_ger }
 				add_opinion_modifier = { target = HOL modifier = HOL_caved_to_the_germans_ger_trade }
 				if = {
@@ -3390,7 +3390,7 @@ focus_tree = {
 			custom_trigger_tooltip = {
 				tooltip = HOL_maintain_trade_neutrality2_tt
 				check_variable = { var = ENG.eng_gateway_to_europe_influence value = 50 compare = greater_than_or_equals }
-				check_variable = { var = GER.ger_gateway_to_europe_influence value = 50 compare = greater_than_or_equals }
+				check_variable = { var = SAX.ger_gateway_to_europe_influence value = 50 compare = greater_than_or_equals }
 			}
 			custom_trigger_tooltip = {
 				tooltip = HOL_maintain_trade_neutrality_tt
@@ -3398,11 +3398,11 @@ focus_tree = {
 				check_variable = { var = eng_temp_trade_influence value = -5 compare = greater_than_or_equals }
 			}
 			NOT = { has_war_with = ENG }
-			NOT = { has_war_with = GER }
+			NOT = { has_war_with = SAX }
 		}
 		bypass = {
 			OR = {
-				GER = { NOT = { has_government = fascism } }
+				SAX = { NOT = { has_government = fascism } }
 				ENG = { NOT = { has_government = democratic } }
 			}
 			NOT = {
@@ -3433,8 +3433,8 @@ focus_tree = {
 				custom_effect_tooltip = HOL_trade_influence_tt
 				add_political_power = gateway_to_europe_influence_pp_total
 			}
-			add_opinion_modifier = { target = GER modifier = HOL_essential_dutch_trade }
-			GER = {
+			add_opinion_modifier = { target = SAX modifier = HOL_essential_dutch_trade }
+			SAX = {
 				add_opinion_modifier = { target = HOL modifier = HOL_maintained_trade_neutrality }
 				add_opinion_modifier = { target = HOL modifier = HOL_essential_dutch_trade }
 			}
@@ -3465,7 +3465,7 @@ focus_tree = {
 			OR = {
 				ENG = { NOT = { has_government = democratic } }
 				ENG = { exists = no }
-				has_war_with = GER
+				has_war_with = SAX
 			}
 			NOT = {
 				OR = {
@@ -3509,7 +3509,7 @@ focus_tree = {
 			}
 			add_ideas = limited_exports
 			add_timed_idea = { idea = HOL_caved_to_the_british days = 1095 }
-			GER = {
+			SAX = {
 				add_opinion_modifier = { target = HOL modifier = HOL_caved_to_the_british_ger }
 				add_opinion_modifier = { target = HOL modifier = HOL_caved_to_the_british_ger_trade }
 				if = {
@@ -3610,11 +3610,11 @@ focus_tree = {
 	focus = {
 		id = HOL_join_germany
 		available = {
-			GER = { has_government = fascism }
-			NOT = { has_war_with = GER }
+			SAX = { has_government = fascism }
+			NOT = { has_war_with = SAX }
 		}
 		bypass = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 			NOT = {
 				focus_progress = {
 					focus = HOL_the_netherlands_first
@@ -3633,7 +3633,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			GER = { country_event = { id = generic.2 hours = 6 } }
+			SAX = { country_event = { id = generic.2 hours = 6 } }
 		}
 	}
 
@@ -3664,7 +3664,7 @@ focus_tree = {
 		prerequisite = { focus = HOL_german_technological_exchange }
 		mutually_exclusive = { focus = HOL_assume_the_naval_burden }
 		available = {
-			GER = {
+			SAX = {
 				has_tech = basic_medium_tank
 			}
 		}
@@ -3683,7 +3683,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						GER = {
+						SAX = {
 							NOT = { has_tech = advanced_medium_tank }
 							NOT = { has_tech = improved_medium_tank }
 							NOT = { has_tech = basic_medium_tank }
@@ -3691,7 +3691,7 @@ focus_tree = {
 					}
 					custom_effect_tooltip = HOL_beginnings_of_a_dutch_blitzkrieg_tt_1
 				}
-				GER = {
+				SAX = {
 					if = {
 						limit = {
 							has_tech = advanced_medium_tank
@@ -3707,7 +3707,7 @@ focus_tree = {
 							add_equipment_to_stockpile = {
 							    type = medium_tank_equipment_3
 							    amount = 250
-							    producer = GER
+							    producer = SAX
 							}
 						}
 					}
@@ -3727,7 +3727,7 @@ focus_tree = {
 							add_equipment_to_stockpile = {
 							    type = medium_tank_equipment_2
 							    amount = 250
-							    producer = GER
+							    producer = SAX
 							}
 						}
 					}
@@ -3746,7 +3746,7 @@ focus_tree = {
 							add_equipment_to_stockpile = {
 							    type = medium_tank_equipment_1
 							    amount = 250
-							    producer = GER
+							    producer = SAX
 							}
 						}
 					}
@@ -3758,7 +3758,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						GER = {
+						SAX = {
 							NOT = { has_tech = advanced_medium_tank }
 							NOT = { has_tech = improved_medium_tank }
 							NOT = { has_tech = basic_medium_tank }
@@ -3766,7 +3766,7 @@ focus_tree = {
 					}
 					custom_effect_tooltip = HOL_beginnings_of_a_dutch_blitzkrieg_tt_2
 				}
-				GER = {
+				SAX = {
 					if = {
 						limit = {
 							has_tech = advanced_medium_tank
@@ -3781,7 +3781,7 @@ focus_tree = {
 							add_equipment_to_stockpile = {
 							    type = medium_tank_equipment_3
 							    amount = 250
-							    producer = GER
+							    producer = SAX
 							}
 						}
 					}
@@ -3800,7 +3800,7 @@ focus_tree = {
 							add_equipment_to_stockpile = {
 							    type = medium_tank_equipment_2
 							    amount = 250
-							    producer = GER
+							    producer = SAX
 							}
 						}
 					}
@@ -3818,7 +3818,7 @@ focus_tree = {
 							add_equipment_to_stockpile = {
 							    type = medium_tank_equipment_1
 							    amount = 250
-							    producer = GER
+							    producer = SAX
 							}
 						}
 					}
@@ -3977,7 +3977,7 @@ focus_tree = {
 		id = HOL_the_netherlands_first
 		available = {
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 		prerequisite = { focus = HOL_strength_over_blood }
@@ -4646,13 +4646,13 @@ focus_tree = {
 	focus = {
 		id = HOL_making_the_ends_of_europe_meet
 		available = {
-			NOT = { is_in_faction_with = GER }
+			NOT = { is_in_faction_with = SAX }
 		}
 		bypass = {
-			has_war_with = GER
+			has_war_with = SAX
 		}
 		prerequisite = { focus = HOL_soviet_technical_teams }
-		will_lead_to_war_with = GER
+		will_lead_to_war_with = SAX
 		icon = GFX_focus_attack_germany
 		x = 0
 		y = 2
@@ -4664,7 +4664,7 @@ focus_tree = {
 		completion_reward = {
 			create_wargoal = {
 			    type = puppet_wargoal_focus
-			    target = GER
+			    target = SAX
 			    expire = 0
 			}
 		}
@@ -5188,7 +5188,7 @@ focus_tree = {
 				retire_country_leader = yes
 				create_country_leader = {
 					name = "Pieter Sjoerds Gerbrandy"
-					desc = "POLITICS_PIETER_SJOERDS_GERBRANDY_DESC"
+					desc = "POLITICS_PIETER_SJOERDS_SAXBRANDY_DESC"
 					picture = "portrait_hol_pieter_sjoerds_gerbrandy.dds"
 					expire = "1965.1.1"
 					ideology = conservatism
@@ -5489,12 +5489,12 @@ focus_tree = {
 		available = {
 			OR = {
 				AND = {
-					has_war_with = GER
-					GER = { has_government = fascism }
+					has_war_with = SAX
+					SAX = { has_government = fascism }
 				}
 				AND = {
-					NOT = { has_war_with = GER }
-					GER = { has_completed_focus = GER_revive_the_kaiserreich }
+					NOT = { has_war_with = SAX }
+					SAX = { has_completed_focus = SAX_revive_the_kaiserreich }
 				}
 			}
 		}
@@ -5511,24 +5511,24 @@ focus_tree = {
 			if = {
 				limit = {
 					is_in_faction = yes
-					NOT = { has_war_with = GER }
-					GER = { has_completed_focus = GER_revive_the_kaiserreich }
+					NOT = { has_war_with = SAX }
+					SAX = { has_completed_focus = SAX_revive_the_kaiserreich }
 				}
 				leave_faction = yes
-				GER = { country_event = { id = generic.2 } }
+				SAX = { country_event = { id = generic.2 } }
 			}
 			if = {
 				limit = {
 					is_in_faction = no
-					NOT = { has_war_with = GER }
-					GER = { has_completed_focus = GER_revive_the_kaiserreich }
+					NOT = { has_war_with = SAX }
+					SAX = { has_completed_focus = SAX_revive_the_kaiserreich }
 				}
-				GER = { country_event = { id = generic.2 } }
+				SAX = { country_event = { id = generic.2 } }
 			}
 			if = {
 				limit = {
-					has_war_with = GER
-					GER = { has_government = fascism }
+					has_war_with = SAX
+					SAX = { has_government = fascism }
 				}
 				every_country = {
 					limit = {
@@ -5586,15 +5586,15 @@ focus_tree = {
 						artillery = { x = 0 y = 2 }
 					}
 				}
-				GER = {
+				SAX = {
 					add_ideas = HOL_german_defectors_2
 					country_event = { id = mtg_netherlands.70 }
 				}
 			}
 			if = {
 				limit = {
-					NOT = { has_war_with = GER }
-					NOT = { GER = { has_completed_focus = GER_revive_the_kaiserreich } }
+					NOT = { has_war_with = SAX }
+					NOT = { SAX = { has_completed_focus = SAX_revive_the_kaiserreich } }
 				}
 				effect_tooltip = {
 					every_country = {
@@ -5610,7 +5610,7 @@ focus_tree = {
 						add_opinion_modifier = { target = HOL modifier = HOL_wilhelminism }
 					}
 					custom_effect_tooltip = HOL_wilhelminism_tt
-					GER = {
+					SAX = {
 						add_ideas = HOL_german_defectors_2
 						country_event = { id = mtg_netherlands.71 }
 					}
@@ -6246,11 +6246,11 @@ focus_tree = {
 	focus = {
 		id = HOL_the_best_defense
 		available = {
-			NOT = { is_in_faction_with = GER }
+			NOT = { is_in_faction_with = SAX }
 			NOT = { is_in_faction_with = ENG }
 		}
 		prerequisite = { focus = HOL_foundations_for_a_european_union }
-		will_lead_to_war_with = GER
+		will_lead_to_war_with = SAX
 		will_lead_to_war_with = ENG
 		icon = GFX_goal_generic_major_war
 		x = 1
@@ -6263,7 +6263,7 @@ focus_tree = {
 		completion_reward = {
 			create_wargoal = {
 			    type = puppet_wargoal_focus
-			    target = GER
+			    target = SAX
 			    expire = 0
 			}
 			create_wargoal = {

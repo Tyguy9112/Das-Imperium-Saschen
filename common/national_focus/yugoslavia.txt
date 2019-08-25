@@ -455,7 +455,7 @@ focus_tree = {
 		}
 
 		available = {
-			GER = {
+			SAX = {
 				NOT = { has_war_with = ROOT }
 				exists = yes
 				has_capitulated = no
@@ -495,7 +495,7 @@ focus_tree = {
 
 		available = {
 			OR = {
-				GER = {
+				SAX = {
 					NOT = { has_war_with = ROOT }
 					has_government = fascism
 					has_capitulated = no
@@ -509,14 +509,14 @@ focus_tree = {
 			}
 			NOT = {
 				any_other_country = {
-					is_in_faction_with = GER
+					is_in_faction_with = SAX
 					has_war_with = YUG
 				}
 			}
 		}
 
 		bypass = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 		}
 
 		cancel_if_invalid = yes
@@ -532,14 +532,14 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					GER = {
+					SAX = {
 						exists = yes
 						has_capitulated = no
 						has_government = fascism
 						is_faction_leader = yes
 					}
 				}
-				GER = { country_event = generic.2 }
+				SAX = { country_event = generic.2 }
 			}
 			else = {
 				get_best_alliance_match_fascism_effect = yes
@@ -2065,7 +2065,7 @@ focus_tree = {
 			factor = 40
 			modifier = {
 				factor = 2
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 
@@ -2116,7 +2116,7 @@ focus_tree = {
 			factor = 40
 			modifier = {
 				factor = 2
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 
@@ -2374,7 +2374,7 @@ focus_tree = {
 			factor = 60
 			modifier = {
 				factor = 1.2
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 
@@ -2738,10 +2738,10 @@ focus_tree = {
 			if = {
 				limit = {
 					NOT = {
-						has_war_with = GER
+						has_war_with = SAX
 					}
 				}
-				GER = { country_event = DOD_yugoslavia.20 }
+				SAX = { country_event = DOD_yugoslavia.20 }
 			}
 			if = {
 				limit = {
@@ -2826,7 +2826,7 @@ focus_tree = {
 				has_tech = heavy_fighter3
 			}
 			OR = {
-				GER = {
+				SAX = {
 					custom_trigger_tooltip = {
 						tooltip = fighter_tt
 						OR = {
@@ -2913,7 +2913,7 @@ focus_tree = {
 				has_tech = tactical_bomber3
 			}
 			OR = {
-				GER = {
+				SAX = {
 					custom_trigger_tooltip = {
 						tooltip = bomber_tt
 						OR = {
@@ -2995,7 +2995,7 @@ focus_tree = {
 			factor = 70
 			modifier = {
 				factor = 1.2
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 
@@ -3034,7 +3034,7 @@ focus_tree = {
 			factor = 50
 			modifier = {
 				factor = 1.2
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 
@@ -3077,7 +3077,7 @@ focus_tree = {
 			factor = 40
 			modifier = {
 				factor = 1.2
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 
@@ -3122,7 +3122,7 @@ focus_tree = {
 			factor = 40
 			modifier = {
 				factor = 1.5
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 
@@ -3167,7 +3167,7 @@ focus_tree = {
 			factor = 50
 			modifier = {
 				factor = 1.5
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 
@@ -3207,7 +3207,7 @@ focus_tree = {
 			factor = 25
 			modifier = {
 				factor = 3
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 
@@ -3251,7 +3251,7 @@ focus_tree = {
 			factor = 60
 			modifier = {
 				factor = 1.2
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 

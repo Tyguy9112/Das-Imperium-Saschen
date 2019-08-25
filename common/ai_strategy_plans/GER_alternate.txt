@@ -1,0 +1,185 @@
+German_alternate_kaiser = {
+	name = "German Alternate plan to restore the Kaiser"
+	desc = "Wir wollen unsren Kaiser Wilhelm wiederhaben!"
+
+	enable = {
+		original_tag = SAX
+		OR = {
+			has_country_flag = SAX_AI_RANDOM_KAISER
+			has_game_rule = {
+				rule = SAX_ai_behavior
+				option = KAISER
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		SAX_oppose_hitler
+		SAX_secure_the_new_state
+		SAX_revive_the_kaiserreich
+		SAX_rebuild_the_nation
+		SAX_fan_the_prussian_militarism
+		SAX_return_of_the_kaiser
+		SAX_four_year_plan
+		SAX_army_innovation
+		SAX_grosraumwirtschaft
+		SAX_autarky
+		SAX_hermann_goring_werke
+		SAX_kdf_wagen
+		SAX_extra_tech_slot
+		SAX_autobahn
+		SAX_a_new_and_better_germany
+		SAX_german_war_economy
+		SAX_bulwark_against_bolshevism
+		SAX_see_to_the_eastern_front
+		SAX_naval_rearmament
+		SAX_naval_effort
+		SAX_focus_on_the_true_enemy
+		SAX_safeguard_the_baltic
+		SAX_danzig_for_guarantees
+		SAX_rebuild_the_high_seas_fleet
+		SAX_support_the_finns
+		SAX_our_place_in_the_sun
+		SAX_the_central_powers
+		SAX_rekindle_imperial_sentiment
+		SAX_prepare_for_the_next_blockade
+		SAX_pride_of_the_modern_germany
+		SAX_break_the_anglo_french_colonial_hegemony
+		SAX_prepare_italian_coup
+		SAX_assassinate_mussolini
+		SAX_anti_comintern_pact_unaligned
+		SAX_anti_soviet_pact_unaligned
+		SAX_schlieffen_once_more
+		SAX_reinstate_imperial_possessions
+	}
+
+	research = {
+		infantry_weapons = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		hjalmar_schacht = 10
+		heinrich_himmler = 0
+		martin_bormann = 0
+	}
+
+	traits = {
+		captain_of_industry = 5
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+German_alternate_democratic = {
+	name = "German Alternate plan to restore democracy"
+	desc = "UNITY! JUSTICE! FREEDOM!"
+
+	enable = {
+		original_tag = SAX
+		OR = {
+			has_country_flag = SAX_AI_RANDOM_DEMOCRATIC
+			has_game_rule = {
+				rule = SAX_ai_behavior
+				option = DEMOCRATIC
+			}
+		}
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		SAX_oppose_hitler
+		SAX_secure_the_new_state
+		SAX_reestablish_free_elections
+		SAX_rebuild_the_nation
+		SAX_fan_the_prussian_militarism
+		SAX_army_innovation
+		SAX_soviet_treaty
+		SAX_the_monarchy_compromise
+		SAX_four_year_plan
+		SAX_reverse_the_brain_drain
+		SAX_grosraumwirtschaft
+		SAX_autarky
+		SAX_hermann_goring_werke
+		SAX_kdf_wagen
+		SAX_extra_tech_slot
+		SAX_a_new_and_better_germany
+		SAX_autobahn
+		SAX_bulwark_against_bolshevism
+		SAX_the_great_red_menace
+		SAX_danzig_for_guarantees
+		SAX_central_european_alliance
+		SAX_scandinavian_membership
+		SAX_low_countries_membership
+		SAX_german_war_economy
+		SAX_west_wall
+		SAX_no_reds_in_western_europe
+		SAX_baltic_membership
+		SAX_finnish_membership
+		SAX_danubian_expansion
+		SAX_no_balkan_communism
+		SAX_polish_membership
+		SAX_shared_rd_programs
+		SAX_pool_technical_know_how
+		SAX_air_innovation
+		SAX_ostwall
+		SAX_coal_liquidization
+		SAX_strike_at_the_source
+		SAX_tactical_air_effort
+		SAX_air_innovation_2
+		SAX_army_innovation_2
+		SAX_rocketry_focus
+		SAX_wunderwaffe
+		SAX_the_mannheim_project
+	}
+
+	research = {
+		infantry_weapons = 50.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		hjalmar_schacht = 10
+		heinrich_himmler = 0
+		martin_bormann = 0
+	}
+
+	traits = {
+		captain_of_industry = 5
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}

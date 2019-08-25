@@ -98,24 +98,24 @@ shared_focus = {
 		}
 		modifier = {
 			factor = 10
-			has_country_flag = GER_befriended_by_germany_flag
+			has_country_flag = SAX_befriended_by_germany_flag
 		}
 	}
 
 	available = {
 		OR = {
 			has_government = neutrality
-			GER = { has_government = ROOT }
-			GER_will_support = yes
+			SAX = { has_government = ROOT }
+			SAX_will_support = yes
 		}
 		NOT = {
-			has_war_with = GER
+			has_war_with = SAX
 		}
 		NOT = { has_global_flag = falkenhausen_recalled }
 	}
 
 	bypass = {
-		is_in_faction_with = GER
+		is_in_faction_with = SAX
 	}
 
 	cancel_if_invalid = yes
@@ -123,7 +123,7 @@ shared_focus = {
 	available_if_capitulated = no
 
 	completion_reward = {
-		GER = {
+		SAX = {
 			add_opinion_modifier = {
 				target = ROOT
 				modifier = CHI_mission_to_germany
@@ -168,7 +168,7 @@ shared_focus = {
 
 	available = {
 		NOT = { has_global_flag = falkenhausen_recalled }
-		GER_will_support = yes
+		SAX_will_support = yes
 	}
 
 	bypass = {
@@ -226,13 +226,13 @@ shared_focus = {
 				NOT = {
 					OR = {
 						has_government = neutrality
-						GER = {
+						SAX = {
 							has_government = ROOT
 						}
 					}
 				}
 			}
-			GER_will_support = yes
+			SAX_will_support = yes
 		}
 	}
 
@@ -268,7 +268,7 @@ shared_focus = {
 
 	available = {
 		NOT = { has_global_flag = falkenhausen_recalled }
-		GER_will_support = yes
+		SAX_will_support = yes
 	}
 
 	bypass = {
@@ -314,9 +314,9 @@ shared_focus = {
 	}
 
 	available = {
-		NOT = { has_war_with = GER }
+		NOT = { has_war_with = SAX }
 		NOT = { has_global_flag = falkenhausen_recalled }
-		GER_will_support = yes
+		SAX_will_support = yes
 	}
 
 	bypass = {
@@ -356,7 +356,7 @@ shared_focus = {
 
 	available = {
 		OR = {
-			GER_will_support = yes
+			SAX_will_support = yes
 			SOV_will_support = yes
 		}
 	}
@@ -384,7 +384,7 @@ shared_focus = {
 				limit = {
 					has_completed_focus = CHI_closer_ties_with_germany
 				}
-				add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 100 producer = GER }
+				add_equipment_to_stockpile = { type = light_tank_equipment_1 amount = 100 producer = SAX }
 			}
 			if = {
 				limit = {
@@ -412,7 +412,7 @@ shared_focus = {
 	}
 
 	available = {
-		GER_will_support = yes
+		SAX_will_support = yes
 	}
 
 	bypass = {
@@ -450,7 +450,7 @@ shared_focus = {
 	}
 
 	available = {
-		GER_will_support = yes
+		SAX_will_support = yes
 	}
 
 	bypass = {
@@ -522,7 +522,7 @@ shared_focus = {
 		capital_scope = { is_fully_controlled_by = ROOT }
 		has_tech = motorised_infantry
 		OR = {
-			GER_will_support = yes
+			SAX_will_support = yes
 			SOV_will_support = yes
 		}
 	}
@@ -744,7 +744,7 @@ shared_focus = {
 
 	available = {
 		OR = {
-			GER_will_support = yes
+			SAX_will_support = yes
 			SOV_will_support = yes
 		}
 	}

@@ -295,7 +295,7 @@ focus_tree = {
 		}
 
 		available = {
-			NOT = { has_war_with = GER }
+			NOT = { has_war_with = SAX }
 		}
 
 		bypass = {
@@ -309,8 +309,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = { ideology = fascism popularity = 0.05 }
-			add_opinion_modifier = { target = GER modifier = ROM_trade_treaty_with_germany }
-			GER = { add_opinion_modifier = { target = ROOT modifier = ROM_trade_treaty_with_germany } }
+			add_opinion_modifier = { target = SAX modifier = ROM_trade_treaty_with_germany }
+			SAX = { add_opinion_modifier = { target = ROOT modifier = ROM_trade_treaty_with_germany } }
 		}
 	}
 
@@ -329,10 +329,10 @@ focus_tree = {
 		}
 
 		available = {
-			NOT = { has_war_with = GER }
+			NOT = { has_war_with = SAX }
 			OR = {
 				is_in_faction = no
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 
@@ -349,13 +349,13 @@ focus_tree = {
 			custom_effect_tooltip = ROM_invite_german_advisors_tt
 			hidden_effect = {
 				diplomatic_relation = {
-					country = GER
+					country = SAX
 					relation = military_access
 					active = yes
 				}
 			}
 			add_to_tech_sharing_group = ROM_invite_german_advisors_tech_group
-			GER = { add_to_tech_sharing_group = ROM_invite_german_advisors_tech_group }
+			SAX = { add_to_tech_sharing_group = ROM_invite_german_advisors_tech_group }
 		}
 	}
 
@@ -376,7 +376,7 @@ focus_tree = {
 		available = {
 			OR = {
 				is_in_faction = no
-				is_in_faction_with = GER 
+				is_in_faction_with = SAX 
 			}
 		}
 
@@ -391,7 +391,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_relation_modifier = {
-				target = GER
+				target = SAX
 				modifier = ROM_license_german_equipment
 			}
 		}
@@ -411,30 +411,30 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 0
-				GER = {
+				SAX = {
 					has_capitulated = yes
 				}
 			}
 		}
 
 		available = {
-			GER = { 
+			SAX = { 
 				is_faction_leader = yes
 				has_government = fascism
 			}
 			is_in_faction = no
-			NOT = { has_war_with = GER }
+			NOT = { has_war_with = SAX }
 			is_subject = no
 			NOT = {
 				any_other_country = {
-					is_in_faction_with = GER
+					is_in_faction_with = SAX
 					has_war_with = ROM
 				}
 			}
 		}
 
 		bypass = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 		}
 
 		cancel_if_invalid = yes
@@ -443,7 +443,7 @@ focus_tree = {
 
 
 		completion_reward = {
-			GER = {
+			SAX = {
 				country_event = generic.2
 			}
 		}
@@ -465,8 +465,8 @@ focus_tree = {
 		}
 
 		available = {
-			is_in_faction_with = GER
-			GER = {
+			is_in_faction_with = SAX
+			SAX = {
 				exists = yes
 				is_puppet = no
 			}
@@ -491,10 +491,10 @@ focus_tree = {
 					amount = 8
 				}
 			}
-			GER = {
+			SAX = {
 				random_owned_controlled_state = {
 					limit = {
-						GER = { has_full_control_of_state = PREV }
+						SAX = { has_full_control_of_state = PREV }
 					}
 					add_resource = {
 						type = oil
@@ -1745,7 +1745,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			GER = { country_event = DOD_romania.110 }
+			SAX = { country_event = DOD_romania.110 }
 		}
 	}
 
@@ -2295,13 +2295,13 @@ focus_tree = {
 			factor = 1
 			modifier = {
 				factor = 0
-				has_war_with = GER
+				has_war_with = SAX
 			}
 		}
 
 		available = {
 			is_subject = no
-			GER = {
+			SAX = {
 				is_faction_leader = yes
 				has_government = fascism
 				NOT = { has_war_with = ROM }
@@ -2349,8 +2349,8 @@ focus_tree = {
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = ROM_mihail_sturdza
 			add_stability = -0.05
-			add_opinion_modifier = { modifier = ROM_appoint_german_friendly_government target = GER }
-			GER = { add_opinion_modifier = { modifier = ROM_appoint_german_friendly_government target = ROOT } }
+			add_opinion_modifier = { modifier = ROM_appoint_german_friendly_government target = SAX }
+			SAX = { add_opinion_modifier = { modifier = ROM_appoint_german_friendly_government target = ROOT } }
 			
 			#Cancel guarantees
 			diplomatic_relation = {
@@ -2948,7 +2948,7 @@ focus_tree = {
 				has_tech = heavy_fighter3
 			}
 			OR = {
-				GER = {
+				SAX = {
 					custom_trigger_tooltip = {
 						tooltip = fighter_tt
 						OR = {

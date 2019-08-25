@@ -1704,7 +1704,7 @@ focus_tree = {
 
 		completion_reward = {
 			remove_ideas = CAN_conscription_crisis
-			custom_effect_tooltip = "CAN_ANGERED_WORKERS"
+			custom_effect_tooltip = "CAN_ANSAXED_WORKERS"
 			
 			# Opens up the MTTH events tfv_canada.50 - tfv_canada.53
 		}
@@ -3038,25 +3038,25 @@ focus_tree = {
 		ai_will_do = {
 			factor = 25
 			modifier = {
-				GER = { surrender_progress > 0.5 }
+				SAX = { surrender_progress > 0.5 }
 				factor = 0 #nopenopenopenope
 			}
 		}
 
 		available = {
 			has_government = fascism
-			GER = { has_government = fascism }
+			SAX = { has_government = fascism }
 
 			NOT = {
-				has_war_with = GER
-				is_justifying_wargoal_against = GER
-				has_wargoal_against = GER
+				has_war_with = SAX
+				is_justifying_wargoal_against = SAX
+				has_wargoal_against = SAX
 			}
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
 		}
 		
 		bypass = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 		}
 
 		cancel_if_invalid = yes
@@ -3064,7 +3064,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			GER = { 
+			SAX = { 
 				country_event = { id = tfv_canada.20 }
 			}
 		}
@@ -4348,7 +4348,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 25
 			modifier = {
-				has_war_with = GER
+				has_war_with = SAX
 				factor = 2
 			}
 		}
