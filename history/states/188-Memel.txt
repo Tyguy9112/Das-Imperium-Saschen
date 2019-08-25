@@ -1,17 +1,17 @@
-state=
-{
+state={
 	id=188
 	name="STATE_188"
 	manpower = 150000
-	
-	
 	state_category = rural
 	
 	history = {
+		owner = SAX
+		controller = SAX
+
 		victory_points = {
 			3288 1
 		}
-		owner = LIT
+
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -19,11 +19,11 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = LIT
+		add_core_of = SAX
 
 		1939.3.22 = {
-			owner = GER
-			controller = GER
+			owner = SAX
+			controller = SAX
 		}
 	}
 	provinces={
