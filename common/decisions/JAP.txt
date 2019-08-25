@@ -1902,9 +1902,9 @@ operations = {
 		}
 
 		visible = {
-			is_in_faction_with = GER
-			GER = { has_completed_focus = GER_mol_rib_pact }
-			GER = { NOT = { has_war_with = SOV } }
+			is_in_faction_with = SAX
+			SAX = { has_completed_focus = SAX_mol_rib_pact }
+			SAX = { NOT = { has_war_with = SOV } }
 			NOT = { has_war_with = SOV }
 			has_completed_focus = JAP_preemptive_war
 		}
@@ -1927,7 +1927,7 @@ operations = {
 
 		complete_effect = {
 			declare_war_on = { target = SOV type = annex_everything }
-			GER = { country_event = { id = wtt_japan.115 hours = 6 } }
+			SAX = { country_event = { id = wtt_japan.115 hours = 6 } }
 		}		
 	}
 }

@@ -1194,7 +1194,7 @@ ENG_organize_the_blackshirts = {
 			has_stability < 0.8
 		}
 
-		targets = { GER D01 D02 D03 D04 D05 D06 D07 D08 D09 D10 D11 D12 D13 D14 D15 }
+		targets = { SAX D01 D02 D03 D04 D05 D06 D07 D08 D09 D10 D11 D12 D13 D14 D15 }
 
 		target_root_trigger = {
 			has_completed_focus = ENG_organize_the_blackshirts
@@ -1202,7 +1202,7 @@ ENG_organize_the_blackshirts = {
 
 		target_trigger = {
 			FROM = {
-				original_tag = GER
+				original_tag = SAX
 			}
 		}
 
@@ -8208,7 +8208,7 @@ political_actions = {
 		available = {
 			has_government = democratic
 			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
-			has_war_with = GER
+			has_war_with = SAX
 		}
 
 		cost = 50
@@ -8218,7 +8218,7 @@ political_actions = {
 		visible = {
 			tag = ENG
 			has_government = democratic
-			has_war_with = GER
+			has_war_with = SAX
 			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
 		}
 
@@ -8254,7 +8254,7 @@ political_actions = {
 		available = {
 			has_government = democratic
 			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
-			has_war_with = GER
+			has_war_with = SAX
 			is_in_faction_with = FRA
 			FRA = {
 				surrender_progress > 0.2
@@ -8268,7 +8268,7 @@ political_actions = {
 		visible = {
 			tag = ENG
 			has_government = democratic
-			has_war_with = GER
+			has_war_with = SAX
 			has_country_flag = blood_toil_tears_sweat_speech
 			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
 		}
@@ -8304,7 +8304,7 @@ political_actions = {
 		available = {
 			has_government = democratic
 			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
-			has_war_with = GER
+			has_war_with = SAX
 			is_in_faction_with = FRA
 			FRA = { has_capitulated = yes }
 		}
@@ -8316,7 +8316,7 @@ political_actions = {
 		visible = {
 			tag = ENG
 			has_government = democratic
-			has_war_with = GER
+			has_war_with = SAX
 			has_country_flag = fight_on_the_beaches_speech
 			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
 		}
@@ -8350,7 +8350,7 @@ political_actions = {
 		available = {
 			tag = ENG
 			has_government = democratic
-			has_war_with = GER
+			has_war_with = SAX
 			IRE = { exists = yes }
 			NOT = { is_in_faction_with = IRE }
 			FRA = { has_capitulated = yes }
@@ -8362,7 +8362,7 @@ political_actions = {
 		visible = {
 			tag = ENG
 			has_government = democratic
-			has_war_with = GER
+			has_war_with = SAX
 			IRE = { exists = yes }
 		}
 		
@@ -8817,7 +8817,7 @@ operations = {
 		available = {
 			tag = ENG
 			has_government = democratic
-			has_war_with = GER
+			has_war_with = SAX
 			ICE = { exists = yes }
 			NOR = { has_capitulated = yes }
 			is_in_faction_with = NOR
@@ -8833,7 +8833,7 @@ operations = {
 		
 		visible = {
 			tag = ENG
-			has_war_with = GER
+			has_war_with = SAX
 			ICE = { exists = yes }
 			NOT = { ICE = { is_in_faction_with = ROOT } }
 		}
@@ -8855,7 +8855,7 @@ operations = {
 		available = {
 			tag = ENG
 			has_government = democratic
-			has_war_with = GER
+			has_war_with = SAX
 			IRE = { exists = yes }
 			NOT = { is_in_faction_with = IRE }
 			NOR = { has_capitulated = yes }
@@ -8888,7 +8888,7 @@ operations = {
 		
 		visible = {
 			tag = ENG
-			has_war_with = GER
+			has_war_with = SAX
 			IRE = { exists = yes }
 		}
 		
@@ -8912,7 +8912,7 @@ operations = {
 		available = {
 			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
 			has_government = democratic
-			has_war_with = GER
+			has_war_with = SAX
 			any_country = {
 				original_tag = FRA
 				has_government = fascism
@@ -8931,7 +8931,7 @@ operations = {
 			has_country_leader = { ruling_only = yes name = "Winston Churchill" }
 			tag = ENG
 			has_government = democratic
-			has_war_with = GER
+			has_war_with = SAX
 			OR = {
 				AND = {
 					is_in_faction_with = FRA

@@ -7,7 +7,7 @@ FRA_vichy_france = {
 		available = {
 			has_government = fascism
 			NOT = {
-				GER = { divisions_in_state = { state = 21 size > 0 } }
+				SAX = { divisions_in_state = { state = 21 size > 0 } }
 			}
 			has_country_flag = {
 				flag = case_anton
@@ -57,7 +57,7 @@ FRA_vichy_france = {
 
 		available = {
 			is_subject = no
-			has_war_with = GER
+			has_war_with = SAX
 		}
 
 		days_mission_timeout = 7
@@ -66,7 +66,7 @@ FRA_vichy_france = {
 		activation = {
 			original_tag = FRA
 			has_government = fascism
-			is_subject_of = GER
+			is_subject_of = SAX
 			has_country_flag = case_anton
 		}
 
@@ -77,19 +77,19 @@ FRA_vichy_france = {
 		is_good = no
 
 		timeout_effect = {
-			transfer_navy = { target = GER }
-			GER = { annex_country = { target = ROOT } }
+			transfer_navy = { target = SAX }
+			SAX = { annex_country = { target = ROOT } }
 			if = {
 				limit = {
 					NOT = { has_country_flag = scuttled_fleet }
 				}
-				GER = { news_event = { id = wtt_news.23 hours = 6 } }
+				SAX = { news_event = { id = wtt_news.23 hours = 6 } }
 			}
 			if = {
 				limit = {
 					has_country_flag = scuttled_fleet
 				}
-				GER = { news_event = { id = wtt_news.24 hours = 6 } }
+				SAX = { news_event = { id = wtt_news.24 hours = 6 } }
 			}
 			custom_effect_tooltip = GAME_OVER_TT
 		}

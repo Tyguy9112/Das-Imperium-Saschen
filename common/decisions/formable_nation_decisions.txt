@@ -985,7 +985,7 @@ form_european_union_category = {
 				original_tag = LUX
 				original_tag = FRA
 				original_tag = ITA
-				original_tag = GER
+				original_tag = SAX
 				original_tag = WGR
 				#original_tag = ENG
 			}
@@ -1086,7 +1086,7 @@ form_european_union_category = {
 				original_tag = LUX
 				original_tag = FRA
 				original_tag = ITA
-				original_tag = GER
+				original_tag = SAX
 			}
 			has_government = democratic 
 			NOT = { has_global_flag = form_european_union_flag }
@@ -2564,7 +2564,7 @@ form_hre_category = {
 		icon = generic_form_nation
 
 		allowed = {
-			original_tag = GER
+			original_tag = SAX
 			has_dlc = "Waking the Tiger"
 		}
 
@@ -2638,7 +2638,7 @@ form_hre_category = {
 
 		visible = {
 			AND = {
-				original_tag = GER
+				original_tag = SAX
 				has_government = neutrality
 				has_country_leader = { ruling_only = yes name = "Victoria" }
 			}
@@ -2710,7 +2710,7 @@ form_greater_german_reich_category = {
 		icon = generic_form_nation
 
 		allowed = {
-			original_tag = GER
+			original_tag = SAX
 			has_dlc = "Waking the Tiger"
 		}
 
@@ -2725,7 +2725,7 @@ form_greater_german_reich_category = {
 
 		visible = {
 			AND = {
-				original_tag = GER
+				original_tag = SAX
 				has_government = fascism
 				has_country_leader = { ruling_only = yes name = "Adolf Hitler" }
 			}
@@ -2743,7 +2743,7 @@ form_greater_german_reich_category = {
 		}
 
 		complete_effect = {
-			set_cosmetic_tag = GER_greater_german_reich
+			set_cosmetic_tag = SAX_greater_german_reich
 			set_province_name = { id = 6521 name = "Germania" }
 			hidden_effect = {
 				set_global_flag = form_greater_german_reich_flag

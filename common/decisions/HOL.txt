@@ -746,7 +746,7 @@ HOL_secret_staff_talks = {
 
 		}
 
-		targets = { GER ENG FRA }
+		targets = { SAX ENG FRA }
 
 		target_trigger = {
 			ROOT = { 
@@ -818,7 +818,7 @@ HOL_secret_staff_talks = {
 
 		}
 
-		targets = { GER ENG FRA }
+		targets = { SAX ENG FRA }
 
 		target_trigger = {
 			ROOT = { 
@@ -865,7 +865,7 @@ HOL_secret_staff_talks = {
 
 		}
 
-		targets = { GER ENG FRA }
+		targets = { SAX ENG FRA }
 
 		target_trigger = {
 			ROOT = { 
@@ -888,15 +888,15 @@ HOL_secret_staff_talks = {
 				OR = {
 					AND = {
 						OR = {
-							tag = GER
+							tag = SAX
 							tag = ENG
 							tag = FRA
 						}
 						HOL = { is_in_faction = no }
 					}
 					AND = {
-						tag = GER
-						HOL = { is_in_faction_with = GER }
+						tag = SAX
+						HOL = { is_in_faction_with = SAX }
 					}
 					AND = {
 						tag = ENG
@@ -964,7 +964,7 @@ HOL_secret_staff_talks = {
 
 		}
 
-		targets = { GER ENG FRA }
+		targets = { SAX ENG FRA }
 
 		target_trigger = {
 			ROOT = { 
@@ -1018,7 +1018,7 @@ HOL_gateway_to_europe_eng_category = {
 
 		available = {
 			has_government = democratic
-			GER = { has_government = fascism }
+			SAX = { has_government = fascism }
 		}
 
 		targets = { HOL }
@@ -1108,8 +1108,8 @@ HOL_gateway_to_europe_eng_category = {
 			add_to_variable = { var = eng_gateway_to_europe_influence value = 5 }
 			HOL = {
 				set_variable = { var = eng_temp_trade_influence value = ENG.eng_gateway_to_europe_influence }
-				subtract_from_variable = { var = eng_temp_trade_influence value = GER.ger_gateway_to_europe_influence }
-				set_variable = { var = ger_temp_trade_influence value = GER.ger_gateway_to_europe_influence }
+				subtract_from_variable = { var = eng_temp_trade_influence value = SAX.ger_gateway_to_europe_influence }
+				set_variable = { var = ger_temp_trade_influence value = SAX.ger_gateway_to_europe_influence }
 				subtract_from_variable = { var = ger_temp_trade_influence value = ENG.eng_gateway_to_europe_influence }
 				add_to_variable = { var = gateway_to_europe_influence_pp_total value = 10 }
 			}
@@ -1180,7 +1180,7 @@ HOL_gateway_to_europe_eng_category = {
 						set_country_flag = HOL_gateway_to_europe_britain_lead_flag
 					}
 					HOL = { country_event = { id = mtg_netherlands.66 } }
-					GER = { country_event = { id = mtg_netherlands.66 } }
+					SAX = { country_event = { id = mtg_netherlands.66 } }
 				}
 				if = {
 					limit = {
@@ -1216,7 +1216,7 @@ HOL_gateway_to_europe_ger_category = {
 		icon = eng_trade_unions_demand
 
 		allowed = {
-			tag = GER
+			tag = SAX
 		}
 
 		available = {
@@ -1251,7 +1251,7 @@ HOL_gateway_to_europe_ger_category = {
 			modifier = {
 				factor = 2
 				HOL = {
-					check_variable = { var = GER.ger_gateway_to_europe_influence value = 20 compare = greater_than_or_equals }
+					check_variable = { var = SAX.ger_gateway_to_europe_influence value = 20 compare = greater_than_or_equals }
 					check_variable = { var = ger_temp_trade_influence value = 10 compare = greater_than_or_equals }
 				}
 			}
@@ -1259,7 +1259,7 @@ HOL_gateway_to_europe_ger_category = {
 				factor = 0
 				HOL = {
 					check_variable = { var = ger_temp_trade_influence value = 10 compare = greater_than_or_equals }
-					NOT = { check_variable = { var = GER.ger_gateway_to_europe_influence value = 20 compare = greater_than_or_equals } }
+					NOT = { check_variable = { var = SAX.ger_gateway_to_europe_influence value = 20 compare = greater_than_or_equals } }
 				}
 			}
 			modifier = {
@@ -1297,13 +1297,13 @@ HOL_gateway_to_europe_ger_category = {
 			modifier = {
 				factor = 0
 				focus_progress = {
-					focus = GER_around_maginot
+					focus = SAX_around_maginot
 					progress > 0
 				}
 			}
 			modifier = {
 				factor = 0
-				has_completed_focus = GER_oppose_hitler
+				has_completed_focus = SAX_oppose_hitler
 			}
 		}
 
@@ -1313,10 +1313,10 @@ HOL_gateway_to_europe_ger_category = {
 		remove_effect = {
 			add_to_variable = { var = ger_gateway_to_europe_influence value = 5 }
 			HOL = {
-				set_variable = { var = ger_temp_trade_influence value = GER.ger_gateway_to_europe_influence }
+				set_variable = { var = ger_temp_trade_influence value = SAX.ger_gateway_to_europe_influence }
 				subtract_from_variable = { var = ger_temp_trade_influence value = ENG.eng_gateway_to_europe_influence }
 				set_variable = { var = eng_temp_trade_influence value = ENG.eng_gateway_to_europe_influence }
-				subtract_from_variable = { var = eng_temp_trade_influence value = GER.ger_gateway_to_europe_influence }
+				subtract_from_variable = { var = eng_temp_trade_influence value = SAX.ger_gateway_to_europe_influence }
 				add_to_variable = { var = gateway_to_europe_influence_pp_total value = 10 }
 			}
 			hidden_effect = {
@@ -1363,7 +1363,7 @@ HOL_gateway_to_europe_ger_category = {
 						set_country_flag = HOL_gateway_to_europe_britain_lead_flag
 					}
 					HOL = { country_event = { id = mtg_netherlands.66 } }
-					GER = { country_event = { id = mtg_netherlands.66 } }
+					SAX = { country_event = { id = mtg_netherlands.66 } }
 				}
 				if = {
 					limit = {
@@ -1464,8 +1464,8 @@ HOL_gateway_to_europe_hol_category = {
 		remove_effect = {
 			ENG = { add_to_variable = { var = eng_gateway_to_europe_influence value = 5 } }
 			set_variable = { var = eng_temp_trade_influence value = ENG.eng_gateway_to_europe_influence }
-			subtract_from_variable = { var = eng_temp_trade_influence value = GER.ger_gateway_to_europe_influence }
-			set_variable = { var = ger_temp_trade_influence value = GER.ger_gateway_to_europe_influence }
+			subtract_from_variable = { var = eng_temp_trade_influence value = SAX.ger_gateway_to_europe_influence }
+			set_variable = { var = ger_temp_trade_influence value = SAX.ger_gateway_to_europe_influence }
 			subtract_from_variable = { var = ger_temp_trade_influence value = ENG.eng_gateway_to_europe_influence }
 			add_to_variable = { var = gateway_to_europe_influence_pp_total value = 10 }
 			hidden_effect = {
@@ -1505,7 +1505,7 @@ HOL_gateway_to_europe_hol_category = {
 					clr_country_flag = HOL_gateway_to_europe_germany_lead_flag
 					set_country_flag = HOL_gateway_to_europe_britain_lead_flag
 					country_event = { id = mtg_netherlands.66 }
-					GER = { country_event = { id = mtg_netherlands.66 } }
+					SAX = { country_event = { id = mtg_netherlands.66 } }
 				}
 				if = {
 					limit = {
@@ -1536,18 +1536,18 @@ HOL_gateway_to_europe_hol_category = {
 
 		available = {
 			HOL = { has_completed_focus = HOL_gateway_to_europe }
-			GER = {
+			SAX = {
 				exists = yes
 				has_government = fascism
-				NOT = { has_completed_focus = GER_oppose_hitler }
+				NOT = { has_completed_focus = SAX_oppose_hitler }
 			}
 		}
 
-		targets = { GER }
+		targets = { SAX }
 
 		target_trigger = {
 			FROM = {
-				tag = GER
+				tag = SAX
 			}
 		}
 
@@ -1598,11 +1598,11 @@ HOL_gateway_to_europe_hol_category = {
 		}
 
 		remove_effect = {
-			GER = { add_to_variable = { var = ger_gateway_to_europe_influence value = 5 } }
-			set_variable = { var = ger_temp_trade_influence value = GER.ger_gateway_to_europe_influence }
+			SAX = { add_to_variable = { var = ger_gateway_to_europe_influence value = 5 } }
+			set_variable = { var = ger_temp_trade_influence value = SAX.ger_gateway_to_europe_influence }
 			subtract_from_variable = { var = ger_temp_trade_influence value = ENG.eng_gateway_to_europe_influence }
 			set_variable = { var = eng_temp_trade_influence value = ENG.eng_gateway_to_europe_influence }
-			subtract_from_variable = { var = eng_temp_trade_influence value = GER.ger_gateway_to_europe_influence }
+			subtract_from_variable = { var = eng_temp_trade_influence value = SAX.ger_gateway_to_europe_influence }
 			add_to_variable = { var = gateway_to_europe_influence_pp_total value = 10 }
 			hidden_effect = {
 				random_list = {
@@ -1641,7 +1641,7 @@ HOL_gateway_to_europe_hol_category = {
 					clr_country_flag = HOL_gateway_to_europe_germany_lead_flag
 					set_country_flag = HOL_gateway_to_europe_britain_lead_flag
 					country_event = { id = mtg_netherlands.66 }
-					GER = { country_event = { id = mtg_netherlands.66 } }
+					SAX = { country_event = { id = mtg_netherlands.66 } }
 				}
 				if = {
 					limit = {

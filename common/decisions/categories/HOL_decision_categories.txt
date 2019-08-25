@@ -84,12 +84,12 @@ HOL_gateway_to_europe_hol_category = {
 	}
 	
 	custom_icon = {
-		tag = GER
+		tag = SAX
 		value = ger_gateway_to_europe_icon_value
 		desc = ger_gateway_to_europe_full_influence_breakdown
 
 		visible = {
-			country_exists = GER
+			country_exists = SAX
 		}
 	}
 
@@ -100,7 +100,7 @@ HOL_gateway_to_europe_hol_category = {
 		NOT = { HOL = { has_completed_focus = HOL_cave_to_the_british } }
 		NOT = { HOL = { has_completed_focus = HOL_maintain_trade_neutrality } }
 		NOT = { HOL = { has_war_with = ENG } }
-		NOT = { HOL = { has_war_with = GER } }
+		NOT = { HOL = { has_war_with = SAX } }
 		HOL = {
 			exists = yes
 			is_subject = no
@@ -113,7 +113,7 @@ HOL_gateway_to_europe_ger_category = {
 	icon = hol_gateway_to_europe
 
 	allowed = {
-		original_tag = GER
+		original_tag = SAX
 		has_dlc = "Man the Guns"
 	}
 
@@ -133,12 +133,12 @@ HOL_gateway_to_europe_ger_category = {
 	}
 	
 	custom_icon = {
-		tag = GER
+		tag = SAX
 		value = ger_gateway_to_europe_icon_value
 		desc = ger_gateway_to_europe_full_influence_breakdown
 
 		visible = {
-			country_exists = GER
+			country_exists = SAX
 		}
 	}
 
@@ -149,7 +149,7 @@ HOL_gateway_to_europe_ger_category = {
 		NOT = { HOL = { has_completed_focus = HOL_cave_to_the_british } }
 		NOT = { HOL = { has_completed_focus = HOL_maintain_trade_neutrality } }
 		NOT = { HOL = { has_war_with = ENG } }
-		NOT = { HOL = { has_war_with = GER } }
+		NOT = { HOL = { has_war_with = SAX } }
 		HOL = {
 			exists = yes
 			is_subject = no
@@ -182,12 +182,12 @@ HOL_gateway_to_europe_eng_category = {
 	}
 	
 	custom_icon = {
-		tag = GER
+		tag = SAX
 		value = ger_gateway_to_europe_icon_value
 		desc = ger_gateway_to_europe_full_influence_breakdown
 
 		visible = {
-			country_exists = GER
+			country_exists = SAX
 		}
 	}
 
@@ -198,7 +198,7 @@ HOL_gateway_to_europe_eng_category = {
 		NOT = { HOL = { has_completed_focus = HOL_cave_to_the_british } }
 		NOT = { HOL = { has_completed_focus = HOL_maintain_trade_neutrality } }
 		NOT = { HOL = { has_war_with = ENG } }
-		NOT = { HOL = { has_war_with = GER } }
+		NOT = { HOL = { has_war_with = SAX } }
 		HOL = {
 			exists = yes
 			is_subject = no

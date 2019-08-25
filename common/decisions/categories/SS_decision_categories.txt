@@ -1,6 +1,6 @@
 SS_demands = { 
 	allowed = {
-		original_tag = GER
+		original_tag = SAX
 	}
 
 	visible = {
@@ -9,7 +9,7 @@ SS_demands = {
 }
 SS_recruitment = { 
 	allowed = {
-		original_tag = GER
+		original_tag = SAX
 	}
 
 	available = {
@@ -22,6 +22,6 @@ SS_recruitment = {
 }
 wehrmacht_demands = {
 	allowed = {
-		original_tag = GER
+		original_tag = SAX
 	}
 }

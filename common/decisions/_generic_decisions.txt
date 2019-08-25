@@ -152,7 +152,7 @@ economy_decisions = {
 		icon = generic_construction
 
 		allowed = {
-			NOT = { OR = { tag = GER tag = FRA } }
+			NOT = { OR = { tag = SAX tag = FRA } }
 		}
 
 		cost = 50
@@ -1138,10 +1138,10 @@ operations = {
 				}
 			}
 			modifier = {
-				factor = 200 # Always blow up the canal as JAP or GER when at war with USA (priority)
+				factor = 200 # Always blow up the canal as JAP or SAX when at war with USA (priority)
 				OR = {
 					is_in_faction_with = JAP
-					is_in_faction_with = GER
+					is_in_faction_with = SAX
 				}
 				has_war_with = USA
 			}
@@ -1495,7 +1495,7 @@ war_measures = {
 
 		days_remove = 180
 
-		cost = GER_war_bonds_var?50
+		cost = SAX_war_bonds_var?50
 
 		modifier = {
 			consumer_goods_factor = -0.05
@@ -1523,51 +1523,51 @@ war_measures = {
 			if = {
 				limit = {
 					check_variable = {
-						var = GER_war_bonds_var
+						var = SAX_war_bonds_var
 						value = 50
 						compare = less_than
 					}
 				}
 				set_variable = {
-					var = GER_war_bonds_var
+					var = SAX_war_bonds_var
 					value = 50
 				}
 			}
 			add_to_variable = {
-				var = GER_war_bonds_var
+				var = SAX_war_bonds_var
 				value = 25
 			}
 			if = {
 				limit = {
 					check_variable = {
-						var = GER_war_bonds_var
+						var = SAX_war_bonds_var
 						value = 100
 						compare = greater_than_or_equals
 					}
 					check_variable = {
-						var = GER_war_bonds_war_support_var
+						var = SAX_war_bonds_war_support_var
 						value = -0.025
 						compare = greater_than
 					}
 				}
 				set_variable = {
-					var = GER_war_bonds_war_support_var
+					var = SAX_war_bonds_war_support_var
 					value = -0.025
 				}
 			}
 			if = {
 				limit = {
 					check_variable = {
-						var = GER_war_bonds_war_support_var
+						var = SAX_war_bonds_war_support_var
 						value = -0.025
 						compare = less_than_or_equals
 					}
 				}
 				add_to_variable = {
-					var = GER_war_bonds_war_support_var
+					var = SAX_war_bonds_war_support_var
 					value = -0.025
 				}
-				add_war_support = GER_war_bonds_war_support_var
+				add_war_support = SAX_war_bonds_war_support_var
 			}
 		}
     }

@@ -11,16 +11,16 @@ SS_recruitment = {
 			99 = {
 				CONTROLLER = {
 					OR = {
-						original_tag = GER
-						is_subject_of = GER
+						original_tag = SAX
+						is_subject_of = SAX
 					}
 				}
 			}
 			37 = {
 				CONTROLLER = {
 					OR = {
-						original_tag = GER
-						is_subject_of = GER
+						original_tag = SAX
+						is_subject_of = SAX
 					}
 				}
 			}
@@ -32,7 +32,7 @@ SS_recruitment = {
 			}
 			OR = {
 				DEN = {
-					is_subject_of = GER
+					is_subject_of = SAX
 				}
 				has_war_with = DEN
 				AND = {
@@ -65,32 +65,32 @@ SS_recruitment = {
 			110 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			142 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			143 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			144 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
@@ -102,7 +102,7 @@ SS_recruitment = {
 			}
 			OR = {
 				NOR = {
-					is_subject_of = GER
+					is_subject_of = SAX
 				}
 				has_war_with = NOR
 				NOR = { exists = no }
@@ -131,24 +131,24 @@ SS_recruitment = {
 			36 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			7 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			35 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
@@ -162,7 +162,7 @@ SS_recruitment = {
 			}
 			OR = {
 				HOL = {
-					is_subject_of = GER
+					is_subject_of = SAX
 				}
 				has_war_with = HOL
 				HOL = { exists = no }
@@ -190,16 +190,16 @@ SS_recruitment = {
 			6 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			34 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}	
@@ -211,7 +211,7 @@ SS_recruitment = {
 			}
 			OR = {
 				BEL = {
-					is_subject_of = GER
+					is_subject_of = SAX
 				}
 				has_war_with = BEL
 				BEL = { exists = no }
@@ -239,32 +239,32 @@ SS_recruitment = {
 			29 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			16 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			15 = {
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			14 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
@@ -276,7 +276,7 @@ SS_recruitment = {
 			}
 			OR = {
 				FRA = {
-					is_subject_of = GER
+					is_subject_of = SAX
 				}
 				has_war_with = FRA
 				FRA = { exists = no }
@@ -304,16 +304,16 @@ SS_recruitment = {
 			13 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			191 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
@@ -325,7 +325,7 @@ SS_recruitment = {
 			}
 			OR = {
 				EST = {
-					is_subject_of = GER
+					is_subject_of = SAX
 				}
 				has_war_with = EST
 				AND = {
@@ -358,16 +358,16 @@ SS_recruitment = {
 			12 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			190 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
@@ -379,7 +379,7 @@ SS_recruitment = {
 			}
 			OR = {
 				LAT = {
-					is_subject_of = GER
+					is_subject_of = SAX
 				}
 				has_war_with = LAT
 				AND = {
@@ -413,16 +413,16 @@ SS_recruitment = {
 			11 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			189 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
@@ -434,7 +434,7 @@ SS_recruitment = {
 			}
 			OR = {
 				LIT = {
-					is_subject_of = GER
+					is_subject_of = SAX
 				}
 				has_war_with = LIT
 				AND = {
@@ -467,32 +467,32 @@ SS_recruitment = {
 			126 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			127 = {
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			123 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			338 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
@@ -504,7 +504,7 @@ SS_recruitment = {
 			}
 			OR = {
 				ENG = {
-					is_subject_of = GER
+					is_subject_of = SAX
 				}
 				has_war_with = ENG
 				AND = {
@@ -536,16 +536,16 @@ SS_recruitment = {
 			}
 			OR = {
 				AND = {
-					121 = { is_controlled_by = GER }
-					133 = { is_controlled_by = GER }
-					136 = { is_controlled_by = GER }
-					120 = { is_controlled_by = GER }
+					121 = { is_controlled_by = SAX }
+					133 = { is_controlled_by = SAX }
+					136 = { is_controlled_by = SAX }
+					120 = { is_controlled_by = SAX }
 				}
 				AND = {
-					121 = { CONTROLLER = { is_subject_of = GER } }
-					133 = { CONTROLLER = { is_subject_of = GER } }
-					136 = { CONTROLLER = { is_subject_of = GER } }
-					120 = { CONTROLLER = { is_subject_of = GER } }
+					121 = { CONTROLLER = { is_subject_of = SAX } }
+					133 = { CONTROLLER = { is_subject_of = SAX } }
+					136 = { CONTROLLER = { is_subject_of = SAX } }
+					120 = { CONTROLLER = { is_subject_of = SAX } }
 				}
 			}
 		}
@@ -556,16 +556,16 @@ SS_recruitment = {
 			}
 			OR = {
 				AND = {
-					121 = { is_controlled_by = GER }
-					133 = { is_controlled_by = GER }
-					136 = { is_controlled_by = GER }
-					120 = { is_controlled_by = GER }
+					121 = { is_controlled_by = SAX }
+					133 = { is_controlled_by = SAX }
+					136 = { is_controlled_by = SAX }
+					120 = { is_controlled_by = SAX }
 				}
 				AND = {
-					121 = { CONTROLLER = { is_subject_of = GER } }
-					133 = { CONTROLLER = { is_subject_of = GER } }
-					136 = { CONTROLLER = { is_subject_of = GER } }
-					120 = { CONTROLLER = { is_subject_of = GER } }
+					121 = { CONTROLLER = { is_subject_of = SAX } }
+					133 = { CONTROLLER = { is_subject_of = SAX } }
+					136 = { CONTROLLER = { is_subject_of = SAX } }
+					120 = { CONTROLLER = { is_subject_of = SAX } }
 				}
 			}
 		}
@@ -591,32 +591,32 @@ SS_recruitment = {
 			141 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			139 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			138 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
 			140 = { 
 				CONTROLLER = { 
 					OR = { 
-						original_tag = GER 
-						is_subject_of = GER 
+						original_tag = SAX 
+						is_subject_of = SAX 
 					} 
 				} 
 			}
@@ -628,7 +628,7 @@ SS_recruitment = {
 			}
 			OR = {
 				SWE = {
-					is_subject_of = GER
+					is_subject_of = SAX
 				}
 				has_war_with = SWE
 				AND = {

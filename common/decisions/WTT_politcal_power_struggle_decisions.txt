@@ -61,10 +61,10 @@
 
 #Remember to also change the custom tooltip if you change these
 @PP_COST_PER_DAY_GAIN_SUPPORT = -0.75
-@PP_GAIN_PER_DAY_COST_TRIGGER = 0.75
+@PP_GAIN_PER_DAY_COST_TRIGSAX = 0.75
 
 @PP_COST_PER_DAY_REMOVE_OPPOSITION = -0.75
-@PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER = 0.75
+@PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX = 0.75
 
 CHI_political_power_struggle = {
 
@@ -172,7 +172,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_fujian = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -382,7 +382,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_zhejiang = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -591,7 +591,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_shandong = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -800,7 +800,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_jiangsu = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -1009,7 +1009,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_jiangxi = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -1218,7 +1218,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_xikang = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -1427,7 +1427,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_hunan = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -1636,7 +1636,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_guizhou = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -1845,7 +1845,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_sichuan = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -2054,7 +2054,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_anhui = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -2263,7 +2263,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_henan = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -2472,7 +2472,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_beijing = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -2681,7 +2681,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_shanghai = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -2890,7 +2890,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_hebei = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -3099,7 +3099,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_hubei = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -3310,7 +3310,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_shanxi = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -3519,7 +3519,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_suiyuan = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -3730,7 +3730,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_shaanxi = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -3941,7 +3941,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_gansu = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -4150,7 +4150,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_qinghai = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -4359,7 +4359,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_ningxia = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -4570,7 +4570,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_taklamakan = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -4779,7 +4779,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_urumqi = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -4988,7 +4988,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_dzungaria = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -5197,7 +5197,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_yarkand = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -5408,7 +5408,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_yunnan = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -5619,7 +5619,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_hainan = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -5828,7 +5828,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_guangzhou = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -6037,7 +6037,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_guangdong = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -6246,7 +6246,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_nanning = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -6455,7 +6455,7 @@ CHI_political_power_struggle = {
 	WTT_build_support_in_guangxi = {
 
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_COST_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 		icon = generic_political_discourse
@@ -6995,7 +6995,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -7229,7 +7229,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -7463,7 +7463,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -7697,7 +7697,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -7931,7 +7931,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -8165,7 +8165,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -8399,7 +8399,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -8633,7 +8633,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -8867,7 +8867,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -9101,7 +9101,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -9335,7 +9335,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -9569,7 +9569,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -9803,7 +9803,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -10037,7 +10037,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -10271,7 +10271,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -10507,7 +10507,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -10741,7 +10741,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -10977,7 +10977,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -11213,7 +11213,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -11447,7 +11447,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -11681,7 +11681,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -11917,7 +11917,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -12151,7 +12151,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -12385,7 +12385,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -12619,7 +12619,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -12855,7 +12855,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -13091,7 +13091,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -13325,7 +13325,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -13559,7 +13559,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -13793,7 +13793,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 
@@ -14027,7 +14027,7 @@ CHI_political_power_struggle = {
 		}
 		
 		custom_cost_trigger = {
-			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGGER
+			political_power_growth > @PP_GAIN_PER_DAY_REMOVE_OPPOSITION_TRIGSAX
 		}
 		custom_cost_text = pp_per_day_neg_075
 

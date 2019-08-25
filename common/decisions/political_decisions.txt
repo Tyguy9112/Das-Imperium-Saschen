@@ -1521,7 +1521,7 @@ political_actions = {
         days_remove = -1
 
         available = {
-            GER = { NOT = { has_government = ROOT } }
+            SAX = { NOT = { has_government = ROOT } }
         }
 
         modifier = {
@@ -1531,7 +1531,7 @@ political_actions = {
 
         remove_trigger = {
             OR = {
-                GER = { has_government = ROOT }
+                SAX = { has_government = ROOT }
                 AND = {
                     country_exists = WGR
                     WGR = { has_government = ROOT }
@@ -1636,7 +1636,7 @@ political_actions = {
 				add = 10
 				tag = AUS
 				fascism > 0.45
-				GER = { has_completed_focus = GER_reestablish_free_elections }
+				SAX = { has_completed_focus = SAX_reestablish_free_elections }
 			}
 			modifier = {
 				add = 10
