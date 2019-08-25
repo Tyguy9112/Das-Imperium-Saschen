@@ -27,20 +27,20 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "GER_mechanized_mesh"
-		file = "gfx/models/units/vehicles/GER_mechanized_01.mesh"
+		name = "SAX_mechanized_mesh"
+		file = "gfx/models/units/vehicles/SAX_mechanized_01.mesh"
 		
-		animation = { id = "idle"			type = "GER_mechanized_01_idle_animation" }
-		animation = { id = "move"			type = "GER_mechanized_01_move_animation" }
-		animation = { id = "attack"			type = "GER_mechanized_01_attack_animation" }
+		animation = { id = "idle"			type = "SAX_mechanized_01_idle_animation" }
+		animation = { id = "move"			type = "SAX_mechanized_01_move_animation" }
+		animation = { id = "attack"			type = "SAX_mechanized_01_attack_animation" }
 	}
 	
 	pdxmesh = {
-		name = "GER_motorized_mesh"
-		file = "gfx/models/units/vehicles/GER_motorized_01.mesh"
+		name = "SAX_motorized_mesh"
+		file = "gfx/models/units/vehicles/SAX_motorized_01.mesh"
 		
-		animation = { id = "idle"			type = "GER_motorized_01_idle_animation" }
-		animation = { id = "move"			type = "GER_motorized_01_move_animation" }
+		animation = { id = "idle"			type = "SAX_motorized_01_idle_animation" }
+		animation = { id = "move"			type = "SAX_motorized_01_move_animation" }
 	}
 	
 	pdxmesh = {

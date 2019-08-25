@@ -235,7 +235,7 @@ country_event = {
 	}
 }
 
-# Ask GER about splitting POL
+# Ask SAX about splitting POL
 country_event = {
 	id = czech.10
 	title = czech.7.t
@@ -280,7 +280,7 @@ country_event = {
 		}
 	}
 }
-# GER says yes
+# SAX says yes
 country_event = {
 	id = czech.11
 	title = czech.7.t
@@ -302,7 +302,7 @@ country_event = {
 		}
 	}
 }
-# GER says no
+# SAX says no
 country_event = {
 	id = czech.12
 	title = czech.7.t
@@ -393,7 +393,7 @@ country_event = {
 	}
 }
 
-# Ask GER about joining Axis
+# Ask SAX about joining Axis
 country_event = {
 	id = czech.16
 	title = czech.16.t
@@ -430,7 +430,7 @@ country_event = {
 		}
 	}
 }
-# GER says yes
+# SAX says yes
 country_event = {
 	id = czech.17
 	title = czech.16.t
@@ -448,7 +448,7 @@ country_event = {
 		}
 	}
 }
-# GER says no
+# SAX says no
 country_event = {
 	id = czech.18
 	title = czech.16.t
@@ -466,7 +466,7 @@ country_event = {
 	}
 }
 
-# Ask GER about being a puppet
+# Ask SAX about being a puppet
 country_event = {
 	id = czech.19
 	title = czech.19.t
@@ -508,7 +508,7 @@ country_event = {
 		}
 	}
 }
-# GER says yes
+# SAX says yes
 country_event = {
 	id = czech.20
 	title = czech.20.t
@@ -520,7 +520,7 @@ country_event = {
 	option = {
 		name = czech.20.a
 		effect_tooltip = {
-			GER = {
+			SAX = {
 				puppet = CZE
 			}
 		}
@@ -529,7 +529,7 @@ country_event = {
 		}
 	}
 }
-# GER says no
+# SAX says no
 country_event = {
 	id = czech.21
 	title = czech.21.t
@@ -547,7 +547,7 @@ country_event = {
 	}
 }
 
-#Give GER Sudetenland 
+#Give SAX Sudetenland 
 country_event = {
 	id = czech.22
 	title = czech.22.t
@@ -561,7 +561,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		GER = {
+		SAX = {
 			add_state_core = 69
 			transfer_state = 69
 			add_state_core = 74
@@ -590,7 +590,7 @@ country_event = {
 		}
 	}
 }
-# GER says yes
+# SAX says yes
 country_event = {
 	id = czech.23
 	title = czech.22.t
@@ -607,7 +607,7 @@ country_event = {
 		}
 	}
 }
-# GER says no
+# SAX says no
 country_event = {
 	id = czech.24
 	title = czech.22.t

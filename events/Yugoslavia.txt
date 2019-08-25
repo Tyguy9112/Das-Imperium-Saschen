@@ -20,12 +20,12 @@ country_event = {
 		}
 		YUG = {
 			OR = {
-				is_in_faction_with = GER
-				gives_military_access_to = GER
+				is_in_faction_with = SAX
+				gives_military_access_to = SAX
 			}
 		}
 		HUN = { owns_state = 76 }
-		GER = {
+		SAX = {
 			OR = {
 				AND = { is_in_faction_with = ITA is_in_faction_with = HUN }
 				AND = { is_in_faction_with = ITA is_in_faction_with = BUL }
@@ -33,7 +33,7 @@ country_event = {
 			}
 		}
 		ENG = { has_completed_focus = uk_balkan_strategy }
-		ENG = { NOT = { is_in_faction_with = GER } }
+		ENG = { NOT = { is_in_faction_with = SAX } }
 	}
 
 	immediate = {
@@ -86,19 +86,19 @@ country_event = {
 			}
 		}
 		add_timed_idea = { idea = anti_nazi_coup days = 730 }
-		add_opinion_modifier = { target = GER modifier = anti_german_coup }
+		add_opinion_modifier = { target = SAX modifier = anti_german_coup }
 		diplomatic_relation = {
-			country = GER
+			country = SAX
 			relation = non_aggression_pact
 			active = no
 		}
 		if = {
-			limit = { is_in_faction_with = GER }
-			GER = { remove_from_faction = YUG }
+			limit = { is_in_faction_with = SAX }
+			SAX = { remove_from_faction = YUG }
 		}
 		if = {
-			limit = { gives_military_access_to = GER }
-			GER = {
+			limit = { gives_military_access_to = SAX }
+			SAX = {
 				diplomatic_relation = {
 					country = YUG
 					relation = military_access
@@ -144,7 +144,7 @@ country_event = {
 	option = {
 		name = yugoslavia.3.a
 		effect_tooltip = {
-			GER = {
+			SAX = {
 				create_wargoal = {
 					type = take_state_focus
 					target = YUG
@@ -167,7 +167,7 @@ country_event = {
 	option = {
 		name = yugoslavia.4.a
 		effect_tooltip = {
-			GER = {
+			SAX = {
 				create_wargoal = {
 					type = take_state_focus
 					target = YUG
@@ -198,7 +198,7 @@ country_event = {
 			modifier = { # If they stand a chance to hold the line they will fight
 				factor = 0.1
 				strength_ratio = {
-					tag = GER
+					tag = SAX
 					ratio > 0.70
 				}
 			}
@@ -208,18 +208,18 @@ country_event = {
 			}
 			modifier = { # Increase it again if other bordering nations are in Axis
 				any_neighbor_country = {
-					NOT = { tag = GER }
-					is_in_faction_with = GER
+					NOT = { tag = SAX }
+					is_in_faction_with = SAX
 				}
 				factor = 2.0
 			}
 		}
-		GER = { country_event = germany.94 } #Germany gets Slovenia
+		SAX = { country_event = germany.94 } #Germany gets Slovenia
 	}
 	option = { # Refuse anyway
 		name = yugoslavia.5.b
 		ai_chance = { factor = 10 }
-		GER = {
+		SAX = {
 			country_event = germany.95 #Germany gains wargoal
 			effect_tooltip = {
 				create_wargoal = {
@@ -245,7 +245,7 @@ country_event = {
 	option = {
 		name = yugoslavia.6.a
 		effect_tooltip = {
-			GER = {
+			SAX = {
 				create_wargoal = {
 					type = take_state_focus
 					target = YUG
@@ -274,7 +274,7 @@ country_event = {
 			factor = 5
 		}
 
-		GER = { country_event = { id = germany.111 days = 1 } 
+		SAX = { country_event = { id = germany.111 days = 1 } 
 			effect_tooltip = {
 				create_wargoal = {
 					type = annex_everything
@@ -305,14 +305,14 @@ country_event = {
 			}
 		}
 		custom_effect_tooltip = GAME_OVER_TT
-		GER = {
+		SAX = {
 
 			add_political_power = -75		
-			add_named_threat = { threat = 5 name = GER_fate_of_yugoslavia }
+			add_named_threat = { threat = 5 name = SAX_fate_of_yugoslavia }
 			annex_country = { target = YUG transfer_troops = no }
 
 			hidden_effect = {
-				set_global_flag = GER_fate_of_yugoslavia_annex_YUG
+				set_global_flag = SAX_fate_of_yugoslavia_annex_YUG
 				news_event = { hours = 6 id = news.169 }
 			}
 		}
@@ -337,7 +337,7 @@ country_event = {
 			factor = 10
 		}
 
-		GER = { country_event = { id = germany.111 days = 1 } 
+		SAX = { country_event = { id = germany.111 days = 1 } 
 			effect_tooltip = {
 				create_wargoal = {
 					type = annex_everything
@@ -379,9 +379,9 @@ country_event = {
 			} 
 		}
 
-		GER = {		
+		SAX = {		
 			add_political_power = -25
-			add_named_threat = { threat = 3 name = GER_fate_of_yugoslavia }
+			add_named_threat = { threat = 3 name = SAX_fate_of_yugoslavia }
 			
 			CRO = {
 				if = {
@@ -401,7 +401,7 @@ country_event = {
 			annex_country = { target = YUG transfer_troops = no }
 
 			hidden_effect = {
-				set_global_flag = GER_fate_of_yugoslavia_puppet_CRO_annex_YUG
+				set_global_flag = SAX_fate_of_yugoslavia_puppet_CRO_annex_YUG
 				news_event = { hours = 6 id = news.169 }
 			}
 		}
@@ -424,7 +424,7 @@ country_event = {
 		name = yugoslavia.9.a
 		ai_chance = { factor = 2 }
 
-		GER = { country_event = { id = germany.111 days = 1 } 
+		SAX = { country_event = { id = germany.111 days = 1 } 
 			effect_tooltip = {
 				create_wargoal = {
 					type = annex_everything
@@ -455,9 +455,9 @@ country_event = {
 			} 
 		}
 
-		GER = {
+		SAX = {
 
-			add_named_threat = { threat = 2 name = GER_fate_of_yugoslavia }
+			add_named_threat = { threat = 2 name = SAX_fate_of_yugoslavia }
 			
 			CRO = {
 				if = {
@@ -478,7 +478,7 @@ country_event = {
 
 
 			hidden_effect = {
-				set_global_flag = GER_fate_of_yugoslavia_puppet_CRO_YUG
+				set_global_flag = SAX_fate_of_yugoslavia_puppet_CRO_YUG
 				news_event = { hours = 6 id = news.169 }
 			}
 		}

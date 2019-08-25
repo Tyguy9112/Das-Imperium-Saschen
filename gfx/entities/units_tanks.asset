@@ -389,8 +389,8 @@ entity = {
 
 
 entity = {
-	name = "GER_light_armor_entity"
-	pdxmesh = "GER_tank_light_mesh"
+	name = "SAX_light_armor_entity"
+	pdxmesh = "SAX_tank_light_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
 	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
@@ -427,8 +427,8 @@ entity = {
 }
 
 entity = {
-	name = "GER_medium_armor_entity"
-	pdxmesh = "GER_tank_medium_mesh"
+	name = "SAX_medium_armor_entity"
+	pdxmesh = "SAX_tank_medium_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
 	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 
@@ -471,8 +471,8 @@ entity = {
 
 
 entity = {
-	name = "GER_heavy_armor_entity"
-	pdxmesh = "GER_tank_heavy_mesh"
+	name = "SAX_heavy_armor_entity"
+	pdxmesh = "SAX_tank_heavy_mesh"
 	
 	state = { name = "idle"				animation = "idle"   animation_blend_time = 0.3 }
 	state = { name = "move"				animation = "move"   animation_blend_time = 0.3 

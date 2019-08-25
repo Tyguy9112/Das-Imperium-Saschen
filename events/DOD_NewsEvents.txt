@@ -36,7 +36,7 @@ news_event = {
 		name = dod_news.1.e
 		trigger = {
 			OR = {
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
 				TAG = ITA
 			}
@@ -46,7 +46,7 @@ news_event = {
 		name = dod_news.1.f
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
 				TAG = ITA
 				TAG = CZE
@@ -148,15 +148,15 @@ news_event = {
 	option = {
 		name = dod_news.4.b
 		trigger = {
-			TAG = GER
+			TAG = SAX
 		}
 	}
 	option = {
 		name = dod_news.4.c
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 			NOT = {
-				TAG = GER
+				TAG = SAX
 			}
 			NOT = { TAG = CZE }
 		}
@@ -166,8 +166,8 @@ news_event = {
 		trigger = {
 			NOT = { 
 				TAG = CZE
-				TAG = GER
-				is_in_faction_with = GER
+				TAG = SAX
+				is_in_faction_with = SAX
 			}
 		}
 	}

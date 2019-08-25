@@ -178,12 +178,12 @@ country_event = {
 	
 	trigger = {
 		tag = FRA
-		has_war_with = GER
-		16 = { is_controlled_by = GER }
+		has_war_with = SAX
+		16 = { is_controlled_by = SAX }
 		is_in_faction_with = ENG
-		ENG = { has_war_with = GER }
+		ENG = { has_war_with = SAX }
 		surrender_progress > 0.7
-		GER = {
+		SAX = {
 			OR = {
 				is_faction_leader = yes
 				has_government = neutrality
@@ -191,7 +191,7 @@ country_event = {
 		}
 		has_civil_war = no
 		
-		#Don't fire if France has pushed pretty far into ITA or GER
+		#Don't fire if France has pushed pretty far into ITA or SAX
 		NOT = {
 			any_state = {
 				is_on_continent = europe
@@ -201,7 +201,7 @@ country_event = {
 				NOT = { state = 42 }
 				is_controlled_by = ROOT
 				OR = {
-					is_owned_by = GER
+					is_owned_by = SAX
 					AND = {
 						FRA = { has_War_with = ITA }
 						is_owned_by = ITA
@@ -214,8 +214,8 @@ country_event = {
 		NOT = {
 			any_country = {
 				is_ai = no
-				NOT = { tag = GER }
-				NOT = { is_in_faction_with = GER }
+				NOT = { tag = SAX }
+				NOT = { is_in_faction_with = SAX }
 				has_war_with = ROOT
 				any_state = {
 					is_on_continent = europe
@@ -243,9 +243,9 @@ country_event = {
 		trigger = { is_ai = no }
 		set_country_flag = become_vichy
 		set_global_flag = fall_of_france
-		GER = { country_event = france.14 }
+		SAX = { country_event = france.14 }
 		custom_effect_tooltip = france.10.a_tt
-		# Switches to Vichy if GER accepts
+		# Switches to Vichy if SAX accepts
 	}
 	option = { # Become Free French
 		name = france.10.b
@@ -253,7 +253,7 @@ country_event = {
 			factor = 85
 		}
 		set_global_flag = fall_of_france
-		GER = { country_event = france.14 }
+		SAX = { country_event = france.14 }
 		custom_effect_tooltip = france.10.b_tt
 	}
 	option = { # Ask for British Union
@@ -340,7 +340,7 @@ country_event = {
 		custom_effect_tooltip = FRA_franco_british_cores
 		hidden_effect = {
 			ENG = { set_cosmetic_tag = FRA_UK }
-			GER = { 
+			SAX = { 
 				country_event = { hours = 6 id = news.35 }
 			}
 		}
@@ -361,13 +361,13 @@ country_event = {
 		trigger = { is_ai = no }
 		set_country_flag = become_vichy
 		set_global_flag = fall_of_france
-		GER = { country_event = france.14 }
+		SAX = { country_event = france.14 }
 		custom_effect_tooltip = france.10.a_tt
-		# Switches to Vichy if GER accepts
+		# Switches to Vichy if SAX accepts
 	}
 	option = { # Become Free France
 		name = france.13.b
-		GER = { country_event = france.14 }
+		SAX = { country_event = france.14 }
 		custom_effect_tooltip = france.10.b_tt
 		set_global_flag = fall_of_france
 	}
@@ -1290,7 +1290,7 @@ country_event = {
 				ITA = {
 					OR = {
 						NOT = { has_completed_focus = ITA_yugoslavia_friend }						
-						is_in_faction_with = GER
+						is_in_faction_with = SAX
 						exists = no
 					}
 				}
@@ -1304,7 +1304,7 @@ country_event = {
 			limit = { 
 				ITA = {
 					has_completed_focus = ITA_yugoslavia_friend
-					NOT = { is_in_faction_with = GER }
+					NOT = { is_in_faction_with = SAX }
 					NOT = { has_war_with = YUG }
 				}
 			}
@@ -1317,16 +1317,16 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 		add_political_power = -200
-		add_opinion_modifier = { target = GER modifier = condemn_aggression }
+		add_opinion_modifier = { target = SAX modifier = condemn_aggression }
 		YUG = { 
 			country_event = { id = yugoslavia.4 days = 1 }
 			add_opinion_modifier = { target = FRA modifier = offered_support }
 		}
-		GER = {
+		SAX = {
 			country_event = { id = germany.97 hours = 6 } #Generate wargoal
 			effect_tooltip = {
 				create_wargoal = {
@@ -1344,8 +1344,8 @@ country_event = {
 			}
 		}
 		if = {
-			limit = { is_in_faction_with = GER }
-			GER = { 
+			limit = { is_in_faction_with = SAX }
+			SAX = { 
 				remove_from_faction = FRA
 			}
 		}
@@ -1354,7 +1354,7 @@ country_event = {
 				is_in_faction = yes
 				is_faction_leader = yes
 				NOT = { is_in_faction_with = ENG }
-				NOT = { is_in_faction_with = GER }
+				NOT = { is_in_faction_with = SAX }
 			}
 			add_to_faction = YUG
 			YUG = {
@@ -1371,7 +1371,7 @@ country_event = {
 					is_in_faction = no
 					is_faction_leader = no
 					is_in_faction_with = ENG
-					is_in_faction_with = GER
+					is_in_faction_with = SAX
 				}
 			}
 			create_faction = "french_alliance"
@@ -1406,7 +1406,7 @@ country_event = {
 			factor = 90
 			modifier = {
 				factor = 0
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 		if = {
@@ -1427,12 +1427,12 @@ country_event = {
 				}
 			}
 		}
-		add_opinion_modifier = { target = GER modifier = condemn_aggression }
+		add_opinion_modifier = { target = SAX modifier = condemn_aggression }
 		YUG = { 
 			country_event = { id = yugoslavia.3 days = 1 }
 			add_opinion_modifier = { target = FRA modifier = offered_support }
 		}
-		GER = {
+		SAX = {
 			country_event = { id = germany.93 hours = 6 } #Generate wargoal
 			effect_tooltip = {
 				create_wargoal = {

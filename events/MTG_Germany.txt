@@ -1,6 +1,6 @@
 ﻿add_namespace = mtg_germany
 
-# Event for HOL demanding they join GER's faction and wars or die
+# Event for HOL demanding they join SAX's faction and wars or die
 country_event = {
 	id = mtg_germany.1
 	title = mtg_germany.1.t
@@ -43,7 +43,7 @@ country_event = {
 	}
 }
 
-# Event for GER saying HOL will join the Axis
+# Event for SAX saying HOL will join the Axis
 country_event = {
 	id = mtg_germany.2
 	title = mtg_germany.2.t
@@ -59,7 +59,7 @@ country_event = {
 	}
 }
 
-# Event for GER saying HOL will join the Axis
+# Event for SAX saying HOL will join the Axis
 country_event = {
 	id = mtg_germany.3
 	title = mtg_germany.3.t

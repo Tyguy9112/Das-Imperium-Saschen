@@ -106,7 +106,7 @@ country_event = {
 			country_event = { days = 1 id = hungary.4 }
 			effect_tooltip = { add_state_claim = 76 }
 		}
-		GER = {
+		SAX = {
 			country_event = { days = 1 id = germany.21 }
 			effect_tooltip = {
 				create_wargoal = {
@@ -157,7 +157,7 @@ country_event = {
 				add_state_claim = 84
 			}
 		}
-		GER = {
+		SAX = {
 			country_event = { days = 1 id = germany.21 }
 			effect_tooltip = {
 				create_wargoal = {
@@ -228,8 +228,8 @@ country_event = {
 	trigger = {
 		has_country_flag = bessarabia_ceded
 		is_in_faction = no
-		NOT = { GER = { is_in_faction_with = SOV } }
-		NOT = { has_war_with = GER }
+		NOT = { SAX = { is_in_faction_with = SOV } }
+		NOT = { has_war_with = SAX }
 		NOT = { has_war_with = SOV }
 		NOT = { has_dlc = "Death or Dishonor" }
 	}
@@ -248,13 +248,13 @@ country_event = {
 			ideology = fascism
 			popularity = 0.35
 		}
-		add_opinion_modifier = { target = GER modifier = ROM_seek_alliance_GER }
+		add_opinion_modifier = { target = SAX modifier = ROM_seek_alliance_SAX }
 		add_ideas = ROM_revenge_against_soviet
 		ai_chance = { 
 			base = 2
 			modifier = {
 				factor = 0
-				has_war_with = GER
+				has_war_with = SAX
 			}
 		}
 	}
@@ -274,13 +274,13 @@ country_event = {
 			base = 1
 			modifier = {
 				factor = 0
-				NOT = { has_war_with = GER }
+				NOT = { has_war_with = SAX }
 				has_war_with = SOV
 			}
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
-				NOT = { has_war_with = GER }
+				NOT = { has_war_with = SAX }
 			}
 		}
 	}

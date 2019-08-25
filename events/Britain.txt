@@ -174,7 +174,7 @@ country_event = {
 	option = {
 		name = britain.7.a
 		ai_chance = { factor = 60 }
-		GER = {
+		SAX = {
 				add_opinion_modifier = { target = ROOT modifier = embargo } 
 			}
 	}
@@ -248,8 +248,8 @@ country_event = {
 			DEN = { surrender_progress > 0.1 }
 			NOR = { surrender_progress > 0.1 }
 			AND = {
-				110 = { is_controlled_by = GER }
-				NOT = { is_in_faction_with = GER }
+				110 = { is_controlled_by = SAX }
+				NOT = { is_in_faction_with = SAX }
 			}
 		}
 		NOT = { has_country_flag = chamberlain_died }
@@ -476,7 +476,7 @@ country_event = {
 					ITA = {
 						OR = {
 							NOT = { has_completed_focus = ITA_yugoslavia_friend }						
-							is_in_faction_with = GER
+							is_in_faction_with = SAX
 							exists = no
 						}
 					}
@@ -490,7 +490,7 @@ country_event = {
 				limit = { 
 					ITA = {
 						has_completed_focus = ITA_yugoslavia_friend
-						NOT = { is_in_faction_with = GER }
+						NOT = { is_in_faction_with = SAX }
 						NOT = { has_war_with = YUG }
 					}
 				}
@@ -505,28 +505,28 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 		if = {
 			limit = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 				is_faction_leader = yes
 			}
-			remove_from_faction = GER
+			remove_from_faction = SAX
 		}
 		if = {
 			limit = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 				is_faction_leader = no
 			}
-			GER = { remove_from_faction = ENG }
+			SAX = { remove_from_faction = ENG }
 		}
 		add_political_power = -200
 		add_stability = -0.05
-		add_opinion_modifier = { target = GER modifier = condemn_aggression }
+		add_opinion_modifier = { target = SAX modifier = condemn_aggression }
 		effect_tooltip = {
-			GER = {
+			SAX = {
 				create_wargoal = {
 					type = take_state_focus
 					target = YUG

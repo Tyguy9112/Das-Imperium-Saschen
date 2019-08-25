@@ -688,7 +688,7 @@ country_event = {
 		name = DOD_romania.62.b
 		trigger = {
 			OR = {
-				GER = {
+				SAX = {
 					NOT = { owns_state = 102 }
 				}
 				ITA = {
@@ -700,15 +700,15 @@ country_event = {
 			factor = 25
 		}
 		if = {
-			limit = { GER = { NOT = { owns_state = 102 } } }
-			GER = { country_event = DOD_romania.63 }	
+			limit = { SAX = { NOT = { owns_state = 102 } } }
+			SAX = { country_event = DOD_romania.63 }	
 		}
 		if = {
 			limit = { 
 				ITA = { 
 					NOT = { owns_state = 103 } 
 				} 
-				GER = { owns_state = 102 }
+				SAX = { owns_state = 102 }
 			}
 			ITA = { country_event = DOD_romania.64 }
 			
@@ -735,7 +735,7 @@ country_event = {
 		add_state_claim = 102
 		ROM = { 
 			country_event = DOD_romania.65 
-			set_country_flag = ROM_YUG_GER_approves
+			set_country_flag = ROM_YUG_SAX_approves
 		}
 		ITA = { country_event = DOD_romania.64 }	
 	}
@@ -790,13 +790,13 @@ country_event = {
 		ROM = { country_event = DOD_romania.66 }
 		if = {
 			limit = {
-				102 = { is_claimed_by = GER }
+				102 = { is_claimed_by = SAX }
 			}
 			ROM = { country_event = { id = DOD_romania.67 hours = 12 } }
 		}
 		if = {
 			limit = {
-				NOT = { 102 = { is_claimed_by = GER } }
+				NOT = { 102 = { is_claimed_by = SAX } }
 			}
 			ROM = { country_event = { id = DOD_romania.68 hours = 12 } }
 		}
@@ -877,10 +877,10 @@ country_event = {
 	id = DOD_romania.69
 	title = DOD_romania.69.t
 	desc = {
-		text = DOD_romania.69.desc_GER
+		text = DOD_romania.69.desc_SAX
 		trigger = {
 			 ROM = { 
-			 	has_country_flag = ROM_YUG_GER_approves
+			 	has_country_flag = ROM_YUG_SAX_approves
 			 	NOT = { has_country_flag = ROM_YUG_ITA_approves }
 			 }
 		}
@@ -890,15 +890,15 @@ country_event = {
 		trigger = {
 			 ROM = { 
 			 	has_country_flag = ROM_YUG_ITA_approves
-			 	NOT = { has_country_flag = ROM_YUG_GER_approves }
+			 	NOT = { has_country_flag = ROM_YUG_SAX_approves }
 			 }
 		}
 	}
 	desc = {
-		text = DOD_romania.69.desc_GERITA
+		text = DOD_romania.69.desc_SAXITA
 		trigger = {
 			ROM = { 
-			 	has_country_flag = ROM_YUG_GER_approves
+			 	has_country_flag = ROM_YUG_SAX_approves
 			 	has_country_flag = ROM_YUG_ITA_approves 
 			 }
 		}
@@ -912,7 +912,7 @@ country_event = {
 		ai_chance = {
 			factor = 60
 			modifier = {
-				102 = { is_claimed_by = GER }
+				102 = { is_claimed_by = SAX }
 				factor = 2
 			}
 			modifier = {
@@ -935,8 +935,8 @@ country_event = {
 		}
 		ROM = { country_event = DOD_romania.71 }
 		if = {
-			limit = { ROM = { has_country_flag = ROM_YUG_GER_approves } }
-			GER = { country_event = DOD_romania.71 }
+			limit = { ROM = { has_country_flag = ROM_YUG_SAX_approves } }
+			SAX = { country_event = DOD_romania.71 }
 		}
 		if = {
 			limit = { ROM = { has_country_flag = ROM_YUG_ITA_approves } }
@@ -1040,7 +1040,7 @@ country_event = {
 			limit = {
 				102 = { 
 					is_owned_by = YUG 
-					NOT = { is_claimed_by = GER }
+					NOT = { is_claimed_by = SAX }
 				}
 
 			}
@@ -1050,18 +1050,18 @@ country_event = {
 			limit = {
 				102 = { 
 					is_owned_by = YUG 
-					is_claimed_by = GER
+					is_claimed_by = SAX
 				}
 
 			}
-			GER = { transfer_state = 102 }
+			SAX = { transfer_state = 102 }
 		}
 		if = {
-			limit = { has_country_flag = ROM_YUG_GER_approves }
-			GER = { puppet = CRO }
+			limit = { has_country_flag = ROM_YUG_SAX_approves }
+			SAX = { puppet = CRO }
 		}
 		if = {
-			limit = { NOT = { has_country_flag = ROM_YUG_GER_approves } }
+			limit = { NOT = { has_country_flag = ROM_YUG_SAX_approves } }
 			puppet = CRO 
 		}
 		hidden_effect = {
@@ -1093,8 +1093,8 @@ country_event = {
 			}
 		}
 		if = {
-			limit = { ROM = { has_country_flag = ROM_YUG_GER_approves } }
-			GER = { 
+			limit = { ROM = { has_country_flag = ROM_YUG_SAX_approves } }
+			SAX = { 
 				create_wargoal = {
 					target = YUG
 					type = take_state_focus
@@ -1705,7 +1705,7 @@ country_event = {
 
 }
 
-#Split CZE - GER approached by Romania
+#Split CZE - SAX approached by Romania
 country_event = {
 	id = DOD_romania.110
 	title = DOD_romania.110.t
@@ -1749,7 +1749,7 @@ country_event = {
 	}
 }
 
-#Intervene in CZE - GER refuses
+#Intervene in CZE - SAX refuses
 country_event = {
 	id = DOD_romania.113
 	title = DOD_romania.113.t
@@ -1794,7 +1794,7 @@ country_event = {
 				factor = 0
 			}
 			modifier = {
-				GER = {
+				SAX = {
 					is_in_faction_with = ROM
 					is_in_faction_with = HUN
 				}
@@ -1802,7 +1802,7 @@ country_event = {
 			}
 		}
 		custom_effect_tooltip = GAME_OVER_TT
-		GER = {
+		SAX = {
 			transfer_state = 9
 			transfer_state = 69
 			transfer_state = 75
@@ -1844,15 +1844,15 @@ country_event = {
 				factor = 2
 			}
 			modifier = {
-				strength_ratio = { tag = GER ratio > 0.75 }
+				strength_ratio = { tag = SAX ratio > 0.75 }
 				factor = 2
 			}
 			modifier = {
-				GER = { has_war = yes }
+				SAX = { has_war = yes }
 				factor = 5
 			}
 		}
-		GER = {
+		SAX = {
 			create_wargoal = {
 				type = take_state_focus
 				target = CZE
@@ -1926,9 +1926,9 @@ country_event = {
 				factor = 0
 			}
 		}
-		set_country_flag = GER_mot_chosen
+		set_country_flag = SAX_mot_chosen
 		add_relation_modifier = {
-				target = GER
+				target = SAX
 				modifier = ROM_foreign_motor_company
 			}
 	}
@@ -1958,7 +1958,7 @@ country_event = {
 		name = DOD_hungary.150.a
 		trigger = {
 			OR = {
-				GER = {
+				SAX = {
 					is_available_fighter_HUN = yes
 				}
 				FRA = {
@@ -1998,7 +1998,7 @@ country_event = {
 		name = DOD_hungary.150.b
 		trigger = {
 			OR = {
-				GER = {
+				SAX = {
 					is_available_heavy_fighter_HUN = yes
 				}
 				FRA = {
@@ -2042,7 +2042,7 @@ country_event = {
 		text = DOD_hungary.151.desc_light_fighter
 		trigger = {
 			NOT = { 
-				has_country_flag = GER_fighter_refused
+				has_country_flag = SAX_fighter_refused
 				has_country_flag = ENG_fighter_refused
 				has_country_flag = USA_fighter_refused
 				has_country_flag = FRA_fighter_refused
@@ -2054,7 +2054,7 @@ country_event = {
 		text = DOD_hungary.151.desc_light_fighter_refused
 		trigger = {
 			OR = {
-		 		has_country_flag = GER_fighter_refused
+		 		has_country_flag = SAX_fighter_refused
 				has_country_flag = ENG_fighter_refused
 				has_country_flag = USA_fighter_refused
 				has_country_flag = FRA_fighter_refused
@@ -2071,27 +2071,27 @@ country_event = {
 		ai_chance = {
 			factor = 30
 			modifier = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 				factor = 10
 			}
 			modifier = {
-				GER = { has_government = ROOT }
+				SAX = { has_government = ROOT }
 				factor = 2
 			}
 			modifier = {
-				GER = {
+				SAX = {
 					has_tech = fighter1
 				}
 				add = 10
 			}
 			modifier = {
-				GER = {
+				SAX = {
 					has_tech = fighter2
 				}
 				add = 10
 			}
 			modifier = {
-				GER = {
+				SAX = {
 					has_tech = fighter3
 				}
 				add = 10
@@ -2100,22 +2100,22 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					GER = { has_tech = fighter1}
+					SAX = { has_tech = fighter1}
 					ROM = { NOT = { has_tech = fighter1 } }
 				}
 				AND = {
-					GER = { has_tech = fighter2}
+					SAX = { has_tech = fighter2}
 					ROM = { NOT = { has_tech = fighter2 } }
 				}
 				AND = {
-					GER = { has_tech = fighter3}
+					SAX = { has_tech = fighter3}
 					ROM = { NOT = { has_tech = fighter3 } }
 				}
 			}
-			NOT = { has_war_with = GER }
-			NOT = { has_country_flag = GER_fighter_refused }
+			NOT = { has_war_with = SAX }
+			NOT = { has_country_flag = SAX_fighter_refused }
 		}
-		GER = { country_event = DOD_romania.153 }	
+		SAX = { country_event = DOD_romania.153 }	
 	}
 
 	option = {# select italian plane
@@ -2323,7 +2323,7 @@ country_event = {
 			NOT = { has_country_flag = USA_fighter_refused }
 			NOT = { #to prevent overflow issues
 				AND = {
-					GER = {
+					SAX = {
 						is_available_fighter_ROM = yes
 					}
 					FRA = {
@@ -2344,7 +2344,7 @@ country_event = {
 		name = DOD_hungary.151.f	
 		trigger = {
 			OR = {
-				has_country_flag = GER_fighter_refused
+				has_country_flag = SAX_fighter_refused
 				has_country_flag = ITA_fighter_refused
 				has_country_flag = ENG_fighter_refused
 				has_country_flag = FRA_fighter_refused
@@ -2364,7 +2364,7 @@ country_event = {
 		text = DOD_hungary.152.desc_heavy_fighter
 		trigger = {
 			NOT = { 
-				has_country_flag = GER_heavy_fighter_refused
+				has_country_flag = SAX_heavy_fighter_refused
 				has_country_flag = ENG_heavy_fighter_refused
 				has_country_flag = USA_heavy_fighter_refused
 				has_country_flag = FRA_heavy_fighter_refused
@@ -2376,7 +2376,7 @@ country_event = {
 		text = DOD_hungary.152.desc_heavy_fighter_refused
 		trigger = {
 			OR = {
-		 		has_country_flag = GER_heavy_fighter_refused
+		 		has_country_flag = SAX_heavy_fighter_refused
 				has_country_flag = ENG_heavy_fighter_refused
 				has_country_flag = USA_heavy_fighter_refused
 				has_country_flag = FRA_heavy_fighter_refused
@@ -2393,27 +2393,27 @@ country_event = {
 		ai_chance = {
 			factor = 30
 			modifier = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 				factor = 10
 			}
 			modifier = {
-				GER = { has_government = ROOT }
+				SAX = { has_government = ROOT }
 				factor = 2
 			}
 			modifier = {
-				GER = {
+				SAX = {
 					has_tech = heavy_fighter1
 				}
 				add = 10
 			}
 			modifier = {
-				GER = {
+				SAX = {
 					has_tech = heavy_fighter2
 				}
 				add = 10
 			}
 			modifier = {
-				GER = {
+				SAX = {
 					has_tech = heavy_fighter3
 				}
 				add = 10
@@ -2422,22 +2422,22 @@ country_event = {
 		trigger = {
 			OR = {
 				AND = {
-					GER = { has_tech = heavy_fighter1}
+					SAX = { has_tech = heavy_fighter1}
 					ROM = { NOT = { has_tech = heavy_fighter1 } }
 				}
 				AND = {
-					GER = { has_tech = heavy_fighter2}
+					SAX = { has_tech = heavy_fighter2}
 					ROM = { NOT = { has_tech = heavy_fighter2 } }
 				}
 				AND = {
-					GER = { has_tech = heavy_fighter3}
+					SAX = { has_tech = heavy_fighter3}
 					ROM = { NOT = { has_tech = heavy_fighter3 } }
 				}
 			}
-			NOT = { has_war_with = GER }
-			NOT = { has_country_flag = GER_heavy_fighter_refused }
+			NOT = { has_war_with = SAX }
+			NOT = { has_country_flag = SAX_heavy_fighter_refused }
 		}
-		GER = { country_event = DOD_romania.154 }	
+		SAX = { country_event = DOD_romania.154 }	
 	}
 
 	option = {# select italian plane
@@ -2645,7 +2645,7 @@ country_event = {
 			NOT = { has_country_flag = USA_heavy_fighter_refused }
 			NOT = { #to prevent overflow issues
 				AND = {
-					GER = {
+					SAX = {
 						is_available_heavy_fighter_ROM = yes
 					}
 					FRA = {
@@ -2666,7 +2666,7 @@ country_event = {
 		name = DOD_hungary.151.f	
 		trigger = {
 			OR = {
-				has_country_flag = GER_heavy_fighter_refused
+				has_country_flag = SAX_heavy_fighter_refused
 				has_country_flag = ITA_heavy_fighter_refused
 				has_country_flag = ENG_heavy_fighter_refused
 				has_country_flag = FRA_heavy_fighter_refused
@@ -2749,8 +2749,8 @@ country_event = {
 			}
 		}
 		if = {
-			limit = { tag = GER }
-			ROM = { set_country_flag = GER_fighter_refused }
+			limit = { tag = SAX }
+			ROM = { set_country_flag = SAX_fighter_refused }
 		}
 		if = {
 			limit = { tag = ITA }
@@ -2844,8 +2844,8 @@ country_event = {
 			}
 		}
 		if = {
-			limit = { tag = GER }
-			ROM = { set_country_flag = GER_heavy_fighter_refused }
+			limit = { tag = SAX }
+			ROM = { set_country_flag = SAX_heavy_fighter_refused }
 		}
 		if = {
 			limit = { tag = ITA }

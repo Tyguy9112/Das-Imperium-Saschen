@@ -67,26 +67,26 @@ objectTypes = {
 	}
 	
 	pdxmesh = {
-		name = "GER_plane_light_mesh"
-		file = "gfx/models/units/planes/GER_plane_light.mesh"
+		name = "SAX_plane_light_mesh"
+		file = "gfx/models/units/planes/SAX_plane_light.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 	}
 	
 	pdxmesh = {
-		name = "GER_plane_jet_mesh"
-		file = "gfx/models/units/planes/GER_plane_jet.mesh"
+		name = "SAX_plane_jet_mesh"
+		file = "gfx/models/units/planes/SAX_plane_jet.mesh"
 		animation = { id = "idle" type = "fighter_default_idle_animation" }
 	}
 	
 	pdxmesh = {
-		name = "GER_plane_medium_mesh"
-		file = "gfx/models/units/planes/GER_plane_medium.mesh"
+		name = "SAX_plane_medium_mesh"
+		file = "gfx/models/units/planes/SAX_plane_medium.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
 	}
 	
 		pdxmesh = {
-		name = "GER_plane_heavy_mesh"
-		file = "gfx/models/units/planes/GER_plane_heavy.mesh"
+		name = "SAX_plane_heavy_mesh"
+		file = "gfx/models/units/planes/SAX_plane_heavy.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
 	}
 	

@@ -854,7 +854,7 @@ country_event = {
 		}
 		has_global_flag = CHI_unite
 		tag = SIK
-		GER = { has_war_with = SOV }
+		SAX = { has_war_with = SOV }
 		CHI = {
 			has_war_with = JAP 
 			has_defensive_war = yes
@@ -880,9 +880,9 @@ country_event = {
 			modifier = {
 				add = 50
 				SOV = {
-					has_war_with = GER
+					has_war_with = SAX
 				}
-				GER = {
+				SAX = {
 					is_in_faction_with = JAP
 				}
 			}
@@ -904,9 +904,9 @@ country_event = {
 			modifier = {
 				add = 50
 				SOV = {
-					has_war_with = GER
+					has_war_with = SAX
 				}
-				GER = {
+				SAX = {
 					is_in_faction_with = JAP
 				}
 				is_in_faction = no

@@ -1414,16 +1414,16 @@ country_event = {
 		name = mtg_britain.23.a
 		if = {
 			limit = {
-				ITA = { is_in_faction_with = GER }
+				ITA = { is_in_faction_with = SAX }
 				ITA = { has_war = no }
 				has_war = no
 			}
-			GER = { remove_from_faction = ITA }
+			SAX = { remove_from_faction = ITA }
 		}
 		FROM = { country_event = { id = mtg_britain.24 hours = 6 } }
 		ITA = { country_event = { id = mtg_britain.25 hours = 6 } }
 		hidden_effect = {
-			GER = {
+			SAX = {
 				add_ai_strategy = {
 					type = befriend
 					id = ITA
@@ -1496,32 +1496,32 @@ country_event = {
 		hidden_effect = {
 			add_ai_strategy = {
 				type = befriend
-				id = GER
+				id = SAX
 				value = -200
 			}
 			add_ai_strategy = {
 				type = protect
-				id = GER
+				id = SAX
 				value = -200
 			}
 			add_ai_strategy = {
 				type = send_volunteers_desire
-				id = GER
+				id = SAX
 				value = -200
 			}
 			add_ai_strategy = {
 				type = support
-				id = GER
+				id = SAX
 				value = -200
 			}
 			add_ai_strategy = {
 				type = alliance
-				id = GER
+				id = SAX
 				value = -200
 			}
 			add_ai_strategy = {
 				type = antagonize
-				id = GER
+				id = SAX
 				value = 200
 			}
 		}
@@ -1563,7 +1563,7 @@ country_event = {
 			limit = {
 				NOT = { is_in_faction = yes }
 			}
-			create_faction = GER_central_powers_faction
+			create_faction = SAX_central_powers_faction
 		}
 		FROM = { country_event = { id = mtg_britain.28 hours = 6 } }
 	}
@@ -1657,7 +1657,7 @@ country_event = {
 	# Accept
 	option = {
 		name = mtg_britain.30.a
-		GER = {
+		SAX = {
 			add_opinion_modifier = { target = ENG modifier = ENG_non_interference_treaty }
 			reverse_add_opinion_modifier = { target = ENG modifier = ENG_non_interference_treaty }
 		}
@@ -1694,7 +1694,7 @@ country_event = {
 	option = {
 		name = excellent
 		diplomatic_relation = {
-		    country = GER
+		    country = SAX
 		    relation = non_aggression_pact
 		    active = yes
 		}
@@ -3421,7 +3421,7 @@ country_event = {
 	}
 }
 
-# Soviet Cooperation - event for SOV - Wanna gang up on GER?
+# Soviet Cooperation - event for SOV - Wanna gang up on SAX?
 country_event = {
 	id = mtg_britain.49
 	title = mtg_britain.49.t
@@ -3446,12 +3446,12 @@ country_event = {
 			FROM = {
 				create_wargoal = {
 					type = puppet_wargoal_focus
-					target = GER
+					target = SAX
 				}
 			}
 			create_wargoal = {
 				type = puppet_wargoal_focus
-				target = GER
+				target = SAX
 			}
 		}
 	}
@@ -3484,12 +3484,12 @@ country_event = {
 		name = mtg_britain.50.a
 		create_wargoal = {
 			type = puppet_wargoal_focus
-			target = GER
+			target = SAX
 		}
 		FROM = {
 			create_wargoal = {
 				type = puppet_wargoal_focus
-				target = GER
+				target = SAX
 			}
 		}
 	}
@@ -3509,7 +3509,7 @@ country_event = {
 		name = mtg_britain.51.a
 		create_wargoal = {
 			type = puppet_wargoal_focus
-			target = GER
+			target = SAX
 		}
 	}
 }
@@ -4265,7 +4265,7 @@ country_event = {
 	# Ok
 	option = {
 		name = mtg_britain.60.a
-		GER = { add_opinion_modifier = { target = ENG modifier = ENG_spoke_out_against_us } }
+		SAX = { add_opinion_modifier = { target = ENG modifier = ENG_spoke_out_against_us } }
 	}
 }
 
@@ -7592,7 +7592,7 @@ country_event = {
 			desc = "POLITICS_GEORGE_VI_DESC"
 			picture = "gfx/leaders/PAL/Portrait_Britain_George_VI.dds"
 			expire = "1965.1.1"
-			ideology = Monarchist
+			ideology = despotism
 			traits = {
 				popular_figurehead stammer humble
 			}
@@ -7628,7 +7628,7 @@ country_event = {
 			desc = "POLITICS_ELIZABETH_II_DESC"
 			picture = "GFX_portrait_eng_elizabeth_ii"
 			expire = "1965.1.1"
-			ideology = Monarchist
+			ideology = despotism
 			traits = {
 				inexperienced_monarch headstrong popular_queen
 			}

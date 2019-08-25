@@ -68,7 +68,7 @@ country_event = {
 			limit = {
 				OR = {
 					106 = { is_owned_by = YUG }
-					106 = { is_owned_by = GER }
+					106 = { is_owned_by = SAX }
 				}
 			}
 			transfer_state = 106
@@ -108,7 +108,7 @@ country_event = {
 	option = {
 		ai_chance = { factor = 10 }
 		name = bulgaria.4.a
-		GER = { country_event = germany.106 }
+		SAX = { country_event = germany.106 }
 	}	
 	#dont make demands
 	option = {

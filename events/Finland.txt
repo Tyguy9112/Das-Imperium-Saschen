@@ -388,22 +388,22 @@ country_event = {
 		}
 		if = {
 			limit = {
-				GER = {
+				SAX = {
 					is_subject = no
 					not = { is_in_faction_with = SOV}
 				}
 			}
 			add_ai_strategy = {
 				type = alliance
-				id = "GER"			
+				id = "SAX"			
 				value = 200
 			}
 			add_ai_strategy = {
 				type = befriend
-				id = "GER"			
+				id = "SAX"			
 				value = 200
 			}
-			GER = {
+			SAX = {
 				add_ai_strategy = {
 					type = alliance
 					id = "FIN"			

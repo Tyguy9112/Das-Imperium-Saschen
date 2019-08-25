@@ -3,7 +3,7 @@
 ####
 
 entity = { 
-	name = "GER_battleship_entity"
+	name = "SAX_battleship_entity"
 	pdxmesh = "bismarck_battleship_mesh" 
 	
 	default_state = idle

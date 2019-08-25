@@ -5,9 +5,7 @@ state={
 	
 	state_category = city
 	history={
-		owner = SAX
-		controller = SAX
-
+		owner = POL
 		victory_points = {
 			362 10
 		}
@@ -27,10 +25,10 @@ state={
 				naval_base = 5
 			}
 		}
-		add_core_of = SAX
-		#1939.1.1 = {
-			#add_claim_by = SAX
-		#}
+		add_core_of = POL
+		1938.3.12 = {
+			add_claim_by = SAX
+		}
 	}
 
 	provinces={

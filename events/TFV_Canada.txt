@@ -207,12 +207,12 @@ country_event = {
 	option = {
 		name = tfv_canada.21.a # Germany accepts Canadian membership
 		
-		GER = {
+		SAX = {
 			add_to_faction = CAN
 		}
 		if = {
 			limit = {
-				GER = {
+				SAX = {
 					has_war = yes
 				}
 			}
@@ -220,7 +220,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				GER = {
+				SAX = {
 					has_war = no
 				}
 			}

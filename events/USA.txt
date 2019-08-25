@@ -838,7 +838,7 @@ country_event = {
 				}
 			}
 		}
-		add_opinion_modifier = { target = GER modifier = unholy_alliance }
+		add_opinion_modifier = { target = SAX modifier = unholy_alliance }
 	}
 
 	option = {
@@ -1134,7 +1134,7 @@ country_event = {
 				}
 			}
 		}
-		add_opinion_modifier = { target = GER modifier = unholy_alliance }
+		add_opinion_modifier = { target = SAX modifier = unholy_alliance }
 		add_opinion_modifier = { target = SOV modifier = unholy_alliance }
 	}
 

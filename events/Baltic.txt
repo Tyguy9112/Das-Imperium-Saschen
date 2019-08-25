@@ -225,11 +225,11 @@ country_event = {
 				factor = 0
 				NOT = {
 					OR = {
-						is_puppet_of = GER
-						is_in_faction_with = GER
+						is_puppet_of = SAX
+						is_in_faction_with = SAX
 					}
 				}
-				GER = {
+				SAX = {
 					surrender_progress > 0.09
 				}
 			}
@@ -237,25 +237,25 @@ country_event = {
 				factor = 0
 				any_other_country = {
 					is_in_faction_with = ROOT
-					has_war_with = GER
+					has_war_with = SAX
 				}
 			}
 			modifier = {
 				factor = 0
 				any_other_country = {
 					NOT = {
-						tag = GER
+						tag = SAX
 					}
 					LIT = {
 						is_puppet_of = PREV
 					}
 					NOT = {
-						is_in_faction_with = GER
+						is_in_faction_with = SAX
 					}
 				}
 			}
 		}
-		GER = {
+		SAX = {
 			country_event = { days = 1 id = germany.22 }
 		}
 	}
@@ -267,26 +267,26 @@ country_event = {
 				factor = 0
 				is_historical_focus_on = yes
 				NOT = {
-					GER = {
+					SAX = {
 						surrender_progress > 0.09
 					}
 				}
 				NOT = {
 					any_other_country = {
 						is_in_faction_with = ROOT
-						has_war_with = GER
+						has_war_with = SAX
 					}
 				}
 				NOT = {
 					any_other_country = {
 						NOT = {
-							tag = GER
+							tag = SAX
 						}
 						LIT = {
 							is_puppet_of = PREV
 						}
 						NOT = {
-							is_in_faction_with = GER
+							is_in_faction_with = SAX
 						}
 					}
 				}
@@ -294,15 +294,15 @@ country_event = {
 			modifier = {
 				factor = 0
 				OR = {
-					is_in_faction_with = GER
+					is_in_faction_with = SAX
 					LIT = {
-						is_puppet_of = GER
+						is_puppet_of = SAX
 					}
 				}
 			}
 		}
 		effect_tooltip = {
-			GER = {
+			SAX = {
 				create_wargoal = {
 				type = take_state_focus
 				target = LIT
@@ -312,7 +312,7 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			GER = {
+			SAX = {
 				country_event = { days = 1 id = germany.23 }
 			}
 		}		

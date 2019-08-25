@@ -21,16 +21,16 @@ country_event = {
 				capital = 64
 				states = { 64 61 52 53 54 60 65 66 67 68 62 63 5 }
 			}
-			set_party_name = { ideology = neutrality long_name = GER_neutrality_party_civil_war name = GER_neutrality_party_civil_war }
-			load_oob = "GER_German_Civil_War_neutrality"
+			set_party_name = { ideology = neutrality long_name = SAX_neutrality_party_civil_war name = SAX_neutrality_party_civil_war }
+			load_oob = "SAX_German_Civil_War_neutrality"
 			random_other_country = {
 				limit = {
-					original_tag = GER
+					original_tag = SAX
 					has_government = fascism
 				}
 				set_stability = 0.9
 				set_war_support = 0.8
-				load_oob = "GER_German_Civil_War_fascist"
+				load_oob = "SAX_German_Civil_War_fascist"
 			}
 			hidden_effect = { news_event = { id = wtt_news.1 hours = 6 } }
 			
@@ -57,16 +57,16 @@ country_event = {
 			set_stability = 0.9
 			set_war_support = 0.8
 		}
-		custom_effect_tooltip = GER_fascism_civil_war_tt
+		custom_effect_tooltip = SAX_fascism_civil_war_tt
 		add_stability = -0.25
-		hidden_effect = { set_cosmetic_tag = GER_provisional_gvt }
+		hidden_effect = { set_cosmetic_tag = SAX_provisional_gvt }
 		random_other_country = {
 			limit = {
-				original_tag = GER
+				original_tag = SAX
 				has_government = fascism
 			}
-			set_cosmetic_tag = GER_civil_war
-			hidden_effect = { activate_mission = GER_mefo_bills_mission }
+			set_cosmetic_tag = SAX_civil_war
+			hidden_effect = { activate_mission = SAX_mefo_bills_mission }
 		}
 		create_country_leader = {
 			name = "August von Mackensen"
@@ -81,15 +81,15 @@ country_event = {
 		hidden_effect = {
 			random_other_country = {
 				limit = {
-					original_tag = GER
+					original_tag = SAX
 					has_government = fascism
 				}
 				save_event_target_as = fascist_germany_civil_war
 				every_unit_leader = {
-					set_nationality = GER
+					set_nationality = SAX
 				}
 			}
-			GER = {
+			SAX = {
 				every_unit_leader = {
 					limit = {
 						OR = {
@@ -110,17 +110,17 @@ country_event = {
 				add_equipment_to_stockpile = {
 				    type = infantry_equipment
 				    amount = 10000
-				    producer = GER
+				    producer = SAX
 				}
 				add_equipment_to_stockpile = {
 				    type = support_equipment
 				    amount = 250
-				    producer = GER
+				    producer = SAX
 				}
 				add_equipment_to_stockpile = {
 				    type = artillery_equipment
 				    amount = 500
-				    producer = GER
+				    producer = SAX
 				}
 			}
 		}
@@ -172,21 +172,21 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0.5
-				strength_ratio = { tag = GER ratio > 1.5 }
+				strength_ratio = { tag = SAX ratio > 1.5 }
 			}
 			modifier = {
 				factor = 0.2
-				strength_ratio = { tag = GER ratio > 3 }
+				strength_ratio = { tag = SAX ratio > 3 }
 			}
 			modifier = {
 				factor = 0
-				strength_ratio = { tag = GER ratio > 5 }
+				strength_ratio = { tag = SAX ratio > 5 }
 			}
 		}
-		GER = {
+		SAX = {
 			add_opinion_modifier = {
 				target = ROOT
-				modifier = GER_netherlands_kaiser_accept_opinion
+				modifier = SAX_netherlands_kaiser_accept_opinion
 			}
 			country_event = { id = wtt_germany.4 days = 1 }
 		}
@@ -200,22 +200,22 @@ country_event = {
 			factor = 50
 			modifier = {
 				factor = 0.5
-				strength_ratio = { tag = GER ratio < 1 }
+				strength_ratio = { tag = SAX ratio < 1 }
 			}
 			modifier = {
 				factor = 0.2
-				strength_ratio = { tag = GER ratio < 0.5 }
+				strength_ratio = { tag = SAX ratio < 0.5 }
 			}
 			modifier = {
 				factor = 0
-				strength_ratio = { tag = GER ratio < 0.2 }
+				strength_ratio = { tag = SAX ratio < 0.2 }
 			}
 		}
 		set_country_flag = netherlands_refused_return_kaiser
-		GER = {
+		SAX = {
 			add_opinion_modifier = {
 				target = ROOT
-				modifier = GER_netherlands_kaiser_decline_opinion
+				modifier = SAX_netherlands_kaiser_decline_opinion
 			}
 			country_event = { id = wtt_germany.5 days = 1 }
 			hidden_effect = { news_event = { id = wtt_news.2 hours = 30 } }
@@ -337,16 +337,16 @@ country_event = {
 				limit = { 
 					tag = HUN
 				}
-				GER = { puppet = HUN }
+				SAX = { puppet = HUN }
 			}
 			if = {
 				limit = { 
 					tag = ROM
 				}
-				GER = { puppet = ROM }
+				SAX = { puppet = ROM }
 			}
 			every_state = {
-				limit = { has_state_flag = GER_integrate_war_economies }
+				limit = { has_state_flag = SAX_integrate_war_economies }
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
@@ -373,8 +373,8 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		add_timed_idea = { idea = GER_preparing_ITA_coup days = 1095 }
-		GER = {
+		add_timed_idea = { idea = SAX_preparing_ITA_coup days = 1095 }
+		SAX = {
 			country_event = { id = wtt_germany.9 days = 1 random = 2 }
 		}
 	}
@@ -385,7 +385,7 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		GER = {
+		SAX = {
 			country_event = { id = wtt_germany.10 days = 1 random = 2 }
 		}
 	}
@@ -436,8 +436,8 @@ country_event = {
 		set_politics = { ruling_party = neutrality elections_allowed = no }
 		add_popularity = { ideology = neutrality popularity = 0.1 }
 		swap_ideas = {
-			remove_idea = GER_preparing_ITA_coup
-			add_idea = GER_preparing_ITA_coup2
+			remove_idea = SAX_preparing_ITA_coup
+			add_idea = SAX_preparing_ITA_coup2
 		}
 		remove_ideas = victor_emmanuel
 		create_country_leader = {
@@ -452,10 +452,10 @@ country_event = {
 		}
 		add_ai_strategy = {
 			type = alliance
-			id = "GER"			
+			id = "SAX"			
 			value = 200
 		}	
-		GER = {
+		SAX = {
 			add_to_faction = ITA
 			country_event = { id = wtt_germany.12 }
 		}
@@ -510,14 +510,14 @@ country_event = {
 			factor = 50
 		}
 		effect_tooltip = {
-			GER = { transfer_state = 85 }
-			GER = { transfer_state = 86 }
-			GER = { transfer_state = 762 }
-			GER = { add_ideas = anti_soviet_pact }
+			SAX = { transfer_state = 85 }
+			SAX = { transfer_state = 86 }
+			SAX = { transfer_state = 762 }
+			SAX = { add_ideas = anti_soviet_pact }
 			add_ideas = anti_soviet_pact
-			add_opinion_modifier = { target = GER modifier = danzig_for_guarantees }
+			add_opinion_modifier = { target = SAX modifier = danzig_for_guarantees }
 		}
-		GER = {
+		SAX = {
 			country_event = { id = wtt_germany.15 days = 1 }
 		}
 	}
@@ -529,23 +529,23 @@ country_event = {
 			#factor = 50
 			modifier = {
 				factor = 0.5
-				strength_ratio = { tag = GER ratio < 1 }
+				strength_ratio = { tag = SAX ratio < 1 }
 			}
 			modifier = {
 				factor = 0.2
-				strength_ratio = { tag = GER ratio < 0.5 }
+				strength_ratio = { tag = SAX ratio < 0.5 }
 			}
 			modifier = {
 				factor = 0.5
-				GER = { strength_ratio = { tag = SOV ratio > 0.8 } }
+				SAX = { strength_ratio = { tag = SOV ratio > 0.8 } }
 			}
 			modifier = {
 				factor = 0
-				GER = { strength_ratio = { tag = SOV ratio > 0.8 } }
-				strength_ratio = { tag = GER ratio < 0.5 }
+				SAX = { strength_ratio = { tag = SOV ratio > 0.8 } }
+				strength_ratio = { tag = SAX ratio < 0.5 }
 			}
 		}
-		GER = {
+		SAX = {
 			country_event = { id = wtt_germany.16 days = 1 }
 		}
 	}
@@ -575,7 +575,7 @@ country_event = {
 		add_ideas = anti_soviet_pact
 		POL = { 
 			add_ideas = anti_soviet_pact
-			add_opinion_modifier = { target = GER modifier = danzig_for_guarantees }
+			add_opinion_modifier = { target = SAX modifier = danzig_for_guarantees }
 		}
 		hidden_effect = {
 			news_event = { id = wtt_news.7 hours = 6 }
@@ -642,7 +642,7 @@ country_event = {
 	option = {
 		name = wtt_germany.17.a
 		effect_tooltip = {
-			add_ideas = GER_communist_refugees
+			add_ideas = SAX_communist_refugees
 		}
 	}
 }
@@ -659,7 +659,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			news_event = { id = wtt_news.8 hours = 6 }
-			set_global_flag = GER_civil_war_end
+			set_global_flag = SAX_civil_war_end
 		}
 	}
 
@@ -676,7 +676,7 @@ country_event = {
 		name = wtt_germany.18.b
 		add_political_power = 75
 		add_popularity = { ideology = fascism popularity = 0.05 }
-		set_country_flag = GER_imprisoned_fascist_leadership
+		set_country_flag = SAX_imprisoned_fascist_leadership
 		delete_unit_template_and_units = { division_template = "Landsturmregiment" }
 	}
 }
@@ -696,8 +696,8 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		add_named_threat = { threat = 10 name = GER_soviet_military_exercises }
-		add_timed_idea = { idea = GER_soviet_military_exercises days = 365 }
+		add_named_threat = { threat = 10 name = SAX_soviet_military_exercises }
+		add_timed_idea = { idea = SAX_soviet_military_exercises days = 365 }
 		army_experience = 50
 		add_political_power = 100
 		hidden_effect = { news_event = { id = wtt_news.9 hours = 6 } }
@@ -709,11 +709,11 @@ country_event = {
 		ai_chance = {
 			factor = 5
 		}
-		add_named_threat = { threat = -5 name = GER_soviet_smoothes_relationships }
+		add_named_threat = { threat = -5 name = SAX_soviet_smoothes_relationships }
 		add_political_power = -50
 		every_country = {
 			limit = {
-				has_idea = GER_the_great_red_menace
+				has_idea = SAX_the_great_red_menace
 			}
 			country_event = { id = wtt_germany.25 days = 1 random = 2 }
 			random_list = {
@@ -721,11 +721,11 @@ country_event = {
 					# No effect
 				}
 				20 = {
-					remove_ideas = GER_the_great_red_menace
+					remove_ideas = SAX_the_great_red_menace
 				}
 			}
 		}
-		GER = { country_event = { id = wtt_germany.25 days = 1 random = 2 } }
+		SAX = { country_event = { id = wtt_germany.25 days = 1 random = 2 } }
 	}
 
 	# Do nothing
@@ -752,8 +752,8 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		add_named_threat = { threat = 5 name = GER_soviet_reiterated_claims }
-		add_timed_idea = { idea = GER_soviet_protect_our_sphere days = 365 }
+		add_named_threat = { threat = 5 name = SAX_soviet_reiterated_claims }
+		add_timed_idea = { idea = SAX_soviet_protect_our_sphere days = 365 }
 		add_political_power = 100
 		add_state_claim = 722
 		add_state_claim = 147
@@ -798,7 +798,7 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		add_named_threat = { threat = 10 name = GER_soviet_securing_sphere }
+		add_named_threat = { threat = 10 name = SAX_soviet_securing_sphere }
 		add_political_power = 100
 		create_wargoal = {
 			type = annex_everything
@@ -839,7 +839,7 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		add_named_threat = { threat = 10 name = GER_soviet_securing_sphere }
+		add_named_threat = { threat = 10 name = SAX_soviet_securing_sphere }
 		add_political_power = 100
 		create_wargoal = {
 			type = annex_everything
@@ -888,7 +888,7 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		add_named_threat = { threat = 10 name = GER_soviet_securing_sphere }
+		add_named_threat = { threat = 10 name = SAX_soviet_securing_sphere }
 		add_political_power = 100
 		create_wargoal = {
 			type = annex_everything
@@ -934,7 +934,7 @@ country_event = {
 	# Oh dear
 	option = {
 		name = wtt_germany.24.a
-		effect_tooltip = { add_ideas = GER_the_great_red_menace }
+		effect_tooltip = { add_ideas = SAX_the_great_red_menace }
 	}
 }
 
@@ -963,7 +963,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		original_tag = GER
+		original_tag = SAX
 		has_government = neutrality
 		date > 1939.1.1
 		has_country_leader = { ruling_only = yes name = "Wilhelm II" }
@@ -1000,7 +1000,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = GER
+		tag = SAX
 		has_government = neutrality
 		date > 1940.1.1
 		has_country_leader = { ruling_only = yes name = "August von Mackensen" }
@@ -1014,7 +1014,7 @@ country_event = {
 	option = {
 		name = wtt_germany.26.a
 		kill_country_leader = yes
-		set_country_flag = GER_mackensen_dead
+		set_country_flag = SAX_mackensen_dead
 		create_country_leader = {
 			name = "Wilhelm III"
 			desc = "POLITICS_WILHELM_III_DESC"
@@ -1037,13 +1037,13 @@ country_event = {
 	desc = {
 		text = wtt_germany.28.d
 		trigger = {
-			NOT = { GER = { has_country_flag = germany_war_return_kaiser } }
+			NOT = { SAX = { has_country_flag = germany_war_return_kaiser } }
 		}
 	}
 	desc = {
 		text = wtt_germany.28.d.2
 		trigger = {
-			GER = { has_country_flag = germany_war_return_kaiser }
+			SAX = { has_country_flag = germany_war_return_kaiser }
 		}
 	}
 	picture = GFX_report_event_german_troops
@@ -1053,14 +1053,14 @@ country_event = {
 	option = { # This means war!
 		name = germany.60.a
 		trigger = {
-			NOT = { GER = { has_country_flag = germany_war_return_kaiser } }
+			NOT = { SAX = { has_country_flag = germany_war_return_kaiser } }
 		}
 		ai_chance = { 
 			factor = 1 
 			modifier = {
 				factor = 10
 				strength_ratio = {
-					tag = GER
+					tag = SAX
 					ratio > 0.7
 				}
 				NOT = { has_idea = FRA_disjointed_government }
@@ -1068,7 +1068,7 @@ country_event = {
 			modifier = {
 				factor = 2
 				strength_ratio = {
-					tag = GER
+					tag = SAX
 					ratio > 1
 				}
 				NOT = { has_idea = FRA_disjointed_government }
@@ -1120,14 +1120,14 @@ country_event = {
 	option = { # This means war! (in case of German war on HOL)
 		name = germany.60.c
 		trigger = {
-			GER = { has_country_flag = germany_war_return_kaiser }
+			SAX = { has_country_flag = germany_war_return_kaiser }
 		}
 		ai_chance = { 
 			factor = 1 
 			modifier = {
 				factor = 10
 				strength_ratio = {
-					tag = GER
+					tag = SAX
 					ratio > 0.7
 				}
 				NOT = { has_idea = FRA_disjointed_government }
@@ -1135,14 +1135,14 @@ country_event = {
 			modifier = {
 				factor = 2
 				strength_ratio = {
-					tag = GER
+					tag = SAX
 					ratio > 1
 				}
 				NOT = { has_idea = FRA_disjointed_government }
 			}
 			modifier = {
 				factor = 20
-				GER = { has_country_flag = germany_war_return_kaiser }
+				SAX = { has_country_flag = germany_war_return_kaiser }
 			}
 		}
 		add_political_power = -150
@@ -1193,12 +1193,12 @@ country_event = {
 		ai_chance = { 
 			factor = 99 
 			modifier = {
-				has_global_flag = GER_has_started_war
+				has_global_flag = SAX_has_started_war
 				factor = 0
 			}
 		}
 		ENG = { country_event = wtt_germany.30 }
-		add_opinion_modifier = { target = GER modifier = protest_action }
+		add_opinion_modifier = { target = SAX modifier = protest_action }
 	}
 }
 
@@ -1209,13 +1209,13 @@ country_event = {
 	desc = {
 		text = wtt_germany.29.d
 		trigger = {
-			NOT = { GER = { has_country_flag = germany_war_return_kaiser } }
+			NOT = { SAX = { has_country_flag = germany_war_return_kaiser } }
 		}
 	}
 	desc = {
 		text = wtt_germany.29.d.2
 		trigger = {
-			GER = { has_country_flag = germany_war_return_kaiser }
+			SAX = { has_country_flag = germany_war_return_kaiser }
 		}
 	}
 	picture = GFX_report_event_german_troops
@@ -1227,7 +1227,7 @@ country_event = {
 		ai_chance = { 
 			factor = 90 
 			modifier = {
-				has_global_flag = GER_has_started_war
+				has_global_flag = SAX_has_started_war
 				factor = 0
 			}
 		}
@@ -1238,7 +1238,7 @@ country_event = {
 	option = { # Support France
 		name = germany.61.b
 		trigger = {
-			NOT = { GER = { has_country_flag = germany_war_return_kaiser } }
+			NOT = { SAX = { has_country_flag = germany_war_return_kaiser } }
 			NOT = { has_completed_focus = ENG_a_change_in_course }
 		}
 		ai_chance = { 
@@ -1246,13 +1246,13 @@ country_event = {
 			modifier = {
 				factor = 10
 				strength_ratio = {
-					tag = GER
+					tag = SAX
 					ratio > 0.7
 				}
 			} 
 			modifier = {
 				factor = 4
-				GER = { has_country_flag = germany_war_return_kaiser }
+				SAX = { has_country_flag = germany_war_return_kaiser }
 			}
 		}
 		add_political_power = -150
@@ -1293,7 +1293,7 @@ country_event = {
 	option = { # Support France (war with HOL)
 		name = germany.61.c
 		trigger = {
-			GER = { has_country_flag = germany_war_return_kaiser }
+			SAX = { has_country_flag = germany_war_return_kaiser }
 			NOT = { has_completed_focus = ENG_a_change_in_course }
 		}
 		ai_chance = { 
@@ -1301,13 +1301,13 @@ country_event = {
 			modifier = {
 				factor = 10
 				strength_ratio = {
-					tag = GER
+					tag = SAX
 					ratio > 0.7
 				}
 			} 
 			modifier = {
 				factor = 20
-				GER = { has_country_flag = germany_war_return_kaiser }
+				SAX = { has_country_flag = germany_war_return_kaiser }
 			}
 		}
 		add_political_power = -150
@@ -1359,8 +1359,8 @@ country_event = {
 	option = {
 		name = germany.62.a
 		trigger = { NOT = { has_completed_focus = ENG_a_change_in_course } }
-		add_opinion_modifier = { target = GER modifier = protest_action }
-		GER = {
+		add_opinion_modifier = { target = SAX modifier = protest_action }
+		SAX = {
 			add_war_support = 0.1
 		}
 	}
@@ -1388,7 +1388,7 @@ country_event = {
 			modifier = {
 				factor = 3
 				strength_ratio = {
-					tag = GER
+					tag = SAX
 					ratio > 1.0
 				}
 				NOT = { has_idea = FRA_disjointed_government }
@@ -1398,7 +1398,7 @@ country_event = {
 				has_idea = FRA_disjointed_government
 			}			
 		}		
-		GER = { country_event = wtt_germany.34 }
+		SAX = { country_event = wtt_germany.34 }
 		if = {
 			limit = { 
 				has_idea = FRA_disjointed_government 
@@ -1430,7 +1430,7 @@ country_event = {
 		name = germany.63.b
 		ai_chance = { factor = 40 }
 		ENG = { country_event = wtt_germany.35 }
-		add_opinion_modifier = { target = GER modifier = protest_action }
+		add_opinion_modifier = { target = SAX modifier = protest_action }
 	}
 }
 
@@ -1445,7 +1445,7 @@ country_event = {
 	
 	option = {
 		name = germany.64.a
-		GER = { country_event = wtt_germany.33 }
+		SAX = { country_event = wtt_germany.33 }
 		if = {
 			limit = { 
 				has_idea = FRA_disjointed_government 
@@ -1502,7 +1502,7 @@ country_event = {
 		name = wtt_germany.33.a
 		FRA = {
 			declare_war_on = {
-				target = GER
+				target = SAX
 				type = take_state_focus
 				generator = { 42 51 } 
 			}
@@ -1551,7 +1551,7 @@ country_event = {
 		hidden_effect = {
 			news_event = { id = wtt_news.13 hours = 6 }
 		}
-		set_country_flag = GER_rhineland_backed_down
+		set_country_flag = SAX_rhineland_backed_down
 		if = {
 			limit = {
 				has_country_flag = kaiser_wilhelm_ii
@@ -1601,7 +1601,7 @@ country_event = {
 		}
 		FRA = {
 			declare_war_on = {
-				target = GER
+				target = SAX
 				type = take_state_focus
 				generator = { 42 51 } 
 			}
@@ -1637,7 +1637,7 @@ country_event = {
 		hidden_effect = {
 			news_event = { id = wtt_news.15 hours = 6 }
 		}
-		set_country_flag = GER_rhineland_backed_down
+		set_country_flag = SAX_rhineland_backed_down
 		add_war_support = -0.2 #That was scary for a moment there!
 		if = {
 			limit = {
@@ -1672,8 +1672,8 @@ country_event = {
 	
 	option = {
 		name = germany.67.a
-		add_opinion_modifier = { target = GER modifier = protest_action }
-		GER = {
+		add_opinion_modifier = { target = SAX modifier = protest_action }
+		SAX = {
 			add_war_support = 0.1
 		}
 	}
@@ -1734,7 +1734,7 @@ country_event = {
 				}
 			}
 		}
-		GER = { country_event = { id = wtt_germany.39 days = 1 } }
+		SAX = { country_event = { id = wtt_germany.39 days = 1 } }
 	}
 
 	# Accept
@@ -1748,11 +1748,11 @@ country_event = {
 			}
 		}
 		effect_tooltip = {
-			GER = { transfer_state = 743 }
+			SAX = { transfer_state = 743 }
 			743 = { set_state_name = "Tsingtao" }
 			set_province_name = { id = 10000 name = "Tsingtao" }
 		}
-		GER = { country_event = { id = wtt_germany.48 days = 1 } }
+		SAX = { country_event = { id = wtt_germany.48 days = 1 } }
 		hidden_effect = { news_event = { id = wtt_news.16 hours = 30 } }
 	}
 
@@ -1766,7 +1766,7 @@ country_event = {
 				has_war_with = JAP
 			}
 		}
-		GER = { country_event = { id = wtt_germany.40 days = 1 } }
+		SAX = { country_event = { id = wtt_germany.40 days = 1 } }
 	}
 }
 
@@ -1782,7 +1782,7 @@ country_event = {
 	# Accept
 	option = {
 		name = wtt_germany.39.a
-		set_country_flag = GER_von_falkenhausen_promise_to_china
+		set_country_flag = SAX_von_falkenhausen_promise_to_china
 		transfer_state = 743
 		743 = { set_state_name = "Tsingtao" }
 		set_province_name = { id = 10000 name = "Tsingtao" }
@@ -1867,7 +1867,7 @@ country_event = {
 		trigger = {
 			CHI = { has_idea = german_advisors }
 		}
-		GER = { country_event = { id = wtt_germany.44 days = 1 } }
+		SAX = { country_event = { id = wtt_germany.44 days = 1 } }
 	}
 
 	# Accept
@@ -1881,11 +1881,11 @@ country_event = {
 			}
 		}
 		effect_tooltip = {
-			GER = { transfer_state = 743 }
+			SAX = { transfer_state = 743 }
 			743 = { set_state_name = "Tsingtao" }
 			set_province_name = { id = 10000 name = "Tsingtao" }
 		}
-		GER = { country_event = { id = wtt_germany.48 days = 1 } }
+		SAX = { country_event = { id = wtt_germany.48 days = 1 } }
 		hidden_effect = { news_event = { id = wtt_news.17 hours = 30 } }
 	}
 
@@ -1899,7 +1899,7 @@ country_event = {
 				has_war_with = CHI
 			}
 		}
-		GER = { country_event = { id = wtt_germany.45 days = 1 } }
+		SAX = { country_event = { id = wtt_germany.45 days = 1 } }
 	}
 }
 
@@ -2171,7 +2171,7 @@ country_event = {
 		name = wtt_germany.50.a
 		random_other_country = {
 			limit = {
-				original_tag = GER
+				original_tag = SAX
 				has_government = fascism
 			}
 			kill_country_leader = yes
@@ -2217,11 +2217,11 @@ country_event = {
 	picture = GFX_report_event_fascists_posing
 
 	trigger = {
-		tag = GER
+		tag = SAX
 		NOT = { has_government = communism }
 		NOT = { has_government = fascism }
 		has_war = yes
-		has_country_flag = GER_imprisoned_fascist_leadership
+		has_country_flag = SAX_imprisoned_fascist_leadership
 		has_idea = all_adults_serve
 	}
 
@@ -2264,7 +2264,7 @@ country_event = {
 		add_political_power = 75
 		add_popularity = { ideology = fascism popularity = 0.05 }
 		custom_effect_tooltip = reinstate_nazi_leadership_TT
-		set_country_flag = GER_reinstated_nazi_leadership
+		set_country_flag = SAX_reinstated_nazi_leadership
 		if = {
 			limit = {
 				has_country_flag = model_survived
@@ -2364,7 +2364,7 @@ country_event = {
 	# Help them
 	option = {
 		name = wtt_germany.52.a
-		GER = { add_to_war = { targeted_alliance = FROM enemy = FROM.FROM hostility_reason = asked_to_join } }
+		SAX = { add_to_war = { targeted_alliance = FROM enemy = FROM.FROM hostility_reason = asked_to_join } }
 	}
 
 	#They're on their own
@@ -2385,7 +2385,7 @@ country_event = {
 	picture = GFX_report_event_generic_parliament
 
 	trigger = {
-		original_tag = GER
+		original_tag = SAX
 		OR = {
 			has_government = democratic
 			has_government = neutrality
@@ -2398,7 +2398,7 @@ country_event = {
 			AUS = { has_government = democratic }
 			AUS = { has_government = neutrality }
 		}
-		NOT = { has_global_flag = GER_reformed_austro_hungarian_empire }
+		NOT = { has_global_flag = SAX_reformed_austro_hungarian_empire }
 	}
 
 	mean_time_to_happen = { days = 60 }
@@ -2440,7 +2440,7 @@ country_event = {
 			factor = 100
 		}
 		custom_effect_tooltip = GAME_OVER_TT
-		GER = { country_event = { id = wtt_germany.55 days = 1 random = 6 } }
+		SAX = { country_event = { id = wtt_germany.55 days = 1 random = 6 } }
 	}
 
 	# No we will remain independent
@@ -2464,24 +2464,24 @@ country_event = {
 		4 = {
 			if = {
 				limit = { is_owned_by = AUS }
-				add_core_of = GER
+				add_core_of = SAX
 			}
 		}
 		152 = {
 			if = {
 				limit = { is_owned_by = AUS }
-				add_core_of = GER
+				add_core_of = SAX
 			}
 		}
 		153 = {
 			if = {
 				limit = { is_owned_by = AUS }
-				add_core_of = GER
+				add_core_of = SAX
 			}
 		}
 		AUS = {
 			every_unit_leader = {
-				set_nationality = GER
+				set_nationality = SAX
 			}
 		}
 		annex_country = { target = AUS transfer_troops = yes }
@@ -2502,14 +2502,14 @@ country_event = {
 		has_full_control_of_state = 86
 		owns_state = 85
 		owns_state = 86
-		has_idea = GER_the_great_red_menace
+		has_idea = SAX_the_great_red_menace
 		surrender_progress > 0.3
 		has_defensive_war_with = SOV
 		NOT = { has_government = communism }
 		NOT = { has_government = fascism }
-		GER = { has_government = democratic }
-		NOT = { GER = { has_war_together_with = POL } }
-		NOT = { is_in_faction_with = GER }	
+		SAX = { has_government = democratic }
+		NOT = { SAX = { has_war_together_with = POL } }
+		NOT = { is_in_faction_with = SAX }	
 	}
 
 	mean_time_to_happen = { days = 2 }
@@ -2522,7 +2522,7 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		GER = { country_event = { id = wtt_germany.57 hours = 2 random = 4 } }
+		SAX = { country_event = { id = wtt_germany.57 hours = 2 random = 4 } }
 	}
 
 	# No
@@ -2625,7 +2625,7 @@ country_event = {
 	picture = GFX_report_event_tank_factory
 
 	trigger = {
-		original_tag = GER
+		original_tag = SAX
 		has_government = fascism
 		has_country_flag = mefo_bills_removed_through_war
 		has_war = no
@@ -2639,164 +2639,164 @@ country_event = {
 		name = wtt_germany.62.a
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 15 compare = less_than }
+				check_variable = { var = SAX_mefo_bill_counter value = 15 compare = less_than }
 			}
 			add_political_power = -20
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 60 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 60 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 15 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 15 compare = equals }
 			}
 			add_political_power = -30
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 70 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 70 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 20 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 20 compare = equals }
 			}
 			add_political_power = -40
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 80 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 80 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 25 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 25 compare = equals }
 			}
 			add_political_power = -50
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 90 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 90 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 30 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 30 compare = equals }
 			}
 			add_political_power = -60
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 100 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 100 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 35 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 35 compare = equals }
 			}
 			add_political_power = -70
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 110 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 110 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 40 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 40 compare = equals }
 			}
 			add_political_power = -80
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 120 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 120 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 45 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 45 compare = equals }
 			}
 			add_political_power = -90
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 130 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 130 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 50 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 50 compare = equals }
 			}
 			add_political_power = -100
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 140 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 140 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 55 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 55 compare = equals }
 			}
 			add_political_power = -110
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 150 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 150 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 60 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 60 compare = equals }
 			}
 			add_political_power = -120
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 160 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 160 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 65 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 65 compare = equals }
 			}
 			add_political_power = -130
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 170 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 170 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 70 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 70 compare = equals }
 			}
 			add_political_power = -140
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 180 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 180 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 75 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 75 compare = equals }
 			}
 			add_political_power = -150
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 190 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 190 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 80 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 80 compare = equals }
 			}
 			add_political_power = -160
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 200 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 200 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 85 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 85 compare = equals }
 			}
 			add_political_power = -170
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 210 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 210 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 90 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 90 compare = equals }
 			}
 			add_political_power = -180
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 220 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 220 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 95 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 95 compare = equals }
 			}
 			add_political_power = -190
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 230 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 230 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 100 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 100 compare = equals }
 			}
 			add_political_power = -200
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 240 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 240 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 105 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 105 compare = equals }
 			}
 			add_political_power = -210
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 250 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 250 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 110 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 110 compare = equals }
 			}
 			add_political_power = -220
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 260 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 260 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 115 compare = equals }
+				check_variable = { var = SAX_mefo_bill_counter value = 115 compare = equals }
 			}
 			add_political_power = -230
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 270 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 270 }
 		}
 		if = {
 			limit = {
-				check_variable = { var = GER_mefo_bill_counter value = 115 compare = greater_than }
+				check_variable = { var = SAX_mefo_bill_counter value = 115 compare = greater_than }
 			}
 			add_political_power = -240
-			add_timed_idea = { idea = GER_mefo_bills_ended days = 280 }
+			add_timed_idea = { idea = SAX_mefo_bills_ended days = 280 }
 		}
 		clr_country_flag = mefo_bills_removed_through_war
 	}
@@ -2814,7 +2814,7 @@ country_event = {
 	option = {
 		name = wtt_germany.63.a
 		effect_tooltip = {
-			GER = {
+			SAX = {
 				add_state_core = 8
 				add_state_core = 28
 			}
@@ -2834,7 +2834,7 @@ country_event = {
 	option = {
 		name = wtt_germany.64.a
 		effect_tooltip = {
-			GER = {
+			SAX = {
 				add_state_core = 8
 				add_state_core = 28
 			}
@@ -2842,7 +2842,7 @@ country_event = {
 	}
 }
 
-# Event for POL - GER Pressures POL to Join War against SOV
+# Event for POL - SAX Pressures POL to Join War against SOV
 country_event = {
 	id = wtt_germany.65
 	title = wtt_germany.65.t
@@ -2858,19 +2858,19 @@ country_event = {
 			factor = 10
 			modifier = {
 				factor = 0.5
-				has_opinion = { target = GER value < 0 }
+				has_opinion = { target = SAX value < 0 }
 			}
 			modifier = {
 				factor = 0.2
-				has_opinion = { target = GER value < -50 }
+				has_opinion = { target = SAX value < -50 }
 			}
 			modifier = {
 				factor = 0.5
-				GER = { strength_ratio = { tag = SOV ratio < 1 } }
+				SAX = { strength_ratio = { tag = SOV ratio < 1 } }
 			}
 			modifier = {
 				factor = 0.2
-				GER = { strength_ratio = { tag = SOV ratio < 0.8 } }
+				SAX = { strength_ratio = { tag = SOV ratio < 0.8 } }
 			}
 		}
 		if = {
@@ -2886,8 +2886,8 @@ country_event = {
 				}
 				remove_from_faction = POL
 			}
-			GER = { add_to_faction = POL }
-			add_to_war = { targeted_alliance = GER enemy = SOV hostility_reason = ally }
+			SAX = { add_to_faction = POL }
+			add_to_war = { targeted_alliance = SAX enemy = SOV hostility_reason = ally }
 		}
 		if = {
 			limit = {
@@ -2896,17 +2896,17 @@ country_event = {
 				is_faction_leader = yes
 			}
 			dismantle_faction = yes
-			GER = { add_to_faction = POL }
-			add_to_war = { targeted_alliance = GER enemy = SOV hostility_reason = ally }
+			SAX = { add_to_faction = POL }
+			add_to_war = { targeted_alliance = SAX enemy = SOV hostility_reason = ally }
 		}
 		if = {
 			limit = {
 				is_in_faction = no
 			}
-			GER = { add_to_faction = POL }
-			add_to_war = { targeted_alliance = GER enemy = SOV hostility_reason = ally }
+			SAX = { add_to_faction = POL }
+			add_to_war = { targeted_alliance = SAX enemy = SOV hostility_reason = ally }
 		}
-		GER = { country_event = { id = wtt_germany.66 } }
+		SAX = { country_event = { id = wtt_germany.66 } }
 	}
 
 	# Reject
@@ -2916,18 +2916,18 @@ country_event = {
 			factor = 0
 			modifier = {
 				factor = 0.5
-				has_opinion = { target = GER value > 50 }
+				has_opinion = { target = SAX value > 50 }
 			}
 			modifier = {
 				factor = 0.5
-				GER = { strength_ratio = { tag = SOV ratio > 1 } }
+				SAX = { strength_ratio = { tag = SOV ratio > 1 } }
 			}
 			modifier = {
 				factor = 0.2
-				GER = { strength_ratio = { tag = SOV ratio > 1.5 } }
+				SAX = { strength_ratio = { tag = SOV ratio > 1.5 } }
 			}
 		}
-		GER = {
+		SAX = {
 			create_wargoal = {
 				type = annex_everything
 				target = POL
@@ -2937,7 +2937,7 @@ country_event = {
 	}
 }
 
-# Event for GER - POL Joins Faction and War against SOV
+# Event for SAX - POL Joins Faction and War against SOV
 country_event = {
 	id = wtt_germany.66
 	title = wtt_germany.66.t
@@ -2950,12 +2950,12 @@ country_event = {
 		name = excellent
 		effect_tooltip = {
 			add_to_faction = POL
-			POL = { add_to_war = { targeted_alliance = GER enemy = SOV hostility_reason = ally } }
+			POL = { add_to_war = { targeted_alliance = SAX enemy = SOV hostility_reason = ally } }
 		}
 	}
 }
 
-# Event for GER - POL Rejects Demands
+# Event for SAX - POL Rejects Demands
 country_event = {
 	id = wtt_germany.67
 	title = wtt_germany.67.t
@@ -3014,15 +3014,15 @@ country_event = {
 		name = excellent
 		if = {
 			limit = {
-				has_country_flag = GER_austria_hungary_accepted_integration
+				has_country_flag = SAX_austria_hungary_accepted_integration
 			}
 			country_event = { id = wtt_germany.71 days = 1 }
 		}
 		if = {
 			limit = {
-				NOT = { has_country_flag = GER_austria_hungary_accepted_integration }
+				NOT = { has_country_flag = SAX_austria_hungary_accepted_integration }
 			}
-			hidden_effect = { set_country_flag = GER_austria_hungary_accepted_integration }
+			hidden_effect = { set_country_flag = SAX_austria_hungary_accepted_integration }
 		}
 	}
 }
@@ -3038,7 +3038,7 @@ country_event = {
 	
 	option = {
 		name = unfortunate
-		hidden_effect = { clr_global_flag = GER_reformed_austro_hungarian_empire }
+		hidden_effect = { clr_global_flag = SAX_reformed_austro_hungarian_empire }
 	}
 }
 
@@ -3089,7 +3089,7 @@ country_event = {
 			664 = { add_core_of = ROOT }
 			71 = { add_core_of = ROOT }
 			73 = { add_core_of = ROOT }
-			GER = { add_to_faction = AUS }
+			SAX = { add_to_faction = AUS }
 		}
 		if = {
 			limit = {
@@ -3111,7 +3111,7 @@ country_event = {
 			664 = { add_core_of = ROOT }
 			71 = { add_core_of = ROOT }
 			73 = { add_core_of = ROOT }
-			GER = { add_to_faction = HUN }
+			SAX = { add_to_faction = HUN }
 		}
 		if = {
 			limit = {
@@ -3127,10 +3127,10 @@ country_event = {
 			154 = { add_core_of = ROOT }
 			155 = { add_core_of = ROOT }
 			43 = { add_core_of = ROOT }
-			GER = { add_to_faction = CZE }
+			SAX = { add_to_faction = CZE }
 		}
 		set_cosmetic_tag = HUN_EMPIRE
-		GER = {
+		SAX = {
 			country_event = { id = wtt_germany.13 }
 		}
 		if = {
@@ -3141,7 +3141,7 @@ country_event = {
 		}
 		add_ai_strategy = {
 			type = alliance
-			id = "GER"			
+			id = "SAX"			
 			value = 200
 		}
 	}
@@ -3159,7 +3159,7 @@ country_event = {
 	option = { # Yaplx
 		name = wtt_germany.72.a
 		effect_tooltip = {
-			GER = {
+			SAX = {
 				random_owned_controlled_state = {
 					limit = {
 						free_building_slots = {
@@ -3167,7 +3167,7 @@ country_event = {
 							size > 1
 							include_locked = yes
 						}
-						NOT = { has_state_flag = GER_integrate_war_economies }
+						NOT = { has_state_flag = SAX_integrate_war_economies }
 					}
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
@@ -3175,7 +3175,7 @@ country_event = {
 						level = 2
 						instant_build = yes
 					}
-					set_state_flag = GER_integrate_war_economies
+					set_state_flag = SAX_integrate_war_economies
 				}
 				random_owned_controlled_state = {
 					limit = {
@@ -3184,7 +3184,7 @@ country_event = {
 							size > 1
 							include_locked = yes
 						}
-						NOT = { has_state_flag = GER_integrate_war_economies }
+						NOT = { has_state_flag = SAX_integrate_war_economies }
 					}
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
@@ -3192,7 +3192,7 @@ country_event = {
 						level = 2
 						instant_build = yes
 					}
-					set_state_flag = GER_integrate_war_economies
+					set_state_flag = SAX_integrate_war_economies
 				}
 			}
 			random_owned_controlled_state = {
@@ -3209,7 +3209,7 @@ country_event = {
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = GER_integrate_war_economies_1
+				set_state_flag = SAX_integrate_war_economies_1
 			}
 			random_owned_controlled_state = {
 				limit = {
@@ -3225,7 +3225,7 @@ country_event = {
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = GER_integrate_war_economies_2
+				set_state_flag = SAX_integrate_war_economies_2
 			}
 			if = {
 				limit = {
@@ -3274,7 +3274,7 @@ country_event = {
 	}
 }
 
-# Event for GER saying HUN/ROM accepted
+# Event for SAX saying HUN/ROM accepted
 country_event = {
 	id = wtt_germany.73
 	title = wtt_germany.73.t
@@ -3292,7 +3292,7 @@ country_event = {
 					size > 1
 					include_locked = yes
 				}
-				NOT = { has_state_flag = GER_integrate_war_economies }
+				NOT = { has_state_flag = SAX_integrate_war_economies }
 			}
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
@@ -3300,7 +3300,7 @@ country_event = {
 				level = 2
 				instant_build = yes
 			}
-			set_state_flag = GER_integrate_war_economies
+			set_state_flag = SAX_integrate_war_economies
 		}
 		random_owned_controlled_state = {
 			limit = {
@@ -3309,7 +3309,7 @@ country_event = {
 					size > 1
 					include_locked = yes
 				}
-				NOT = { has_state_flag = GER_integrate_war_economies }
+				NOT = { has_state_flag = SAX_integrate_war_economies }
 			}
 			add_extra_state_shared_building_slots = 2
 			add_building_construction = {
@@ -3317,7 +3317,7 @@ country_event = {
 				level = 2
 				instant_build = yes
 			}
-			set_state_flag = GER_integrate_war_economies
+			set_state_flag = SAX_integrate_war_economies
 		}
 		FROM = {
 			random_owned_controlled_state = {
@@ -3334,7 +3334,7 @@ country_event = {
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = GER_integrate_war_economies_1
+				set_state_flag = SAX_integrate_war_economies_1
 			}
 			random_owned_controlled_state = {
 				limit = {
@@ -3350,7 +3350,7 @@ country_event = {
 					level = 2
 					instant_build = yes
 				}
-				set_state_flag = GER_integrate_war_economies_2
+				set_state_flag = SAX_integrate_war_economies_2
 			}
 		}
 		if = {
@@ -3397,7 +3397,7 @@ country_event = {
 	}
 }
 
-# Event for GER saying HUN/ROM rejected
+# Event for SAX saying HUN/ROM rejected
 country_event = {
 	id = wtt_germany.74
 	title = wtt_germany.74.t
@@ -3450,7 +3450,7 @@ country_event = {
 		name = wtt_germany.1000.a
 		custom_effect_tooltip = wtt_germany.1000.a_tt
 		add_political_power = -50
-		ENG = { add_opinion_modifier = { target = GER modifier = GER_aided_in_ceremony_preparations } }
+		ENG = { add_opinion_modifier = { target = SAX modifier = SAX_aided_in_ceremony_preparations } }
 		hidden_effect = {
 			country_event = { id = wtt_germany.1001 days = 3 random = 4 }
 		}

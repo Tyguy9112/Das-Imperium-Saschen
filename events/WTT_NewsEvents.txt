@@ -16,20 +16,20 @@ news_event = {
 	option = {
 		name = wtt_news.1.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
 		name = wtt_news.1.b
 		trigger = { 
-			NOT = { original_tag = GER }
+			NOT = { original_tag = SAX }
 			has_government = fascism
 		}
 	}
 	option = {
 		name = wtt_news.1.c
 		trigger = { 
-			NOT = { original_tag = GER }
+			NOT = { original_tag = SAX }
 			NOT = { has_government = fascism }
 		}
 	}
@@ -49,13 +49,13 @@ news_event = {
 	option = {
 		name = wtt_news.2.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
 		name = wtt_news.2.b
 		trigger = { 
-			NOT = { original_tag = GER }
+			NOT = { original_tag = SAX }
 			NOT = { original_tag = HOL }
 		}
 	}
@@ -81,13 +81,13 @@ news_event = {
 	option = {
 		name = wtt_news.3.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
 		name = wtt_news.3.b
 		trigger = { 
-			NOT = { original_tag = GER }
+			NOT = { original_tag = SAX }
 			NOT = { original_tag = HOL }
 			NOT = { original_tag = ENG }
 			NOT = { original_tag = FRA }
@@ -124,13 +124,13 @@ news_event = {
 	option = {
 		name = wtt_news.4.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
 		name = wtt_news.4.b
 		trigger = { 
-			NOT = { original_tag = GER }
+			NOT = { original_tag = SAX }
 			NOT = { original_tag = HOL }
 			NOT = { original_tag = ENG }
 			NOT = { original_tag = FRA }
@@ -167,7 +167,7 @@ news_event = {
 	option = {
 		name = wtt_news.5.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -179,7 +179,7 @@ news_event = {
 	option = {
 		name = wtt_news.5.c
 		trigger = { 
-			NOT = { original_tag = GER }
+			NOT = { original_tag = SAX }
 			NOT = { original_tag = ITA }
 		}
 	}
@@ -199,7 +199,7 @@ news_event = {
 	option = {
 		name = wtt_news.6.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -216,7 +216,7 @@ news_event = {
 		name = wtt_news.6.c
 		trigger = { 
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 				original_tag = AUS
 				original_tag = HUN
 				original_tag = CZE
@@ -239,7 +239,7 @@ news_event = {
 	option = {
 		name = wtt_news.7.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -258,7 +258,7 @@ news_event = {
 		name = wtt_news.7.d
 		trigger = { 
 			NOT = { 
-				original_tag = GER
+				original_tag = SAX
 				original_tag = POL 
 				original_tag = SOV
 			}
@@ -280,13 +280,13 @@ news_event = {
 	option = {
 		name = wtt_news.8.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
 		name = wtt_news.8.b
 		trigger = { 
-			NOT = { original_tag = GER }
+			NOT = { original_tag = SAX }
 		}
 	}
 }
@@ -305,7 +305,7 @@ news_event = {
 	option = {
 		name = wtt_news.9.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -317,16 +317,16 @@ news_event = {
 	option = {
 		name = wtt_news.9.c
 		trigger = { 
-			has_idea = GER_the_great_red_menace
+			has_idea = SAX_the_great_red_menace
 		}
 	}
 	option = {
 		name = wtt_news.9.d
 		trigger = { 
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 				original_tag = SOV
-				has_idea = GER_the_great_red_menace
+				has_idea = SAX_the_great_red_menace
 			}
 		}
 	}
@@ -346,7 +346,7 @@ news_event = {
 	option = {
 		name = wtt_news.10.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -358,16 +358,16 @@ news_event = {
 	option = {
 		name = wtt_news.10.c
 		trigger = { 
-			has_idea = GER_the_great_red_menace
+			has_idea = SAX_the_great_red_menace
 		}
 	}
 	option = {
 		name = wtt_news.10.d
 		trigger = { 
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 				original_tag = SOV
-				has_idea = GER_the_great_red_menace
+				has_idea = SAX_the_great_red_menace
 			}
 		}
 	}
@@ -387,7 +387,7 @@ news_event = {
 	option = {
 		name = wtt_news.11.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -399,22 +399,22 @@ news_event = {
 	option = {
 		name = wtt_news.11.c
 		trigger = { 
-			is_in_faction_with = GER
-			NOT = { original_tag = GER }
+			is_in_faction_with = SAX
+			NOT = { original_tag = SAX }
 		}
 	}
 	option = {
 		name = wtt_news.11.d
 		trigger = { 
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 				original_tag = SOV
 				original_tag = POL
 				original_tag = FIN
 				original_tag = EST
 				original_tag = LAT
 				original_tag = LIT
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -422,7 +422,7 @@ news_event = {
 		name = wtt_news.11.e
 		trigger = { 
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 			OR = {
 				original_tag = POL
@@ -449,7 +449,7 @@ news_event = {
 	option = {
 		name = wtt_news.12.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -465,7 +465,7 @@ news_event = {
 		name = wtt_news.12.c
 		trigger = { 
 			NOT = { 
-				original_tag = GER
+				original_tag = SAX
 				original_tag = FRA
 				original_tag = ENG
 			}
@@ -487,7 +487,7 @@ news_event = {
 	option = {
 		name = wtt_news.13.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -503,7 +503,7 @@ news_event = {
 		name = wtt_news.13.c
 		trigger = { 
 			NOT = { 
-				original_tag = GER
+				original_tag = SAX
 				original_tag = FRA
 				original_tag = ENG
 			}
@@ -525,7 +525,7 @@ news_event = {
 	option = {
 		name = wtt_news.12.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -544,7 +544,7 @@ news_event = {
 		name = wtt_news.14.d
 		trigger = { 
 			NOT = { 
-				original_tag = GER
+				original_tag = SAX
 				original_tag = FRA
 				original_tag = ENG
 			}
@@ -566,7 +566,7 @@ news_event = {
 	option = {
 		name = wtt_news.13.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -585,7 +585,7 @@ news_event = {
 		name = wtt_news.13.c
 		trigger = { 
 			NOT = { 
-				original_tag = GER
+				original_tag = SAX
 				original_tag = FRA
 				original_tag = ENG
 			}
@@ -607,7 +607,7 @@ news_event = {
 	option = {
 		name = wtt_news.16.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -626,7 +626,7 @@ news_event = {
 		name = wtt_news.16.d
 		trigger = { 
 			NOT = { 
-				original_tag = GER
+				original_tag = SAX
 				original_tag = CHI
 				original_tag = JAP
 			}
@@ -648,7 +648,7 @@ news_event = {
 	option = {
 		name = wtt_news.16.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -667,7 +667,7 @@ news_event = {
 		name = wtt_news.16.d
 		trigger = { 
 			NOT = { 
-				original_tag = GER
+				original_tag = SAX
 				original_tag = CHI
 				original_tag = JAP
 			}
@@ -689,13 +689,13 @@ news_event = {
 	option = {
 		name = wtt_news.18.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
 		name = wtt_news.18.b
 		trigger = {
-			NOT = { original_tag = GER }
+			NOT = { original_tag = SAX }
 		}
 	}
 }
@@ -714,7 +714,7 @@ news_event = {
 	option = {
 		name = wtt_news.19.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -733,7 +733,7 @@ news_event = {
 		name = wtt_news.19.d
 		trigger = {
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 				original_tag = POL
 				original_tag = SOV
 			}
@@ -755,7 +755,7 @@ news_event = {
 	option = {
 		name = news.215.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -768,7 +768,7 @@ news_event = {
 		name = news.215.c
 		trigger = {
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 				original_tag = SOV
 			}
 		}
@@ -789,7 +789,7 @@ news_event = {
 	option = {
 		name = wtt_news.21.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -802,7 +802,7 @@ news_event = {
 		name = wtt_news.21.d
 		trigger = {
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 				original_tag = SOV
 			}
 		}
@@ -823,7 +823,7 @@ news_event = {
 	option = {
 		name = wtt_news.22.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -836,19 +836,19 @@ news_event = {
 		name = wtt_news.22.c
 		trigger = {
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 				original_tag = SOV
 			}
-			has_idea = GER_the_great_red_menace
+			has_idea = SAX_the_great_red_menace
 		}
 	}
 	option = {
 		name = wtt_news.22.d
 		trigger = {
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 				original_tag = SOV
-				has_idea = GER_the_great_red_menace
+				has_idea = SAX_the_great_red_menace
 			}
 		}
 	}
@@ -866,7 +866,7 @@ news_event = {
 	option = {
 		name = wtt_news.23.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -879,7 +879,7 @@ news_event = {
 		name = wtt_news.23.c
 		trigger = {
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 				original_tag = ENG
 			}
 		}
@@ -898,7 +898,7 @@ news_event = {
 	option = {
 		name = wtt_news.24.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
@@ -911,7 +911,7 @@ news_event = {
 		name = wtt_news.24.c
 		trigger = {
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 				original_tag = ENG
 			}
 		}
@@ -2127,35 +2127,35 @@ news_event = {
 	option = {
 		name = wtt_news.50.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
 		name = wtt_news.50.b
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 			}
 		}
 	}
 	option = {
 		name = wtt_news.50.c
 		trigger = {
-			has_war_with = GER
+			has_war_with = SAX
 		}
 	}
 	option = {
 		name = wtt_news.50.d
 		trigger = {
 			NOT = {
-			 	has_war_with = GER
+			 	has_war_with = SAX
 			}
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 			}
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -2172,35 +2172,35 @@ news_event = {
 	option = {
 		name = wtt_news.50.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
 		name = wtt_news.50.b
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 			}
 		}
 	}
 	option = {
 		name = wtt_news.51.c
 		trigger = {
-			has_war_with = GER
+			has_war_with = SAX
 		}
 	}
 	option = {
 		name = wtt_news.50.d
 		trigger = {
 			NOT = {
-			 	has_war_with = GER
+			 	has_war_with = SAX
 			}
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 			}
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -2218,35 +2218,35 @@ news_event = {
 	option = {
 		name = wtt_news.50.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
 		name = wtt_news.50.b
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 			}
 		}
 	}
 	option = {
 		name = wtt_news.50.c
 		trigger = {
-			has_war_with = GER
+			has_war_with = SAX
 		}
 	}
 	option = {
 		name = wtt_news.50.d
 		trigger = {
 			NOT = {
-			 	has_war_with = GER
+			 	has_war_with = SAX
 			}
 			NOT = {
-				original_tag = GER
+				original_tag = SAX
 			}
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -2607,7 +2607,7 @@ news_event = {
 				original_tag = LUX
 				original_tag = FRA
 				original_tag = ITA
-				original_tag = GER
+				original_tag = SAX
 				original_tag = WGR
 			}
 			NOT = { has_war_with = FROM }
@@ -2621,7 +2621,7 @@ news_event = {
 			NOT = { original_tag = LUX }
 			NOT = { original_tag = FRA }
 			NOT = { original_tag = ITA }
-			NOT = { original_tag = GER }
+			NOT = { original_tag = SAX }
 			NOT = { original_tag = WGR }
 			NOT = { has_war_with = FROM }
 		}
@@ -2901,13 +2901,13 @@ news_event = {
 	option = {
 		name = wtt_news.70.a
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	option = {
 		name = wtt_news.70.b
 		trigger = {
-			NOT = { original_tag = GER }
+			NOT = { original_tag = SAX }
 			NOT = { has_war_with = FROM }
 		}
 	}
@@ -2933,7 +2933,7 @@ news_event = {
 	option = {
 		name = wtt_news.1000.a
 		trigger = {
-			NOT = { original_tag = GER }
+			NOT = { original_tag = SAX }
 		}
 	}
 }
@@ -2951,7 +2951,7 @@ news_event = {
 	option = {
 		name = wtt_news.1001.a
 		trigger = {
-			NOT = { original_tag = GER }
+			NOT = { original_tag = SAX }
 		}
 	}
 }

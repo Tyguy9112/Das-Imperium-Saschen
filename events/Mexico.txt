@@ -69,7 +69,7 @@ country_event = {
 					}
 					random_owned_controlled_state = {
 						create_unit = {
-							division = "division_template = \"Brigada de Infantería\" start_experience_factor = 0.2 force_equipment_variants = { infantry_equipment_0 = { owner = \"GER\" } }"
+							division = "division_template = \"Brigada de Infantería\" start_experience_factor = 0.2 force_equipment_variants = { infantry_equipment_0 = { owner = \"SAX\" } }"
 							owner = PREV
 						}
 					}
@@ -87,7 +87,7 @@ country_event = {
 					}
 					random_owned_controlled_state = {
 						create_unit = {
-							division = "division_template = \"Brigada de Infantería\" start_experience_factor = 0.2 force_equipment_variants = { infantry_equipment_0 = { owner = \"GER\" } }"
+							division = "division_template = \"Brigada de Infantería\" start_experience_factor = 0.2 force_equipment_variants = { infantry_equipment_0 = { owner = \"SAX\" } }"
 							owner = PREV
 						}
 					}
@@ -105,7 +105,7 @@ country_event = {
 					}
 					random_owned_controlled_state = {
 						create_unit = {
-							division = "division_template = \"Brigada de Infantería\" start_experience_factor = 0.2 force_equipment_variants = { infantry_equipment_0 = { owner = \"GER\" } }"
+							division = "division_template = \"Brigada de Infantería\" start_experience_factor = 0.2 force_equipment_variants = { infantry_equipment_0 = { owner = \"SAX\" } }"
 							owner = PREV
 						}
 					}
@@ -157,7 +157,7 @@ country_event = {
 						desc = "POLITICS_SATURNINO_CEDILLO_DESC"
 						picture = "GFX_portrait_mex_saturnino_cedillo"
 						expire = "1965.1.1"
-						ideology = Monarchist
+						ideology = despotism
 						traits = {
 							strongman_of_san_luis_potosi
 						}
@@ -421,12 +421,12 @@ country_event = {
 		
 		if = {
 			limit = {
-				original_tag = GER
+				original_tag = SAX
 			}
-			add_to_tech_sharing_group = MEX_GER_tech_group
+			add_to_tech_sharing_group = MEX_SAX_tech_group
 			
 			FROM = {
-				add_to_tech_sharing_group = MEX_GER_tech_group
+				add_to_tech_sharing_group = MEX_SAX_tech_group
 			}
 		}
 		
@@ -537,7 +537,7 @@ country_event = {
 	}
 }
 
-# Mexico is being sponsored to join a faction by a third party (ENG/GER/SOV/USA)
+# Mexico is being sponsored to join a faction by a third party (ENG/SAX/SOV/USA)
 # Attempt to catch a request to USA going to ENG, but knowing HoI4 anything could happen
 
 country_event = {
@@ -1463,7 +1463,7 @@ country_event = {
 			desc = "POLITICS_SATURNINO_CEDILLO_DESC"
 			picture = "GFX_portrait_mex_saturnino_cedillo"
 			expire = "1965.1.1"
-			ideology = Monarchist
+			ideology = despotism
 			traits = {
 				strongman_of_san_luis_potosi
 			}
@@ -2047,7 +2047,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = GER
+		tag = SAX
 		
 		has_war_with = USA
 		
@@ -2224,7 +2224,7 @@ country_event = {
 		MEX = {
 			add_to_war = {
 				targeted_alliance = ROOT
-				enemy = GER
+				enemy = SAX
 			}
 		}
 		
@@ -2283,7 +2283,7 @@ news_event = {
 			OR = {
 				original_tag = MEX
 				is_in_faction_with = MEX
-				has_war_with = GER
+				has_war_with = SAX
 			}
 		}
 	}
@@ -2292,8 +2292,8 @@ news_event = {
 		
 		trigger = {
 			OR = {
-				original_tag = GER
-				is_in_faction_with = GER
+				original_tag = SAX
+				is_in_faction_with = SAX
 				has_war_with = MEX
 			}
 		}
@@ -2307,9 +2307,9 @@ news_event = {
 					original_tag = MEX
 					is_in_faction_with = MEX
 					has_war_with = MEX
-					original_tag = GER
-					is_in_faction_with = GER
-					has_war_with = GER
+					original_tag = SAX
+					is_in_faction_with = SAX
+					has_war_with = SAX
 				}
 			}
 		}
@@ -2510,7 +2510,7 @@ country_event = {
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Guardia Cristera\" start_experience_factor = 0.2 force_equipment_variants = { infantry_equipment_0 = { owner = \"GER\" } }"
+						division = "division_template = \"Guardia Cristera\" start_experience_factor = 0.2 force_equipment_variants = { infantry_equipment_0 = { owner = \"SAX\" } }"
 						owner = PREV
 					}
 				}
@@ -2528,7 +2528,7 @@ country_event = {
 				}
 				random_owned_controlled_state = {
 					create_unit = {
-						division = "division_template = \"Guardia Cristera\" start_experience_factor = 0.2 force_equipment_variants = { infantry_equipment_0 = { owner = \"GER\" } }"
+						division = "division_template = \"Guardia Cristera\" start_experience_factor = 0.2 force_equipment_variants = { infantry_equipment_0 = { owner = \"SAX\" } }"
 						owner = PREV
 					}
 				}
@@ -2750,7 +2750,7 @@ country_event = {
 					desc = "POLITICS_PLUTARCO_E_CALLES_DESC"
 					picture = GFX_portrait_mex_calles_military
 					expire = "1965.1.1"
-					ideology = Monarchist
+					ideology = despotism
 					traits = {
 						el_jefe_maximo
 					}
@@ -3215,7 +3215,7 @@ country_event = {
 				}
 			}
 			MEX = {
-				give_resource_rights = { receiver = GER state = 476 }
+				give_resource_rights = { receiver = SAX state = 476 }
 				country_event = {
 					days = 1
 					id = mexico.35
@@ -3315,11 +3315,11 @@ country_event = {
 		name = mexico.35.a
 		
 		add_opinion_modifier = {
-			target = GER
+			target = SAX
 			modifier = mexico_german_resource_exchange
 		}
 	
-		GER = {
+		SAX = {
 			add_opinion_modifier = {
 				target = ROOT
 				modifier = mexico_german_resource_exchange
@@ -3465,7 +3465,7 @@ country_event = {
 					}
 				}
 			}
-			give_resource_rights = { receiver = GER state = 476 }
+			give_resource_rights = { receiver = SAX state = 476 }
 		}
 	}
 }

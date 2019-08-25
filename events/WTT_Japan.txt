@@ -696,7 +696,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			FROM = { save_event_target_as = JAP_initiator }
-			save_event_target_as = GER_fascism
+			save_event_target_as = SAX_fascism
 			random_country = {
 				limit = {
 					original_tag = ITA
@@ -745,18 +745,18 @@ country_event = {
 		}
 		event_target:JAP_initiator = {
 			give_guarantee = event_target:ITA_fascism
-			give_guarantee = event_target:GER_fascism
+			give_guarantee = event_target:SAX_fascism
 		}
-		event_target:GER_fascism = {
+		event_target:SAX_fascism = {
 			give_guarantee = event_target:ITA_fascism
 			give_guarantee = event_target:JAP_initiator
 		}
 		event_target:ITA_fascism = {
 			give_guarantee = event_target:JAP_initiator
-			give_guarantee = event_target:GER_fascism
+			give_guarantee = event_target:SAX_fascism
 		}
 		event_target:JAP_initiator = { country_event = { id = wtt_japan.111 hours = 6 } }
-		event_target:GER_fascism = { country_event = { id = wtt_japan.113 hours = 6 } }
+		event_target:SAX_fascism = { country_event = { id = wtt_japan.113 hours = 6 } }
 	}
 
 	option = {
@@ -765,7 +765,7 @@ country_event = {
 			base = 0
 		}
 		
-		event_target:GER_fascism = { country_event = { id = wtt_japan.112 hours = 6 } }
+		event_target:SAX_fascism = { country_event = { id = wtt_japan.112 hours = 6 } }
 		event_target:JAP_initiator = { country_event = { id = wtt_japan.112 hours = 6 } }
 	}
 }
@@ -787,15 +787,15 @@ country_event = {
 		effect_tooltip = {
 			event_target:JAP_initiator = {
 				give_guarantee = event_target:ITA_fascism
-				give_guarantee = event_target:GER_fascism
+				give_guarantee = event_target:SAX_fascism
 			}
-			event_target:GER_fascism = {
+			event_target:SAX_fascism = {
 				give_guarantee = event_target:ITA_fascism
 				give_guarantee = event_target:JAP_initiator
 			}
 			event_target:ITA_fascism = {
 				give_guarantee = event_target:JAP_initiator
-				give_guarantee = event_target:GER_fascism
+				give_guarantee = event_target:SAX_fascism
 			}
 		}
 		hidden_effect = {
@@ -810,7 +810,7 @@ country_event = {
 						value = -500
 					}
 				}
-				event_target:GER_fascism = {
+				event_target:SAX_fascism = {
 					add_ai_strategy = {
 						type = alliance
 						id = PREV
@@ -836,7 +836,7 @@ country_event = {
 	}
 }
 
- #Notification event for GER that ITA has accepted Tripartite Pact
+ #Notification event for SAX that ITA has accepted Tripartite Pact
 country_event = {
 	id = wtt_japan.113
 	title = wtt_japan.113.t
@@ -850,15 +850,15 @@ country_event = {
 		effect_tooltip = {
 			event_target:JAP_initiator = {
 				give_guarantee = event_target:ITA_fascism
-				give_guarantee = event_target:GER_fascism
+				give_guarantee = event_target:SAX_fascism
 			}
-			event_target:GER_fascism = {
+			event_target:SAX_fascism = {
 				give_guarantee = event_target:ITA_fascism
 				give_guarantee = event_target:JAP_initiator
 			}
 			event_target:ITA_fascism = {
 				give_guarantee = event_target:JAP_initiator
-				give_guarantee = event_target:GER_fascism
+				give_guarantee = event_target:SAX_fascism
 			}
 		}
 	}
@@ -1435,7 +1435,7 @@ country_event = {
 			}
 			modifier = {
 				add = 10
-				GER = {
+				SAX = {
 					has_war_with = JAP
 					NOT = {
 						has_war_with = ROOT

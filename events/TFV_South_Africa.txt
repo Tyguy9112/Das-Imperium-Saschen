@@ -311,7 +311,7 @@ country_event = {
 # South-African national focus
 country_event = {
 	id = tfv_south_africa.10
-	title = tfv_south_africa.10.t	# SAF Civil war. Ask HOL or GER for support?
+	title = tfv_south_africa.10.t	# SAF Civil war. Ask HOL or SAX for support?
 	desc = tfv_south_africa.10.desc	#
 	picture = GFX_report_event_saf_coup
 	
@@ -323,7 +323,7 @@ country_event = {
 		original_tag = SAF
 		has_civil_war = yes
 		OR = {
-			GER = {
+			SAX = {
 				NOT = { has_war_with = SAF }
 				has_government = fascism
 			}		
@@ -337,9 +337,9 @@ country_event = {
 	mean_time_to_happen = { days = 2 }
 	
 	option = {
-		name = tfv_south_africa.10.a # Ask GER for support
+		name = tfv_south_africa.10.a # Ask SAX for support
 		trigger = {
-			GER = {
+			SAX = {
 				NOT = { has_war_with = SAF }
 				has_government = fascism
 			}			
@@ -348,14 +348,14 @@ country_event = {
 		ai_chance = {
 			base = 100
 			modifier = {
-				GER = { NOT = { has_government = fascism } }
+				SAX = { NOT = { has_government = fascism } }
 				factor = 0.1
 			}
 		}
 		
-		set_country_flag = asked_GER_for_support
+		set_country_flag = asked_SAX_for_support
 		
-		GER = { country_event = { id = tfv_south_africa.11 days = 1 } }
+		SAX = { country_event = { id = tfv_south_africa.11 days = 1 } }
 	}
 	
 	option = {
@@ -370,7 +370,7 @@ country_event = {
 		ai_chance = {
 			base = 30
 			modifier = {
-				GER = { 
+				SAX = { 
 					has_government = fascism 
 					has_war = no
 				} 
@@ -386,7 +386,7 @@ country_event = {
 
 country_event = {
 	id = tfv_south_africa.11
-	title = tfv_south_africa.11.t	# GER is asked to help in the SAF civil war.
+	title = tfv_south_africa.11.t	# SAX is asked to help in the SAF civil war.
 	desc = tfv_south_africa.11.desc
 	picture = GFX_report_event_generic_lend_lease
 	
@@ -418,14 +418,14 @@ country_event = {
 		}
 		
 		SAF = { 
-			set_country_flag = GER_sent_support
+			set_country_flag = SAX_sent_support
 			set_country_flag = shipment_of_airplanes
 			
 			country_event = { id = tfv_south_africa.15 }
 		}
 		
 		effect_tooltip = {
-			SAF_german_coup_equipment_GER_fighters_20 = yes
+			SAF_german_coup_equipment_SAX_fighters_20 = yes
 		}
 		
 		SAF_send_equipment_flag_counter = yes
@@ -461,14 +461,14 @@ country_event = {
 		}
 		
 		SAF = {
-			set_country_flag = GER_sent_support
+			set_country_flag = SAX_sent_support
 			set_country_flag = shipment_of_tanks
 			
 			country_event = { id = tfv_south_africa.15 }
 		}
 		
 		effect_tooltip = {			
-			SAF_german_coup_equipment_GER_light_tank_20 = yes
+			SAF_german_coup_equipment_SAX_light_tank_20 = yes
 		}
 		
 		SAF_send_equipment_flag_counter = yes
@@ -509,13 +509,13 @@ country_event = {
 		}
 		
 		SAF = { 
-			set_country_flag = GER_sent_support
+			set_country_flag = SAX_sent_support
 			
 			country_event = { id = tfv_south_africa.15 }
 		}
 		
 		effect_tooltip = {
-			SAF_german_coup_inf_GER_equipment_200 = yes
+			SAF_german_coup_inf_SAX_equipment_200 = yes
 		}
 		
 		SAF_send_equipment_flag_counter = yes
@@ -751,12 +751,12 @@ country_event = {
 	id = tfv_south_africa.13
 	title = tfv_south_africa.13.t
 	desc = {
-		text = tfv_south_africa.13.desc.a # GER denies support
-		trigger = { NOT = { has_country_flag = GER_sent_support } }
+		text = tfv_south_africa.13.desc.a # SAX denies support
+		trigger = { NOT = { has_country_flag = SAX_sent_support } }
 	}
 	desc = {
-		text = tfv_south_africa.13.desc.b # GER stops support
-		trigger = { has_country_flag = GER_sent_support }
+		text = tfv_south_africa.13.desc.b # SAX stops support
+		trigger = { has_country_flag = SAX_sent_support }
 	}
 	picture = GFX_report_event_military_planning
 	
@@ -772,7 +772,7 @@ country_event = {
 		}
 		name = tfv_south_africa.13.a # Ask HOL instead
 		trigger = {
-			NOT = { has_country_flag = GER_sent_support }
+			NOT = { has_country_flag = SAX_sent_support }
 			NOT = { has_country_flag = asked_HOL_for_support }
 			HOL = {
 				OR = {
@@ -813,14 +813,14 @@ country_event = {
 		name = tfv_south_africa.14.a # Ask HOL instead
 		trigger = {
 			NOT = { has_country_flag = HOL_sent_support }
-			NOT = { has_country_flag = asked_GER_for_support }			
-			GER = {
+			NOT = { has_country_flag = asked_SAX_for_support }			
+			SAX = {
 				has_war = no
 				has_government = fascism
 			}
 		}
 		
-		GER = { country_event = { id = tfv_south_africa.11 hours = 48 } }
+		SAX = { country_event = { id = tfv_south_africa.11 hours = 48 } }
 	}
 	
 	option = {
@@ -851,7 +851,7 @@ country_event = {
 		trigger = { has_country_flag = shipment_of_airplanes }
 		
 		clr_country_flag = shipment_of_airplanes
-		GER = { SAF_german_coup_equipment_GER_fighters_20 = yes }		
+		SAX = { SAF_german_coup_equipment_SAX_fighters_20 = yes }		
 	}
 	
 	option = {
@@ -860,7 +860,7 @@ country_event = {
 		
 		clr_country_flag = shipment_of_tanks
 		
-		GER = { SAF_german_coup_equipment_GER_light_tank_20 = yes }		
+		SAX = { SAF_german_coup_equipment_SAX_light_tank_20 = yes }		
 	}
 	
 	option = {
@@ -869,7 +869,7 @@ country_event = {
 			NOT = { has_country_flag = shipment_of_airplanes }
 			NOT = { has_country_flag = shipment_of_tanks }
 		}
-		GER = { SAF_german_coup_inf_GER_equipment_200 = yes }
+		SAX = { SAF_german_coup_inf_SAX_equipment_200 = yes }
 	}
 }
 

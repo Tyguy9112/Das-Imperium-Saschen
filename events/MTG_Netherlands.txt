@@ -479,7 +479,7 @@ country_event = {
 		retire_country_leader = yes
 		create_country_leader = {
 			name = "Pieter Sjoerds Gerbrandy"
-			desc = "POLITICS_PIETER_SJOERDS_GERBRANDY_DESC"
+			desc = "POLITICS_PIETER_SJOERDS_SAXBRANDY_DESC"
 			picture = "portrait_hol_pieter_sjoerds_gerbrandy.dds"
 			expire = "1965.1.1"
 			ideology = conservatism
@@ -950,7 +950,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = SAX
 				has_government = fascism
 				OR = {
 					NOT = {
@@ -961,7 +961,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = SAX
 				has_government = neutrality
 				NOT = {
 					HOL = { has_completed_focus = HOL_oranje_boven }
@@ -979,8 +979,8 @@ country_event = {
 				has_government = neutrality
 				NOT = {
 					AND = {
-						GER = { has_government = fascism }
-						HOL = { is_in_faction_with = GER }
+						SAX = { has_government = fascism }
+						HOL = { is_in_faction_with = SAX }
 					}
 				}
 			}
@@ -1031,7 +1031,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = SAX
 				has_government = fascism
 				OR = {
 					NOT = {
@@ -1042,7 +1042,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = SAX
 				has_government = neutrality
 				NOT = {
 					HOL = { has_completed_focus = HOL_oranje_boven }
@@ -1060,8 +1060,8 @@ country_event = {
 				has_government = neutrality
 				NOT = {
 					AND = {
-						GER = { has_government = fascism }
-						HOL = { is_in_faction_with = GER }
+						SAX = { has_government = fascism }
+						HOL = { is_in_faction_with = SAX }
 					}
 				}
 			}
@@ -1112,7 +1112,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = SAX
 				has_government = fascism
 				OR = {
 					NOT = {
@@ -1123,7 +1123,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = SAX
 				has_government = neutrality
 				NOT = {
 					HOL = { has_completed_focus = HOL_oranje_boven }
@@ -1141,8 +1141,8 @@ country_event = {
 				has_government = neutrality
 				NOT = {
 					AND = {
-						GER = { has_government = fascism }
-						HOL = { is_in_faction_with = GER }
+						SAX = { has_government = fascism }
+						HOL = { is_in_faction_with = SAX }
 					}
 				}
 			}
@@ -1294,7 +1294,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = SAX
 				has_government = fascism
 				OR = {
 					NOT = {
@@ -1305,7 +1305,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = SAX
 				has_government = neutrality
 				NOT = {
 					HOL = { has_completed_focus = HOL_oranje_boven }
@@ -1323,8 +1323,8 @@ country_event = {
 				has_government = neutrality
 				NOT = {
 					AND = {
-						GER = { has_government = fascism }
-						HOL = { is_in_faction_with = GER }
+						SAX = { has_government = fascism }
+						HOL = { is_in_faction_with = SAX }
 					}
 				}
 			}
@@ -1380,7 +1380,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = SAX
 				HOL = { has_completed_focus = HOL_cave_to_the_germans }
 				ENG = {
 					focus_progress = {
@@ -1401,9 +1401,9 @@ country_event = {
 					original_tag = FRA
 					original_tag = ENG
 				}
-				GER = {
+				SAX = {
 					focus_progress = {
-						focus = GER_around_maginot
+						focus = SAX_around_maginot
 						progress > 0
 					}
 				}
@@ -1448,7 +1448,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { tag = GER }
+				FROM = { tag = SAX }
 			}
 			set_country_flag = secret_staff_talks_german_staff_plan
 		}
@@ -1490,7 +1490,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = SAX
 				has_government = fascism
 				OR = {
 					NOT = {
@@ -1501,7 +1501,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = SAX
 				has_government = neutrality
 				NOT = {
 					HOL = { has_completed_focus = HOL_oranje_boven }
@@ -1519,8 +1519,8 @@ country_event = {
 				has_government = neutrality
 				NOT = {
 					AND = {
-						GER = { has_government = fascism }
-						HOL = { is_in_faction_with = GER }
+						SAX = { has_government = fascism }
+						HOL = { is_in_faction_with = SAX }
 					}
 				}
 			}
@@ -1549,7 +1549,7 @@ country_event = {
 		custom_effect_tooltip = mtg_netherlands.35_tt
 		if = {
 			limit = {
-				has_war_with = GER
+				has_war_with = SAX
 			}
 			add_timed_idea = { idea = HOL_shared_intelligence_hol_ger days = 180 }
 		}
@@ -1567,7 +1567,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { has_war_with = GER }
+				NOT = { has_war_with = SAX }
 				NOT = { has_war_with = FRA }
 				NOT = { has_war_with = ENG }
 			}
@@ -1603,7 +1603,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = SAX
 				HOL = { has_completed_focus = HOL_cave_to_the_germans }
 				ENG = {
 					focus_progress = {
@@ -1624,9 +1624,9 @@ country_event = {
 					original_tag = FRA
 					original_tag = ENG
 				}
-				GER = {
+				SAX = {
 					focus_progress = {
-						focus = GER_around_maginot
+						focus = SAX_around_maginot
 						progress > 0
 					}
 				}
@@ -1674,7 +1674,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { tag = GER }
+				FROM = { tag = SAX }
 			}
 			set_country_flag = secret_staff_talks_german_intelligence
 		}
@@ -1718,7 +1718,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = SAX
 				has_government = fascism
 				OR = {
 					NOT = {
@@ -1729,7 +1729,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = SAX
 				has_government = neutrality
 				NOT = {
 					HOL = { has_completed_focus = HOL_oranje_boven }
@@ -1747,8 +1747,8 @@ country_event = {
 				has_government = neutrality
 				NOT = {
 					AND = {
-						GER = { has_government = fascism }
-						HOL = { is_in_faction_with = GER }
+						SAX = { has_government = fascism }
+						HOL = { is_in_faction_with = SAX }
 					}
 				}
 			}
@@ -1813,7 +1813,7 @@ country_event = {
 			}
 			modifier = {
 				factor = 0
-				original_tag = GER
+				original_tag = SAX
 				HOL = { has_completed_focus = HOL_cave_to_the_germans }
 				ENG = {
 					focus_progress = {
@@ -1834,9 +1834,9 @@ country_event = {
 					original_tag = FRA
 					original_tag = ENG
 				}
-				GER = {
+				SAX = {
 					focus_progress = {
-						focus = GER_around_maginot
+						focus = SAX_around_maginot
 						progress > 0
 					}
 				}
@@ -2513,7 +2513,7 @@ country_event = {
 	desc = {
 		text = mtg_netherlands.66.d.b
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 	picture = GFX_report_event_generic_sign_treaty3
@@ -2532,12 +2532,12 @@ country_event = {
 	option = {
 		name = mtg_netherlands.66.b
 		trigger = {
-			original_tag = GER
+			original_tag = SAX
 		}
 	}
 }
 
-# Gateway to Europe notification event of GER taking the lead
+# Gateway to Europe notification event of SAX taking the lead
 country_event = {
 	id = mtg_netherlands.67
 	title = mtg_netherlands.67.t
@@ -2845,7 +2845,7 @@ country_event = {
 		has_completed_focus = HOL_wilhelminism
 		NOT = {
 			any_country = {
-				original_tag = GER
+				original_tag = SAX
 				has_country_leader = {
 					name = "Wilhelm II"
 					ruling_only = yes
@@ -2880,7 +2880,7 @@ country_event = {
 		hidden_effect = {
 			random_country = {
 				limit = {
-					original_tag = GER
+					original_tag = SAX
 					has_government = neutrality
 				}
 				save_global_event_target_as = HOL_kaiserreich_germany
@@ -2891,7 +2891,7 @@ country_event = {
 	# Good
 	option = {
 		name = mtg_netherlands.73.a
-		GER = {
+		SAX = {
 			start_civil_war = {
 				ruling_party = fascism
 				ideology = neutrality
@@ -2905,11 +2905,11 @@ country_event = {
 		hidden_effect = { news_event = { id = mtg_news.58 } }
 		random_country = {
 			limit = {
-				original_tag = GER
+				original_tag = SAX
 				has_government = neutrality
 			}
 			hidden_effect = {
-				set_cosmetic_tag = GER_german_empire
+				set_cosmetic_tag = SAX_german_empire
 				every_unit_leader = {
 					limit = {
 						OR = {
@@ -2919,15 +2919,15 @@ country_event = {
 							has_id = 24
 						}
 					}
-					set_nationality = GER
+					set_nationality = SAX
 				}
 			}
-			set_party_name = { ideology = neutrality long_name = GER_neutrality_party_kaiserreich_long name = GER_neutrality_party_kaiserreich }
+			set_party_name = { ideology = neutrality long_name = SAX_neutrality_party_kaiserreich_long name = SAX_neutrality_party_kaiserreich }
 			ROOT = {
 				puppet = PREV
 				add_to_war = { 
 				    targeted_alliance = PREV 
-				    enemy = GER
+				    enemy = SAX
 				    hostility_reason = asked_to_join
 				}
 			}
@@ -2940,7 +2940,7 @@ country_event = {
 					desc = "POLITICS_WILHELM_II_DESC"
 					picture = GFX_portrait_ger_wilhelm_ii
 					expire = "1965.1.1"
-					ideology = Monarchist
+					ideology = despotism
 					traits = {
 						anti_democrat imperial_connections
 					}
@@ -2955,7 +2955,7 @@ country_event = {
 					desc = "POLITICS_WILHELM_III_DESC"
 					picture = GFX_portrait_ger_wilhelm_iii
 					expire = "1965.1.1"
-					ideology = Monarchistssss
+					ideology = despotism
 					traits = {
 						popular_figurehead2
 					}
@@ -2965,7 +2965,7 @@ country_event = {
 	}
 }
 
-# Imperial GER suggesting they become allies when the war has ended and HOL is no longer in a faction
+# Imperial SAX suggesting they become allies when the war has ended and HOL is no longer in a faction
 country_event = {
 	id = mtg_netherlands.74
 	title = mtg_netherlands.74.t
@@ -2978,10 +2978,10 @@ country_event = {
 		original_tag = HOL
 		has_government = neutrality
 		has_completed_focus = HOL_wilhelminism
-		NOT = { has_war_with = GER }
+		NOT = { has_war_with = SAX }
 		is_in_faction = no
 		any_country = {
-			original_tag = GER
+			original_tag = SAX
 			has_government = neutrality
 			is_subject_of = HOL
 		}
@@ -2996,11 +2996,11 @@ country_event = {
 		name = mtg_netherlands.74.a
 		random_country = {
 			limit = {
-				original_tag = GER
+				original_tag = SAX
 				has_government = neutrality
 			}
 			ROOT = { set_autonomy = { target = PREV autonomy_state = autonomy_free } }
-			create_faction = GER_central_powers_faction
+			create_faction = SAX_central_powers_faction
 			add_to_faction = HOL
 		}
 	}
@@ -3045,33 +3045,33 @@ country_event = {
 			hidden_effect = {
 				random_country = {
 					limit = {
-						original_tag = GER
+						original_tag = SAX
 						has_government = neutrality
 					}
 					load_focus_tree = { tree = german_focus keep_completed = no }
-					unlock_national_focus = GER_oppose_hitler
-					unlock_national_focus = GER_secure_the_new_state
-					unlock_national_focus = GER_revive_the_kaiserreich
-					unlock_national_focus = GER_return_of_the_kaiser
-					unlock_national_focus = GER_focus_on_the_true_enemy
-					unlock_national_focus = GER_four_year_plan
-					unlock_national_focus = GER_west_wall
-					unlock_national_focus = GER_atlantikwall 
-					unlock_national_focus = GER_ostwall
-					unlock_national_focus = GER_grosraumwirtschaft
-					unlock_national_focus = GER_align_romania
-					unlock_national_focus = GER_align_hungary
-					unlock_national_focus = GER_autarky
-					unlock_national_focus = GER_autobahn
-					unlock_national_focus = GER_german_war_economy
-					unlock_national_focus = GER_coal_liquidization
-					unlock_national_focus = GER_synthetic_rubber
-					unlock_national_focus = GER_hermann_goring_werke
-					unlock_national_focus = GER_kdf_wagen
-					complete_national_focus = GER_extra_tech_slot
-					unlock_national_focus = GER_air_innovation
-					unlock_national_focus = GER_army_innovation
-					unlock_national_focus = GER_soviet_treaty
+					unlock_national_focus = SAX_oppose_hitler
+					unlock_national_focus = SAX_secure_the_new_state
+					unlock_national_focus = SAX_revive_the_kaiserreich
+					unlock_national_focus = SAX_return_of_the_kaiser
+					unlock_national_focus = SAX_focus_on_the_true_enemy
+					unlock_national_focus = SAX_four_year_plan
+					unlock_national_focus = SAX_west_wall
+					unlock_national_focus = SAX_atlantikwall 
+					unlock_national_focus = SAX_ostwall
+					unlock_national_focus = SAX_grosraumwirtschaft
+					unlock_national_focus = SAX_align_romania
+					unlock_national_focus = SAX_align_hungary
+					unlock_national_focus = SAX_autarky
+					unlock_national_focus = SAX_autobahn
+					unlock_national_focus = SAX_german_war_economy
+					unlock_national_focus = SAX_coal_liquidization
+					unlock_national_focus = SAX_synthetic_rubber
+					unlock_national_focus = SAX_hermann_goring_werke
+					unlock_national_focus = SAX_kdf_wagen
+					complete_national_focus = SAX_extra_tech_slot
+					unlock_national_focus = SAX_air_innovation
+					unlock_national_focus = SAX_army_innovation
+					unlock_national_focus = SAX_soviet_treaty
 				}
 			}
 		}

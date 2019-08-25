@@ -33,14 +33,14 @@ country_event = {
 				limit = {
 					has_country_flag = SS_mechanised_division_late
 				}
-				custom_effect_tooltip = GER_division_wiking_mech_tt
+				custom_effect_tooltip = SAX_division_wiking_mech_tt
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"5. SS Division Wiking\" division_template = \"SS Panzergrenadier Division (n.A.)\" start_experience_factor = 1.0 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -49,14 +49,14 @@ country_event = {
 				limit = {
 					has_country_flag = SS_mechanised_division_early
 				}
-				custom_effect_tooltip = GER_division_wiking_mech_tt
+				custom_effect_tooltip = SAX_division_wiking_mech_tt
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"5. SS Division Wiking\" division_template = \"SS Panzergrenadier Division\" start_experience_factor = 1.0 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -68,14 +68,14 @@ country_event = {
 						has_country_flag = SS_mechanised_division_late
 					}
 				}
-				custom_effect_tooltip = GER_division_wiking_mot_tt
+				custom_effect_tooltip = SAX_division_wiking_mot_tt
 				hidden_effect = {		
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"5. SS Division Wiking\" division_template = \"SS Motorisierte Division\" start_experience_factor = 1.0 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -109,14 +109,14 @@ country_event = {
 			limit = {
 				has_country_flag = SS_armored_division_late
 			}
-			custom_effect_tooltip = GER_division_danmark_armored_tt
+			custom_effect_tooltip = SAX_division_danmark_armored_tt
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"SS Panzer-Division Danmark\" division_template = \"SS Panzer Division (vollgep.)\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -125,27 +125,27 @@ country_event = {
 			limit = {
 				has_country_flag = SS_armored_division_improved
 			}
-			custom_effect_tooltip = GER_division_danmark_armored_tt
+			custom_effect_tooltip = SAX_division_danmark_armored_tt
 			hidden_effect = {	
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"SS Panzer-Division Danmark\" division_template = \"SS Panzer Division (n.A.)\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
 		}
 		else = {
-			custom_effect_tooltip = GER_division_danmark_armored_tt
+			custom_effect_tooltip = SAX_division_danmark_armored_tt
 			hidden_effect = {	
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"SS Panzer-Division Danmark\" division_template = \"SS Panzer Division\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -196,14 +196,14 @@ country_event = {
 				limit = {
 					has_country_flag = SS_mechanised_division_late
 				}
-				custom_effect_tooltip = GER_division_wiking_mech_tt
+				custom_effect_tooltip = SAX_division_wiking_mech_tt
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"5. SS Division Wiking\" division_template = \"SS Panzergrenadier Division (n.A.)\" start_experience_factor = 1.0 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -212,14 +212,14 @@ country_event = {
 				limit = {
 					has_country_flag = SS_mechanised_division_early
 				}
-				custom_effect_tooltip = GER_division_wiking_mech_tt
+				custom_effect_tooltip = SAX_division_wiking_mech_tt
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"5. SS Division Wiking\" division_template = \"SS Panzergrenadier Division\" start_experience_factor = 1.0 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -231,14 +231,14 @@ country_event = {
 						has_country_flag = SS_mechanised_division_late
 					}
 				}
-				custom_effect_tooltip = GER_division_wiking_mot_tt
+				custom_effect_tooltip = SAX_division_wiking_mot_tt
 				hidden_effect = {		
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"5. SS Division Wiking\" division_template = \"SS Motorisierte Division\" start_experience_factor = 1.0 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -272,14 +272,14 @@ country_event = {
 			limit = {
 				has_country_flag = SS_armored_division_late
 			}
-			custom_effect_tooltip = GER_division_norge_armored_tt
+			custom_effect_tooltip = SAX_division_norge_armored_tt
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"SS Panzer-Division Norge\" division_template = \"SS Panzer Division (vollgep.)\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -288,27 +288,27 @@ country_event = {
 			limit = {
 				has_country_flag = SS_armored_division_improved
 			}
-			custom_effect_tooltip = GER_division_norge_armored_tt
+			custom_effect_tooltip = SAX_division_norge_armored_tt
 			hidden_effect = {	
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"SS Panzer-Division Norge\" division_template = \"SS Panzer Division (n.A.)\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
 		}
 		else = {
-			custom_effect_tooltip = GER_division_norge_armored_tt
+			custom_effect_tooltip = SAX_division_norge_armored_tt
 			hidden_effect = {	
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"SS Panzer-Division Norge\" division_template = \"SS Panzer Division\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -354,14 +354,14 @@ country_event = {
 			limit = {
 				has_country_flag = SS_mechanised_division_late
 			}
-			custom_effect_tooltip = GER_division_nederland_mech_tt
+			custom_effect_tooltip = SAX_division_nederland_mech_tt
 			hidden_effect = {
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"23. SS-Division Nederland\" division_template = \"SS Panzergrenadier Division (n.A.)\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -370,27 +370,27 @@ country_event = {
 			limit = {
 				has_country_flag = SS_mechanised_division_early
 			}
-			custom_effect_tooltip = GER_division_nederland_mech_tt
+			custom_effect_tooltip = SAX_division_nederland_mech_tt
 			hidden_effect = {
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"23. SS-Division Nederland\" division_template = \"SS Panzergrenadier Division\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
 		}
 		else = {
-			custom_effect_tooltip = GER_division_nederland_mot_tt
+			custom_effect_tooltip = SAX_division_nederland_mot_tt
 			hidden_effect = {		
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"23. SS-Division Nederland\" division_template = \"SS Motorisierte Division\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -418,18 +418,18 @@ country_event = {
 			limit = {
 				has_country_flag = SS_armored_division_late
 			}
-			custom_effect_tooltip = GER_division_nederland_armored_tt
+			custom_effect_tooltip = SAX_division_nederland_armored_tt
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"SS Panzer-Division Nederland\" division_template = \"SS Panzer Division (vollgep.)\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 						create_unit = {
 							division = "name = \"SS Panzer-Division Anton Mussert\" division_template = \"SS Panzer Division (vollgep.)\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -438,35 +438,35 @@ country_event = {
 			limit = {
 				has_country_flag = SS_armored_division_improved
 			}
-			custom_effect_tooltip = GER_division_nederland_armored_tt
+			custom_effect_tooltip = SAX_division_nederland_armored_tt
 			hidden_effect = {	
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"SS Panzer-Division Nederland\" division_template = \"SS Panzer Division (n.A.)\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 					create_unit = {
 						division = "name = \"SS Panzer-Division Anton Mussert\" division_template = \"SS Panzer Division (n.A.)\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
 		}
 		else = {
-			custom_effect_tooltip = GER_division_nederland_armored_tt
+			custom_effect_tooltip = SAX_division_nederland_armored_tt
 			hidden_effect = {	
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"SS Panzer-Division Nederland\" division_template = \"SS Panzer Division\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 					create_unit = {
 						division = "name = \"SS Panzer-Division Anton Mussert\" division_template = \"SS Panzer Division\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -512,18 +512,18 @@ country_event = {
 			limit = {
 				has_country_flag = SS_mechanised_division_late
 			}
-			custom_effect_tooltip = GER_division_belgium_mech_tt
+			custom_effect_tooltip = SAX_division_belgium_mech_tt
 			hidden_effect = {
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"27. SS-Division Langemark\" division_template = \"SS Panzergrenadier Division (n.A.)\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 					create_unit = {
 						division = "name = \"28. SS-Division Wallonien\" division_template = \"SS Panzergrenadier Division (n.A.)\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -532,35 +532,35 @@ country_event = {
 			limit = {
 				has_country_flag = SS_mechanised_division_early
 			}
-			custom_effect_tooltip = GER_division_belgium_mech_tt
+			custom_effect_tooltip = SAX_division_belgium_mech_tt
 			hidden_effect = {
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"27. SS-Division Langemark\" division_template = \"SS Panzergrenadier Division\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 					create_unit = {
 						division = "name = \"28. SS-Division Wallonien\" division_template = \"SS Panzergrenadier Division\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
 		}
 		else = {
-			custom_effect_tooltip = GER_division_belgium_mot_tt
+			custom_effect_tooltip = SAX_division_belgium_mot_tt
 			hidden_effect = {		
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"27. SS-Division Langemark\" division_template = \"SS Motorisierte Division\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 					create_unit = {
 						division = "name = \"28. SS-Division Wallonien\" division_template = \"SS Motorisierte Division\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -589,18 +589,18 @@ country_event = {
 			limit = {
 				has_country_flag = SS_armored_division_late
 			}
-			custom_effect_tooltip = GER_division_belgium_armored_tt
+			custom_effect_tooltip = SAX_division_belgium_armored_tt
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"SS Panzer-Division Flandern\" division_template = \"SS Panzer Division (vollgep.)\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 						create_unit = {
 							division = "name = \"SS Panzer-Division Wallonien\" division_template = \"SS Panzer Division (vollgep.)\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -609,35 +609,35 @@ country_event = {
 			limit = {
 				has_country_flag = SS_armored_division_improved
 			}
-			custom_effect_tooltip = GER_division_belgium_armored_tt
+			custom_effect_tooltip = SAX_division_belgium_armored_tt
 			hidden_effect = {	
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"SS Panzer-Division Flandern\" division_template = \"SS Panzer Division (n.A.)\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 					create_unit = {
 						division = "name = \"SS Panzer-Division Wallonien\" division_template = \"SS Panzer Division (n.A.)\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
 		}
 		else = {
-			custom_effect_tooltip = GER_division_belgium_armored_tt
+			custom_effect_tooltip = SAX_division_belgium_armored_tt
 			hidden_effect = {	
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"SS Panzer-Division Flandern\" division_template = \"SS Panzer Division\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 					create_unit = {
 						division = "name = \"SS Panzer-Division Wallonien\" division_template = \"SS Panzer Division\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -685,14 +685,14 @@ country_event = {
 			}
 			SS_infantry_division = yes
 		}
-		custom_effect_tooltip = GER_division_france_infantry_tt
+		custom_effect_tooltip = SAX_division_france_infantry_tt
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"33. SS-Waffen-Grenadier-Division Charlemagne\" division_template = \"SS Waffen-Grenadier-Division\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -720,18 +720,18 @@ country_event = {
 			limit = {
 				has_country_flag = SS_mechanised_division_late
 			}
-			custom_effect_tooltip = GER_division_france_mech_tt
+			custom_effect_tooltip = SAX_division_france_mech_tt
 			hidden_effect = {
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"33. SS-Panzergrenadier-Division Charlemagne\" division_template = \"SS Panzergrenadier Division (n.A.)\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 					create_unit = {
 						division = "name = \"SS-Panzergrenadier-Division Bretagne\" division_template = \"SS Panzergrenadier Division (n.A.)\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -740,35 +740,35 @@ country_event = {
 			limit = {
 				has_country_flag = SS_mechanised_division_early
 			}
-			custom_effect_tooltip = GER_division_france_mech_tt
+			custom_effect_tooltip = SAX_division_france_mech_tt
 			hidden_effect = {
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"33. SS-Panzergrenadier-Division Charlemagne\" division_template = \"SS Panzergrenadier Division\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 					create_unit = {
 						division = "name = \"SS-Panzergrenadier-Division Bretagne\" division_template = \"SS Panzergrenadier Division\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
 		}
 		else = {
-			custom_effect_tooltip = GER_division_france_mot_tt
+			custom_effect_tooltip = SAX_division_france_mot_tt
 			hidden_effect = {		
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"33. SS-Panzergrenadier-Division Charlemagne\" division_template = \"SS Motorisierte Division\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 					create_unit = {
 						division = "name = \"SS-Panzergrenadier-Division Bretagne\" division_template = \"SS Motorisierte Division\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -816,14 +816,14 @@ country_event = {
 			}
 			SS_infantry_division = yes
 		}
-		custom_effect_tooltip = GER_division_estonia_infantry_tt
+		custom_effect_tooltip = SAX_division_estonia_infantry_tt
 		hidden_effect = {
 			random_owned_controlled_state = {
 				limit = { ROOT = { has_full_control_of_state = PREV } }
 				prioritize = { 64 }
 				create_unit = {
 					division = "name = \"20. SS-Waffen-Grenadier-Division\" division_template = \"SS Waffen-Grenadier-Division\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-					owner = GER
+					owner = SAX
 				}
 			}
 		}
@@ -851,14 +851,14 @@ country_event = {
 			limit = {
 				has_country_flag = SS_mechanised_division_late
 			}
-			custom_effect_tooltip = GER_division_estonia_mech_tt
+			custom_effect_tooltip = SAX_division_estonia_mech_tt
 			hidden_effect = {
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"20. SS-Panzergrenadier-Division\" division_template = \"SS Panzergrenadier Division (n.A.)\" start_experience_factor = 0.6 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -867,27 +867,27 @@ country_event = {
 			limit = {
 				has_country_flag = SS_mechanised_division_early
 			}
-			custom_effect_tooltip = GER_division_estonia_mech_tt
+			custom_effect_tooltip = SAX_division_estonia_mech_tt
 			hidden_effect = {
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"20. SS-Panzergrenadier-Division\" division_template = \"SS Panzergrenadier Division\" start_experience_factor = 0.6 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
 		}
 		else = {
-			custom_effect_tooltip = GER_division_estonia_mot_tt
+			custom_effect_tooltip = SAX_division_estonia_mot_tt
 			hidden_effect = {		
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"20. SS-Panzergrenadier-Division\" division_template = \"SS Motorisierte Division\" start_experience_factor = 0.6 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -934,18 +934,18 @@ country_event = {
 			}
 			SS_infantry_division = yes
 		}
-		custom_effect_tooltip = GER_division_latvia_infantry_tt
+		custom_effect_tooltip = SAX_division_latvia_infantry_tt
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"15. SS-Waffen-Grenadier-Division\" division_template = \"SS Waffen-Grenadier-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 						create_unit = {
 							division = "name = \"19. SS-Waffen-Grenadier-Division\" division_template = \"SS Waffen-Grenadier-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -973,14 +973,14 @@ country_event = {
 			limit = {
 				has_country_flag = SS_mechanised_division_late
 			}
-			custom_effect_tooltip = GER_division_latvia_mech_tt
+			custom_effect_tooltip = SAX_division_latvia_mech_tt
 			hidden_effect = {
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"15. SS-Panzergrenadier-Division\" division_template = \"SS Panzergrenadier Division (n.A.)\" start_experience_factor = 0.6 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -989,27 +989,27 @@ country_event = {
 			limit = {
 				has_country_flag = SS_mechanised_division_early
 			}
-			custom_effect_tooltip = GER_division_latvia_mech_tt
+			custom_effect_tooltip = SAX_division_latvia_mech_tt
 			hidden_effect = {
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"15. SS-Panzergrenadier-Division\" division_template = \"SS Panzergrenadier Division\" start_experience_factor = 0.6 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
 		}
 		else = {
-			custom_effect_tooltip = GER_division_latvia_mot_tt
+			custom_effect_tooltip = SAX_division_latvia_mot_tt
 			hidden_effect = {		
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"15. SS-Panzergrenadier-Division\" division_template = \"SS Motorisierte Division\" start_experience_factor = 0.6 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -1018,14 +1018,14 @@ country_event = {
 			limit = {
 				has_country_flag = SS_armored_division_late
 			}
-			custom_effect_tooltip = GER_division_latvia_armored_tt
+			custom_effect_tooltip = SAX_division_latvia_armored_tt
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"19. SS Panzer-Division Latvia\" division_template = \"SS Panzer Division (vollgep.)\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -1034,27 +1034,27 @@ country_event = {
 			limit = {
 				has_country_flag = SS_armored_division_improved
 			}
-			custom_effect_tooltip = GER_division_latvia_armored_tt
+			custom_effect_tooltip = SAX_division_latvia_armored_tt
 			hidden_effect = {	
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"19. SS Panzer-Division Latvia\" division_template = \"SS Panzer Division (n.A.)\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
 		}
 		else = {
-			custom_effect_tooltip = GER_division_latvia_armored_tt
+			custom_effect_tooltip = SAX_division_latvia_armored_tt
 			hidden_effect = {	
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"19. SS Panzer-Division Latvia\" division_template = \"SS Panzer Division\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -1120,14 +1120,14 @@ country_event = {
 			}
 			SS_infantry_division = yes
 		}
-		custom_effect_tooltip = GER_division_lithuania_infantry_tt
+		custom_effect_tooltip = SAX_division_lithuania_infantry_tt
 		hidden_effect = {
 			random_owned_controlled_state = {
 				limit = { ROOT = { has_full_control_of_state = PREV } }
 				prioritize = { 64 }
 				create_unit = {
 					division = "name = \"40. SS-Waffen-Grenadier-Division\" division_template = \"SS Waffen-Grenadier-Division\" start_experience_factor = 0.1 start_equipment_factor = 0.01" 
-					owner = GER
+					owner = SAX
 				}
 			}
 		}
@@ -1197,7 +1197,7 @@ country_event = {
 						has_trait = politically_connected
 					}
 				}
-				save_event_target_as = GER_SS_general_resigns
+				save_event_target_as = SAX_SS_general_resigns
 			}
 		}
 	}				# 
@@ -1207,7 +1207,7 @@ country_event = {
 		ai_chance = {
 			base = 25
 		}
-		event_target:GER_SS_general_resigns = {
+		event_target:SAX_SS_general_resigns = {
 			retire = yes
 		}
 		add_to_variable = { var = wehrmacht_anger value = 5 }
@@ -1240,13 +1240,13 @@ country_event = {
 				limit = {
 					skill > 2
 					NOT = {
-						has_unit_leader_flag = GER_SS_conspirator
+						has_unit_leader_flag = SAX_SS_conspirator
 					}
 					NOT = {
 						has_trait = politically_connected
 					}
 				}
-				set_unit_leader_flag = GER_SS_conspirator
+				set_unit_leader_flag = SAX_SS_conspirator
 			}
 		}
 	}
@@ -1328,11 +1328,11 @@ country_event = {
 		set_variable = { var = wehrmacht_anger value = 0 }
 		random_country = {
 			limit = {
-				original_tag = GER
+				original_tag = SAX
 				has_civil_war = yes
 				has_government = neutrality
 			}
-			save_event_target_as = GER_ss_civil_war_wehrmacht
+			save_event_target_as = SAX_ss_civil_war_wehrmacht
 			delete_unit_template_and_units = { division_template = "SS Waffen-Grenadier-Division" }
 			delete_unit_template_and_units = { division_template = "SS Panzer Division (vollgep.)" }
 			delete_unit_template_and_units = { division_template = "SS Panzer Division (n.A.)" }
@@ -1340,12 +1340,12 @@ country_event = {
 			delete_unit_template_and_units = { division_template = "SS Panzergrenadier Division (n.A.)" }
 			delete_unit_template_and_units = { division_template = "SS Panzergrenadier Division" }
 			delete_unit_template_and_units = { division_template = "SS Motorisierte Division" }
-			GER = { 
+			SAX = { 
 				every_unit_leader = {
 					limit = {
-						has_unit_leader_flag = GER_SS_conspirator
+						has_unit_leader_flag = SAX_SS_conspirator
 					}
-					set_nationality = event_target:GER_ss_civil_war_wehrmacht
+					set_nationality = event_target:SAX_ss_civil_war_wehrmacht
 				}
 			}
 		}
@@ -1372,7 +1372,7 @@ country_event = {
 		}
 		every_unit_leader = {
 			limit = {
-				has_unit_leader_flag = GER_SS_conspirator
+				has_unit_leader_flag = SAX_SS_conspirator
 			}
 			retire = yes
 		}
@@ -1459,7 +1459,7 @@ country_event = {
 		ai_chance = {
 			base = 25
 		}
-		add_timed_idea = { idea = GER_ss_factory_rerouted days = 90 }
+		add_timed_idea = { idea = SAX_ss_factory_rerouted days = 90 }
 	}
 	option = { #placate
 		name = ss_recruitment_event.22.b
@@ -1535,7 +1535,7 @@ country_event = {
 					limit = {
 						has_country_leader = { ruling_only = yes name = "Hermann Göring" }
 					}
-					set_country_flag = GER_SS_Goering_dead #no zombie Görings!
+					set_country_flag = SAX_SS_Goering_dead #no zombie Görings!
 				}
 				kill_country_leader = yes 
 				set_variable = { var = SS_anger value = 0 }
@@ -1584,7 +1584,7 @@ country_event = {
 			remove_ideas = heinrich_himmler
 		}
 		add_stability = -0.2
-		set_country_flag = GER_ss_himmler_purged
+		set_country_flag = SAX_ss_himmler_purged
 		add_popularity = {
 			ideology = fascism
 			popularity = -0.2
@@ -1641,7 +1641,7 @@ country_event = {
 		name = ss_recruitment_event.26.b
 		trigger = {
 			NOT = {
-				has_country_flag = GER_SS_Goering_dead
+				has_country_flag = SAX_SS_Goering_dead
 			}
 		}
 		kill_country_leader = yes
@@ -1694,7 +1694,7 @@ country_event = {
 			traits = {
 			}
 		}
-		set_party_name = { ideology = neutrality long_name = GER_neutrality_party_civil_war name = GER_neutrality_party_civil_war }
+		set_party_name = { ideology = neutrality long_name = SAX_neutrality_party_civil_war name = SAX_neutrality_party_civil_war }
 		start_civil_war = {
 			ruling_party = neutrality
 			ideology = fascism
@@ -1733,14 +1733,14 @@ country_event = {
 			limit = {
 				has_country_flag = SS_mechanised_division_late
 			}
-			custom_effect_tooltip = GER_division_britain_mech_tt
+			custom_effect_tooltip = SAX_division_britain_mech_tt
 			hidden_effect = {
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"SS-Panzergrenadier-Division Oliver Cromwell\" division_template = \"SS Panzergrenadier Division (n.A.)\" start_experience_factor = 0.8 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -1749,27 +1749,27 @@ country_event = {
 			limit = {
 				has_country_flag = SS_mechanised_division_early
 			}
-			custom_effect_tooltip = GER_division_britain_mech_tt
+			custom_effect_tooltip = SAX_division_britain_mech_tt
 			hidden_effect = {
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"SS-Panzergrenadier-Division Oliver Cromwell\" division_template = \"SS Panzergrenadier Division\" start_experience_factor = 0.8 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
 		}
 		else = {
-			custom_effect_tooltip = GER_division_britain_mot_tt
+			custom_effect_tooltip = SAX_division_britain_mot_tt
 			hidden_effect = {		
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"SS-Panzergrenadier-Division Oliver Cromwell\" division_template = \"SS Motorisierte Division\" start_experience_factor = 0.8 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -1797,18 +1797,18 @@ country_event = {
 			limit = {
 				has_country_flag = SS_armored_division_late
 			}
-			custom_effect_tooltip = GER_division_britain_armored_tt
+			custom_effect_tooltip = SAX_division_britain_armored_tt
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"SS Panzer-Division Oliver Cromwell\" division_template = \"SS Panzer Division (vollgep.)\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 						create_unit = {
 							division = "name = \"SS Panzer-Division Sankt Georg\" division_template = \"SS Panzer Division (vollgep.)\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -1817,35 +1817,35 @@ country_event = {
 			limit = {
 				has_country_flag = SS_armored_division_improved
 			}
-			custom_effect_tooltip = GER_division_britain_armored_tt
+			custom_effect_tooltip = SAX_division_britain_armored_tt
 			hidden_effect = {	
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"SS Panzer-Division Oliver Cromwell\" division_template = \"SS Panzer Division (n.A.)\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 					create_unit = {
 						division = "name = \"SS Panzer-Division Sankt Georg\" division_template = \"SS Panzer Division (n.A.)\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
 		}
 		else = {
-			custom_effect_tooltip = GER_division_britain_armored_tt
+			custom_effect_tooltip = SAX_division_britain_armored_tt
 			hidden_effect = {	
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"SS Panzer-Division Oliver Cromwell\" division_template = \"SS Panzer Division\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 					create_unit = {
 						division = "name = \"SS Panzer-Division Sankt Georg\" division_template = \"SS Panzer Division\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -1892,14 +1892,14 @@ country_event = {
 			}
 			SS_infantry_division = yes
 		}
-		custom_effect_tooltip = GER_division_scotland_infantry_tt
+		custom_effect_tooltip = SAX_division_scotland_infantry_tt
 		hidden_effect = {
 			random_owned_controlled_state = {
 				limit = { ROOT = { has_full_control_of_state = PREV } }
 				prioritize = { 64 }
 				create_unit = {
 					division = "name = \"Gälische Freiwilligen-Divison der Waffen-SS\" division_template = \"SS Waffen-Grenadier-Division\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-					owner = GER
+					owner = SAX
 				}
 			}
 		}
@@ -1926,14 +1926,14 @@ country_event = {
 			limit = {
 				has_country_flag = SS_mechanised_division_late
 			}
-			custom_effect_tooltip = GER_division_scotland_mech_tt
+			custom_effect_tooltip = SAX_division_scotland_mech_tt
 			hidden_effect = {
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"Gälische Freiwilligen-Divison der Waffen-SS\" division_template = \"SS Panzergrenadier Division (n.A.)\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -1942,27 +1942,27 @@ country_event = {
 			limit = {
 				has_country_flag = SS_mechanised_division_early
 			}
-			custom_effect_tooltip = GER_division_scotland_mech_tt
+			custom_effect_tooltip = SAX_division_scotland_mech_tt
 			hidden_effect = {
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"Gälische Freiwilligen-Divison der Waffen-SS\" division_template = \"SS Panzergrenadier Division\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
 		}
 		else = {
-			custom_effect_tooltip = GER_division_scotland_mot_tt
+			custom_effect_tooltip = SAX_division_scotland_mot_tt
 			hidden_effect = {		
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"Gälische Freiwilligen-Divison der Waffen-SS\" division_template = \"SS Motorisierte Division\" start_experience_factor = 0.7 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
@@ -2008,14 +2008,14 @@ country_event = {
 				limit = {
 					has_country_flag = SS_mechanised_division_late
 				}
-				custom_effect_tooltip = GER_division_sweden_mech_tt
+				custom_effect_tooltip = SAX_division_sweden_mech_tt
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"SS Panzergrenadier-Division Sveaborg\" division_template = \"SS Panzergrenadier Division (n.A.)\" start_experience_factor = 1.0 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -2024,27 +2024,27 @@ country_event = {
 				limit = {
 					has_country_flag = SS_mechanised_division_early
 				}
-				custom_effect_tooltip = GER_division_sweden_mech_tt
+				custom_effect_tooltip = SAX_division_sweden_mech_tt
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"SS Panzergrenadier-Division Sveaborg\" division_template = \"SS Panzergrenadier Division\" start_experience_factor = 1.0 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
 			}
 			else = {
-				custom_effect_tooltip = GER_division_sweden_mot_tt
+				custom_effect_tooltip = SAX_division_sweden_mot_tt
 				hidden_effect = {		
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"SS Division Sveaborg\" division_template = \"SS Motorisierte Division\" start_experience_factor = 1.0 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -2073,14 +2073,14 @@ country_event = {
 			limit = {
 				has_country_flag = SS_armored_division_late
 			}
-			custom_effect_tooltip = GER_division_sweden_armored_tt
+			custom_effect_tooltip = SAX_division_sweden_armored_tt
 				hidden_effect = {
 					random_owned_controlled_state = {
 						limit = { ROOT = { has_full_control_of_state = PREV } }
 						prioritize = { 64 }
 						create_unit = {
 							division = "name = \"SS Panzer-Division Sveaborg\" division_template = \"SS Panzer Division (vollgep.)\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-							owner = GER
+							owner = SAX
 						}
 					}
 				}
@@ -2089,27 +2089,27 @@ country_event = {
 			limit = {
 				has_country_flag = SS_armored_division_improved
 			}
-			custom_effect_tooltip = GER_division_sweden_armored_tt
+			custom_effect_tooltip = SAX_division_sweden_armored_tt
 			hidden_effect = {	
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"SS Panzer-Division Sveaborg\" division_template = \"SS Panzer Division (n.A.)\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}
 		}
 		else = {
-			custom_effect_tooltip = GER_division_sweden_armored_tt
+			custom_effect_tooltip = SAX_division_sweden_armored_tt
 			hidden_effect = {	
 				random_owned_controlled_state = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 64 }
 					create_unit = {
 						division = "name = \"SS Panzer-Division Sveaborg\" division_template = \"SS Panzer Division\" start_experience_factor = 0.5 start_equipment_factor = 0.01" 
-						owner = GER
+						owner = SAX
 					}
 				}
 			}

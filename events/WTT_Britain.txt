@@ -126,15 +126,15 @@ country_event = {
 		}
 		if = {
 			limit = {
-				GER = { has_government = fascism }
+				SAX = { has_government = fascism }
 			}
-			GER = { add_popularity = { ideology = fascism popularity = 0.05 } }
+			SAX = { add_popularity = { ideology = fascism popularity = 0.05 } }
 		}
 		if = {
 			limit = {
-				GER = { has_government = neutrality }
+				SAX = { has_government = neutrality }
 			}
-			GER = { add_popularity = { ideology = neutrality popularity = 0.05 } }
+			SAX = { add_popularity = { ideology = neutrality popularity = 0.05 } }
 		}
 		USA = { set_country_flag = mers_el_kebir_raid }
 		hidden_effect = {

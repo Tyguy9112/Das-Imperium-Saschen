@@ -360,7 +360,7 @@ country_event = {
 }
 
 #RAJ asks help from Germany to break free from ENG
-#Event for GER
+#Event for SAX
 country_event = {
 	id = tfv_raj.40
 	title = tfv_raj.40.t
@@ -386,7 +386,7 @@ country_event = {
 			base = 1
 			modifier = {
 				factor = 0
-				GER_can_help_against_ENG = no				
+				SAX_can_help_against_ENG = no				
 			}
 			modifier = {
 				factor = 2
@@ -460,7 +460,7 @@ country_event = {
 				target = RAJ
 				autonomy_state = autonomy_free
 			}
-			GER = { add_to_faction = RAJ }
+			SAX = { add_to_faction = RAJ }
 		}
 		RAJ = { country_event = { id = tfv_raj.44 hours = 6 } }
 		hidden_effect = { news_event = { id = news.280 hours = 12 } }
@@ -478,19 +478,19 @@ country_event = {
 }
 
 #RAJ asks help from Germany to break free from ENG
-#Event for RAJ. GER supports us
+#Event for RAJ. SAX supports us
 country_event = {
 	id = tfv_raj.42
 	title = tfv_raj.42.t
 	desc = {
-		text = tfv_raj.42.desc_GER_helps
+		text = tfv_raj.42.desc_SAX_helps
 		trigger = {
 			has_global_flag = RAJ_seek_help_from_germany_promised
 			NOT = { has_global_flag = RAJ_seek_help_from_germany_ENG_reject }
 		}
 	}
 	desc = {
-		text = tfv_raj.42.desc_GER_helps_ENG_reject
+		text = tfv_raj.42.desc_SAX_helps_ENG_reject
 		trigger = {
 			has_global_flag = RAJ_seek_help_from_germany_ENG_reject
 			has_global_flag = RAJ_seek_help_from_germany_promised
@@ -546,7 +546,7 @@ country_event = {
 			relation = puppet
 			active = no
 		}
-		GER = { add_to_faction = RAJ }
+		SAX = { add_to_faction = RAJ }
 		add_popularity = {
 			ideology = fascism
 			popularity = 0.35

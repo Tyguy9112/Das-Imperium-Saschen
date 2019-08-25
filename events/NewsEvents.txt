@@ -253,7 +253,7 @@ news_event = {
 			NOT = {
 				TAG = SOV
 				TAG = ROM
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -267,7 +267,7 @@ news_event = {
 	}
 	option = {
 		name = news.10.e
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 }
 
@@ -288,7 +288,7 @@ news_event = {
 			NOT = {
 				TAG = SOV
 				TAG = ROM
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -302,7 +302,7 @@ news_event = {
 	}
 	option = {
 		name = news.11.e
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 }
 
@@ -323,7 +323,7 @@ news_event = {
 			NOT = {
 				TAG = SOV
 				TAG = FIN
-				TAG = GER
+				TAG = SAX
 				is_in_faction_with = SOV
 			}
 		}
@@ -338,7 +338,7 @@ news_event = {
 	}
 	option = {
 		name = news.12.e
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.12.f
@@ -346,7 +346,7 @@ news_event = {
 			NOT = {
 				TAG = SOV
 				TAG = FIN
-				TAG = GER
+				TAG = SAX
 			}
 			is_in_faction_with = SOV
 		}
@@ -370,7 +370,7 @@ news_event = {
 			NOT = {
 				TAG = SOV
 				TAG = FIN
-				TAG = GER
+				TAG = SAX
 				is_in_faction_with = SOV
 			}
 		}
@@ -385,7 +385,7 @@ news_event = {
 	}
 	option = {
 		name = news.13.e
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 
 	option = {
@@ -394,7 +394,7 @@ news_event = {
 			NOT = {
 				TAG = SOV
 				TAG = FIN
-				TAG = GER
+				TAG = SAX
 			}
 			is_in_faction_with = SOV
 		}
@@ -442,7 +442,7 @@ news_event = {
 		name = news.15.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ROM
 				TAG = HUN
 			}
@@ -450,7 +450,7 @@ news_event = {
 	}
 	option = {
 		name = news.15.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.15.c
@@ -477,7 +477,7 @@ news_event = {
 		name = news.15.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ROM
 				TAG = HUN
 			}
@@ -485,7 +485,7 @@ news_event = {
 	}
 	option = {
 		name = news.15.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.15.c
@@ -512,7 +512,7 @@ news_event = {
 		name = news.17.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ROM
 				TAG = HUN
 			}
@@ -520,7 +520,7 @@ news_event = {
 	}
 	option = {
 		name = news.17.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.17.c
@@ -547,7 +547,7 @@ news_event = {
 		name = news.17.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ROM
 				TAG = HUN
 			}
@@ -555,7 +555,7 @@ news_event = {
 	}
 	option = {
 		name = news.17.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.17.c
@@ -582,15 +582,15 @@ news_event = {
 		name = news.19.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = LIT
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
 	option = {
 		name = news.19.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.19.c
@@ -600,10 +600,10 @@ news_event = {
 		name = news.19.e
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = LIT
 			}
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 		}
 	}
 }
@@ -623,15 +623,15 @@ news_event = {
 		name = news.20.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = LIT
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
 	option = {
 		name = news.20.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.20.c
@@ -641,10 +641,10 @@ news_event = {
 		name = news.20.b
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = LIT
 			}
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 		}
 	}
 }
@@ -777,16 +777,16 @@ news_event = {
 		name = news.25.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = FRA
 				TAG = ENG
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
 	option = {
 		name = news.25.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.25.c
@@ -800,11 +800,11 @@ news_event = {
 		name = news.25.b
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = FRA
 				TAG = ENG
 			}
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 		}
 	}
 }
@@ -824,7 +824,7 @@ news_event = {
 		name = news.26.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = FRA
 				TAG = ENG
 			}
@@ -832,7 +832,7 @@ news_event = {
 	}
 	option = {
 		name = news.26.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.26.c
@@ -859,14 +859,14 @@ news_event = {
 		name = news.26.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = FRA
 			}
 		}
 	}
 	option = {
 		name = news.26.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.26.c
@@ -889,10 +889,10 @@ news_event = {
 		name = news.28.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = FRA
 				TAG = ENG
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -900,8 +900,8 @@ news_event = {
 		name = news.28.b
 		trigger = { 
 			OR = {
-				TAG = GER
-				is_in_faction_with = GER
+				TAG = SAX
+				is_in_faction_with = SAX
 			}
 		}	
 	}
@@ -931,10 +931,10 @@ news_event = {
 		name = news.28.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = FRA
 				TAG = ENG
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -942,8 +942,8 @@ news_event = {
 		name = news.28.b
 		trigger = { 
 			OR = {
-				TAG = GER
-				is_in_faction_with = GER
+				TAG = SAX
+				is_in_faction_with = SAX
 			}
 		}	
 	}
@@ -973,7 +973,7 @@ news_event = {
 		name = news.30.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = FRA
 				TAG = ENG
 			}
@@ -981,7 +981,7 @@ news_event = {
 	}
 	option = {
 		name = news.28.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.30.c
@@ -1008,7 +1008,7 @@ news_event = {
 		name = news.31.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = FRA
 				TAG = ENG
 			}
@@ -1018,7 +1018,7 @@ news_event = {
 		name = news.31.b
 		trigger = { 
 			AND = {
-				TAG = GER
+				TAG = SAX
 				has_country_flag = german_rebels
 			}
 		}
@@ -1027,7 +1027,7 @@ news_event = {
 		name = news.31.c
 		trigger = {
 			AND = {
-				TAG = GER
+				TAG = SAX
 				NOT = { has_country_flag = german_rebels }
 			}
 		}
@@ -1058,9 +1058,9 @@ news_event = {
 		name = news.32.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 				is_in_faction_with = SOV
 			}
 		}
@@ -1085,8 +1085,8 @@ news_event = {
 		name = news.32.b
 		trigger = { 
 			OR = {
-				TAG = GER
-				is_in_faction_with = GER
+				TAG = SAX
+				is_in_faction_with = SAX
 			}
 			NOT = {
 				tag = SOV
@@ -1104,8 +1104,8 @@ news_event = {
 				is_in_faction_with = SOV
 			}
 			NOT = {
-				tag = GER
-				is_in_faction_with = GER
+				tag = SAX
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -1114,16 +1114,16 @@ news_event = {
 		trigger = {
 			OR = {
 				AND = {
-					tag = GER
+					tag = SAX
 					is_in_faction_with = SOV
 				}
 				AND = {
 					tag = SOV
-					is_in_faction_with = GER
+					is_in_faction_with = SAX
 				}
 				AND = {
 					is_in_faction_with = SOV
-					is_in_faction_with = GER
+					is_in_faction_with = SAX
 				}
 			}
 		}
@@ -1145,9 +1145,9 @@ news_event = {
 		name = news.33.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 				is_in_faction_with = SOV
 			}
 		}
@@ -1157,15 +1157,15 @@ news_event = {
 		trigger = { 
 			NOT = { TAG = SOV } #fix for unholy alliance
 			OR = {
-				TAG = GER
-				is_in_faction_with = GER
+				TAG = SAX
+				is_in_faction_with = SAX
 			}
 		}
 	}
 	option = {
 		name = news.33.c
 		trigger = { 
-			NOT = { TAG = GER } # fix for unholy alliance
+			NOT = { TAG = SAX } # fix for unholy alliance
 			OR = {
 				TAG = SOV
 				is_in_faction_with = SOV
@@ -1195,16 +1195,16 @@ news_event = {
 					NOT = { has_government = democratic }
 				}
 			}
-			NOT = { TAG = GER	}
-			NOT = { is_in_faction_with = GER }
+			NOT = { TAG = SAX	}
+			NOT = { is_in_faction_with = SAX }
 		}
 	}
 	option = {
 		name = news.34.b
 		trigger = {
 			OR = {
-				is_in_faction_with = GER
-				TAG = GER 
+				is_in_faction_with = SAX
+				TAG = SAX 
 			}
 		}
 	}
@@ -1231,9 +1231,9 @@ news_event = {
 	option = {
 		name = news.35.a
 		trigger = {
-			NOT = { TAG = GER	}
+			NOT = { TAG = SAX	}
 			NOT = { TAG = ENG	}
-			NOT = { is_in_faction_with = GER }
+			NOT = { is_in_faction_with = SAX }
 			NOT = { is_in_faction_with = ENG }
 		}
 	}
@@ -1241,8 +1241,8 @@ news_event = {
 		name = news.35.b
 		trigger = {
 			OR = {
-				is_in_faction_with = GER
-				TAG = GER 
+				is_in_faction_with = SAX
+				TAG = SAX 
 			}
 		}
 	}
@@ -1272,7 +1272,7 @@ news_event = {
 		name = news.36.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ITA
 				TAG = FRA
 				TAG = ENG
@@ -1281,7 +1281,7 @@ news_event = {
 	}
 	option = {
 		name = news.36.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.36.c
@@ -1492,21 +1492,21 @@ news_event = {
 	is_triggered_only = yes
 
 	show_major = {
-		NOT = { tag = GER }
+		NOT = { tag = SAX }
 	}
 	
 	option = {
 		name = news.44.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 			}
 		}
 	}
 	option = {
 		name = news.44.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.44.c
@@ -1526,21 +1526,21 @@ news_event = {
 	is_triggered_only = yes
 	
 	show_major = {
-		NOT = { tag = GER }
+		NOT = { tag = SAX }
 	}	
 	
 	option = {
 		name = news.45.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 			}
 		}
 	}
 	option = {
 		name = news.45.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.45.c
@@ -1560,21 +1560,21 @@ news_event = {
 	is_triggered_only = yes
 	
 	show_major = {
-		NOT = { tag = GER }
+		NOT = { tag = SAX }
 	}
 
 	option = {
 		name = news.38.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 			}
 		}
 	}
 	option = {
 		name = news.44.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.44.c
@@ -1594,21 +1594,21 @@ news_event = {
 	is_triggered_only = yes
 	
 	show_major = {
-		NOT = { tag = GER }
+		NOT = { tag = SAX }
 	}
 
 	option = {
 		name = news.38.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 			}
 		}
 	}
 	option = {
 		name = news.47.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.47.c
@@ -1696,10 +1696,10 @@ news_event = {
 		date > 1937.5.5
 		date < 1939.5.5
 		country_exists = USA
-		country_exists = GER
+		country_exists = SAX
 		USA = { has_war = no }
-		GER = { has_war = no }
-		GER = { has_civil_war = no }
+		SAX = { has_war = no }
+		SAX = { has_civil_war = no }
 		NOT = { has_global_flag = hindenburg_destroyed }
 		NOT = { has_global_flag = hindenburg_event_in_progress }
 	}
@@ -1713,7 +1713,7 @@ news_event = {
 			70 = {
 				modifier = {
 					factor = 0
-					has_global_flag = GER_air_safety_regulations_flag
+					has_global_flag = SAX_air_safety_regulations_flag
 				}
 				USA = { news_event = { id = news.42 } }
 			}
@@ -1735,9 +1735,9 @@ news_event = {
 	
 	trigger = {
 		country_exists = ENG
-		country_exists = GER
+		country_exists = SAX
 		country_exists = SOV
-		GER = { 
+		SAX = { 
 			has_war_with = ENG 
 			NOT = { has_war_with = SOV }
 			has_government = fascism
@@ -1772,11 +1772,11 @@ news_event = {
 		random_list = {
 			50 = { 
 				ENG = { news_event = { id = news.44 } }
-				GER = { country_event = { id = germany.107 } }
+				SAX = { country_event = { id = germany.107 } }
 			}
 			50 = { 
 				ENG = { news_event = { id = news.45 } } 
-				GER = { country_event = { id = germany.108 } }
+				SAX = { country_event = { id = germany.108 } }
 			}
 		}
 	}
@@ -1795,9 +1795,9 @@ news_event = {
 	
 	trigger = {
 		country_exists = ENG
-		country_exists = GER
+		country_exists = SAX
 		country_exists = SOV
-		GER = { 
+		SAX = { 
 			has_war_with = ENG 
 			NOT = { has_war_with = SOV }
 			has_government = fascism
@@ -1833,21 +1833,21 @@ news_event = {
 			#Flight in Hinden
 			15 = { 
 				ENG = { news_event = { id = news.46 } } 
-				GER = { country_event = { id = germany.109 } }
+				SAX = { country_event = { id = germany.109 } }
 			}
 			15 = { 
 				ENG = { news_event = { id = news.47 } } 
-				GER = { country_event = { id = germany.110 } }
+				SAX = { country_event = { id = germany.110 } }
 			}
 
 			#Ordinary flight
 			35 = { 
 				ENG = { news_event = { id = news.44 } }
-				GER = { country_event = { id = germany.107 } }
+				SAX = { country_event = { id = germany.107 } }
 			}
 			35 = { 
 				ENG = { news_event = { id = news.45 } } 
-				GER = { country_event = { id = germany.108 } }
+				SAX = { country_event = { id = germany.108 } }
 			}
 
 		}
@@ -1899,11 +1899,11 @@ news_event = {
 		POL = {
 			is_in_faction_with = ENG
 			is_in_faction_with = FRA 
-			NOT = { is_in_faction_with = GER }
+			NOT = { is_in_faction_with = SAX }
 		}
-		GER = {
-			has_completed_focus = GER_demand_memel
-			NOT = { has_completed_focus = GER_poland_friend }
+		SAX = {
+			has_completed_focus = SAX_demand_memel
+			NOT = { has_completed_focus = SAX_poland_friend }
 		}
 	}
 	
@@ -1911,7 +1911,7 @@ news_event = {
 		name = news.55.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 				TAG = POL
 				TAG = FRA
@@ -1920,7 +1920,7 @@ news_event = {
 	}
 	option = {
 		name = news.55.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.55.c
@@ -1951,7 +1951,7 @@ news_event = {
 		name = news.56.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 				TAG = CZE
 			}
@@ -1959,7 +1959,7 @@ news_event = {
 	}
 	option = {
 		name = news.56.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.56.c
@@ -1986,7 +1986,7 @@ news_event = {
 		name = news.57.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 				TAG = FRA
 				TAG = CZE
@@ -1995,7 +1995,7 @@ news_event = {
 	}
 	option = {
 		name = news.57.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.57.c
@@ -2027,7 +2027,7 @@ news_event = {
 		name = news.57.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 				TAG = FRA
 				TAG = CZE
@@ -2036,7 +2036,7 @@ news_event = {
 	}
 	option = {
 		name = news.58.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.58.c
@@ -2067,14 +2067,14 @@ news_event = {
 		name = news.59.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = CZE
 			}
 		}
 	}
 	option = {
 		name = news.59.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.59.c
@@ -2104,7 +2104,7 @@ news_event = {
 		name = news.60.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 				TAG = FRA
 			}
@@ -2112,7 +2112,7 @@ news_event = {
 	}
 	option = {
 		name = news.60.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.60.c
@@ -2147,7 +2147,7 @@ news_event = {
 		name = news.60.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 				TAG = FRA
 				TAG = HUN
@@ -2156,7 +2156,7 @@ news_event = {
 	}
 	option = {
 		name = news.60.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.60.c
@@ -2195,7 +2195,7 @@ news_event = {
 		name = news.60.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 				TAG = FRA
 			}
@@ -2203,7 +2203,7 @@ news_event = {
 	}
 	option = {
 		name = news.60.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.60.c
@@ -2342,13 +2342,13 @@ news_event = {
 	desc = {
 		text = news.66.d
 		trigger = {
-			NOT = { has_global_flag = GER_civil_war_end }
+			NOT = { has_global_flag = SAX_civil_war_end }
 		}
 	}
 	desc = {
 		text = news.66.d.b
 		trigger = {
-			has_global_flag = GER_civil_war_end
+			has_global_flag = SAX_civil_war_end
 		}
 	}
 	picture = GFX_news_event_olympics_1940
@@ -2359,10 +2359,10 @@ news_event = {
 		date > 1936.8.15
 		NOT = { has_global_flag = olympics_1936 }
 		NOT = { has_global_flag = civil_war_olympics }
-		country_exists = GER
+		country_exists = SAX
 		country_exists = USA
-		GER = { has_war = no }
-		GER = { has_civil_war = no }
+		SAX = { has_war = no }
+		SAX = { has_civil_war = no }
 		FRA = { has_war = no }
 		ENG = { has_war = no }
 		USA = { has_war = no }
@@ -2379,12 +2379,12 @@ news_event = {
 	option = {
 		name = news.66.a
 		trigger = { 
-			NOT = { TAG = GER }
+			NOT = { TAG = SAX }
 		}
 	}
 	option = {
 		name = news.66.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 }
 
@@ -2406,8 +2406,8 @@ news_event = {
 		}
 		country_exists = JAP
 		country_exists = USA
-		country_exists = GER
-		GER = { has_war = no }
+		country_exists = SAX
+		SAX = { has_war = no }
 		FRA = { has_war = no }
 		ENG = { has_war = no }
 		USA = { has_war = no }
@@ -2445,13 +2445,13 @@ news_event = {
 		}
 		country_exists = FIN
 		country_exists = USA
-		country_exists = GER
+		country_exists = SAX
 		country_exists = ITA
 		JAP = { has_war = yes }
 		FIN = { has_war = no }
 		ITA = { has_war = no }
 		SOV = { has_war = no }
-		GER = { has_war = no }
+		SAX = { has_war = no }
 		FRA = { has_war = no }
 		ENG = { has_war = no }
 		USA = { has_war = no }
@@ -2603,9 +2603,9 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		10 = { is_controlled_by = GER }
+		10 = { is_controlled_by = SAX }
 		10 = { is_owned_by = POL }
-		GER = { has_war_with = POL }
+		SAX = { has_war_with = POL }
 		NOT = { has_global_flag = fall_of_warsaw_ger }
 	}
 	
@@ -2621,14 +2621,14 @@ news_event = {
 		name = news.100.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = POL
 			}
 		}
 	}
 	option = {
 		name = news.100.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.100.c
@@ -2646,9 +2646,9 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		16 = { is_controlled_by = GER }
+		16 = { is_controlled_by = SAX }
 		16 = { is_owned_by = FRA }
-		FRA = { has_war_with = GER }
+		FRA = { has_war_with = SAX }
 		NOT = { has_global_flag = fall_of_paris_ger }
 	}
 	
@@ -2664,14 +2664,14 @@ news_event = {
 		name = news.101.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = FRA
 			}
 		}
 	}
 	option = {
 		name = news.100.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.100.c
@@ -2689,9 +2689,9 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		126 = { is_controlled_by = GER }
+		126 = { is_controlled_by = SAX }
 		126 = { is_owned_by = ENG }
-		GER = { has_war_with = ENG }
+		SAX = { has_war_with = ENG }
 		NOT = { has_global_flag = fall_of_london_ger }
 	}
 	
@@ -2707,14 +2707,14 @@ news_event = {
 		name = news.145.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 			}
 		}
 	}
 	option = {
 		name = news.100.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.100.c
@@ -2732,9 +2732,9 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		195 = { is_controlled_by = GER }
+		195 = { is_controlled_by = SAX }
 		195 = { is_owned_by = SOV }
-		GER = { has_war_with = SOV }
+		SAX = { has_war_with = SOV }
 		NOT = { has_global_flag = fall_of_leningrad }
 	}
 	
@@ -2750,14 +2750,14 @@ news_event = {
 		name = news.145.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
 			}
 		}
 	}
 	option = {
 		name = news.100.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.103.c
@@ -2775,9 +2775,9 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		202 = { is_controlled_by = GER }
+		202 = { is_controlled_by = SAX }
 		202 = { is_owned_by = SOV }
-		GER = { has_war_with = SOV }
+		SAX = { has_war_with = SOV }
 		NOT = { has_global_flag = fall_of_kiev }
 	}
 	
@@ -2793,14 +2793,14 @@ news_event = {
 		name = news.145.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
 			}
 		}
 	}
 	option = {
 		name = news.100.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.103.c
@@ -2818,9 +2818,9 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		217 = { is_controlled_by = GER }
+		217 = { is_controlled_by = SAX }
 		217 = { is_owned_by = SOV }
-		GER = { has_war_with = SOV }
+		SAX = { has_war_with = SOV }
 		NOT = { has_global_flag = fall_of_stalingrad }
 	}
 	
@@ -2836,14 +2836,14 @@ news_event = {
 		name = news.145.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
 			}
 		}
 	}
 	option = {
 		name = news.100.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.103.c
@@ -2861,9 +2861,9 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		219 = { is_controlled_by = GER }
+		219 = { is_controlled_by = SAX }
 		219 = { is_owned_by = SOV }
-		SOV = { has_war_with = GER }
+		SOV = { has_war_with = SAX }
 		NOT = { has_global_flag = fall_of_moscow }
 	}
 	
@@ -2879,14 +2879,14 @@ news_event = {
 		name = news.106.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
 			}
 		}
 	}
 	option = {
 		name = news.106.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.106.c
@@ -2904,9 +2904,9 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		137 = { is_controlled_by = GER }
+		137 = { is_controlled_by = SAX }
 		137 = { is_owned_by = SOV }
-		GER = { has_war_with = SOV }
+		SAX = { has_war_with = SOV }
 		NOT = { has_global_flag = fall_of_sevastopol }
 	}
 	
@@ -2922,14 +2922,14 @@ news_event = {
 		name = news.145.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
 			}
 		}
 	}
 	option = {
 		name = news.100.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.103.c
@@ -2947,9 +2947,9 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		229 = { is_controlled_by = GER }
+		229 = { is_controlled_by = SAX }
 		229 = { is_owned_by = SOV }
-		GER = { has_war_with = SOV }
+		SAX = { has_war_with = SOV }
 		NOT = { has_global_flag = fall_of_baku }
 	}
 	
@@ -2965,14 +2965,14 @@ news_event = {
 		name = news.145.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
 			}
 		}
 	}
 	option = {
 		name = news.100.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.103.c
@@ -2990,9 +2990,9 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		446 = { is_controlled_by = GER }
+		446 = { is_controlled_by = SAX }
 		446 = { is_owned_by = ENG }
-		GER = { has_war_with = ENG }
+		SAX = { has_war_with = ENG }
 		NOT = { has_global_flag = fall_of_cairo }
 	}
 	
@@ -3008,14 +3008,14 @@ news_event = {
 		name = news.145.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 			}
 		}
 	}
 	option = {
 		name = news.100.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.100.c
@@ -3033,9 +3033,9 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		361 = { is_controlled_by = GER }
+		361 = { is_controlled_by = SAX }
 		361 = { is_owned_by = USA }
-		GER = { has_war_with = USA }
+		SAX = { has_war_with = USA }
 		NOT = { has_global_flag = fall_of_washington }
 	}
 	
@@ -3051,14 +3051,14 @@ news_event = {
 		name = news.145.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = USA
 			}
 		}
 	}
 	option = {
 		name = news.100.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.100.c
@@ -3076,9 +3076,9 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		358 = { is_controlled_by = GER }
+		358 = { is_controlled_by = SAX }
 		358 = { is_owned_by = USA }
-		GER = { has_war_with = USA }
+		SAX = { has_war_with = USA }
 		NOT = { has_global_flag = fall_of_new_york }
 	}
 	
@@ -3094,14 +3094,14 @@ news_event = {
 		name = news.145.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = USA
 			}
 		}
 	}
 	option = {
 		name = news.100.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.100.c
@@ -3119,9 +3119,9 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		118 = { is_controlled_by = GER }
+		118 = { is_controlled_by = SAX }
 		118 = { is_owned_by = ENG }
-		GER = { has_war_with = ENG }
+		SAX = { has_war_with = ENG }
 		NOT = { has_global_flag = fall_of_gibraltar_ger }
 	}
 	
@@ -3137,14 +3137,14 @@ news_event = {
 		name = news.145.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 			}
 		}
 	}
 	option = {
 		name = news.100.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.100.c
@@ -3814,8 +3814,8 @@ news_event = {
 	
 	trigger = {
 		64 = { is_controlled_by = USA }
-		64 = { is_owned_by = GER }
-		USA = { has_war_with = GER }
+		64 = { is_owned_by = SAX }
+		USA = { has_war_with = SAX }
 		NOT = { has_global_flag = fall_of_berlin_usa }
 	}
 	
@@ -3832,7 +3832,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = USA
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -3842,7 +3842,7 @@ news_event = {
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 }
 
@@ -3857,8 +3857,8 @@ news_event = {
 	
 	trigger = {
 		64 = { is_controlled_by = ENG }
-		64 = { is_owned_by = GER }
-		ENG = { has_war_with = GER }
+		64 = { is_owned_by = SAX }
+		ENG = { has_war_with = SAX }
 		NOT = { has_global_flag = fall_of_berlin_eng }
 	}
 	
@@ -3875,7 +3875,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = ENG
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -3885,7 +3885,7 @@ news_event = {
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 }
 
@@ -3900,8 +3900,8 @@ news_event = {
 	
 	trigger = {
 		64 = { is_controlled_by = FRA }
-		64 = { is_owned_by = GER }
-		FRA = { has_war_with = GER }
+		64 = { is_owned_by = SAX }
+		FRA = { has_war_with = SAX }
 		NOT = { has_global_flag = fall_of_berlin_fra }
 	}
 	
@@ -3918,7 +3918,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = FRA
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -3928,7 +3928,7 @@ news_event = {
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 }
 
@@ -3943,8 +3943,8 @@ news_event = {
 	
 	trigger = {
 		64 = { is_controlled_by = POL }
-		64 = { is_owned_by = GER }
-		POL = { has_war_with = GER }
+		64 = { is_owned_by = SAX }
+		POL = { has_war_with = SAX }
 		NOT = { has_global_flag = fall_of_berlin_pol }
 	}
 	
@@ -3961,7 +3961,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = POL
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -3971,7 +3971,7 @@ news_event = {
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 }
 
@@ -3995,7 +3995,7 @@ news_event = {
 		}
 		OR = {
 			2 = { is_owned_by = ITA }
-			2 = { is_owned_by = GER }
+			2 = { is_owned_by = SAX }
 		}
 		NOT = { has_global_flag = fall_of_rome_allies }
 	}
@@ -4019,7 +4019,7 @@ news_event = {
 				TAG = NZL
 				TAG = SAF
 				TAG = ITA
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -4040,7 +4040,7 @@ news_event = {
 		name = news.100.c
 		trigger = {
 			OR = {
-				TAG = GER 
+				TAG = SAX 
 				TAG = ITA
 			}
 		}
@@ -4121,7 +4121,7 @@ news_event = {
 				TAG = CAN
 				TAG = NZL
 				TAG = SAF
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -4141,7 +4141,7 @@ news_event = {
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 }
 
@@ -4275,7 +4275,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = USA
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -4285,7 +4285,7 @@ news_event = {
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 }
 
@@ -4355,7 +4355,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = SOV
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -4365,7 +4365,7 @@ news_event = {
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 }
 
@@ -4380,8 +4380,8 @@ news_event = {
 	
 	trigger = {
 		64 = { is_controlled_by = SOV }
-		64 = { is_owned_by = GER }
-		GER = { has_war_with = SOV }
+		64 = { is_owned_by = SAX }
+		SAX = { has_war_with = SOV }
 		NOT = { has_global_flag = fall_of_berlin_sov }
 	}
 	
@@ -4398,7 +4398,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = SOV
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -4408,7 +4408,7 @@ news_event = {
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 }
 
@@ -4509,7 +4509,7 @@ news_event = {
 	
 	trigger = {
 		16 = { is_controlled_by = SOV }
-		16 = { is_owned_by = GER }
+		16 = { is_owned_by = SAX }
 		NOT = { has_global_flag = liberation_of_paris_sov }
 		has_global_flag = fall_of_france
 	}
@@ -4527,7 +4527,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = SOV
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -4537,7 +4537,7 @@ news_event = {
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 }
 
@@ -4595,7 +4595,7 @@ news_event = {
 	
 	trigger = {
 		126 = { is_controlled_by = SOV }
-		126 = { is_owned_by = GER }
+		126 = { is_owned_by = SAX }
 		NOT = { has_global_flag = liberation_of_london_sov }
 		has_global_flag = fall_of_london_ger
 	}
@@ -4613,7 +4613,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = SOV
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -4623,7 +4623,7 @@ news_event = {
 	}
 	option = {
 		name = news.100.c
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 }
 
@@ -4818,12 +4818,12 @@ news_event = {
 	
 	option = {
 		name = news.145.a
-		trigger = { NOT = { tag = GER } }
+		trigger = { NOT = { tag = SAX } }
 	}
 
 	option = {
 		name = news.150.b
-		trigger = { tag = GER }
+		trigger = { tag = SAX }
 		create_wargoal = {
 			type = take_state_focus
 			target = YUG
@@ -4847,10 +4847,10 @@ news_event = {
 		name = news.151.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = FRA
 				TAG = ENG
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -4858,8 +4858,8 @@ news_event = {
 		name = news.151.b
 		trigger = { 
 			OR = {
-				TAG = GER 
-				is_in_faction_with = GER
+				TAG = SAX 
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -4889,10 +4889,10 @@ news_event = {
 		name = news.151.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = FRA
 				TAG = ENG
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -4900,8 +4900,8 @@ news_event = {
 		name = news.151.b
 		trigger = { 
 			OR = {
-				TAG = GER 
-				is_in_faction_with = GER
+				TAG = SAX 
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -4926,7 +4926,7 @@ news_event = {
 
 	trigger = {
 		SOV = {
-			has_defensive_war_with = GER
+			has_defensive_war_with = SAX
 			has_opinion_modifier = MR_pact
 		}
 	}
@@ -4938,13 +4938,13 @@ news_event = {
 	immediate = {
 		hidden_effect = {
 			SOV = { 
-				remove_opinion_modifier = { target = GER modifier = MR_pact }
+				remove_opinion_modifier = { target = SAX modifier = MR_pact }
 				remove_ideas = SOV_molotov_ribbentrop_pact
 			}
-			GER = { remove_opinion_modifier = { target = SOV modifier = MR_pact } }
+			SAX = { remove_opinion_modifier = { target = SOV modifier = MR_pact } }
 			every_other_country = {
 				limit = { has_opinion_modifier = MR_pact_fascists }
-				remove_opinion_modifier = { target = GER modifier = MR_pact_fascists }
+				remove_opinion_modifier = { target = SAX modifier = MR_pact_fascists }
 			}
 		}
 	}
@@ -4953,7 +4953,7 @@ news_event = {
 		name = news.153.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
 				is_in_faction_with = SOV
 			}
@@ -4981,7 +4981,7 @@ news_event = {
 	}
 	option = {
 		name = news.153.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.153.c
@@ -5004,7 +5004,7 @@ news_event = {
 	major = yes
 
 	trigger = {
-		GER = {
+		SAX = {
 			has_defensive_war_with = SOV
 			has_opinion_modifier = MR_pact
 		}
@@ -5017,13 +5017,13 @@ news_event = {
 	immediate = {
 		hidden_effect = {
 			SOV = { 
-				remove_opinion_modifier = { target = GER modifier = MR_pact }
+				remove_opinion_modifier = { target = SAX modifier = MR_pact }
 				remove_ideas = SOV_molotov_ribbentrop_pact
 			}
-			GER = { remove_opinion_modifier = { target = SOV modifier = MR_pact } }
+			SAX = { remove_opinion_modifier = { target = SOV modifier = MR_pact } }
 			every_other_country = {
 				limit = { has_opinion_modifier = MR_pact_fascists }
-				remove_opinion_modifier = { target = GER modifier = MR_pact_fascists }
+				remove_opinion_modifier = { target = SAX modifier = MR_pact_fascists }
 			}
 		}
 	}
@@ -5032,9 +5032,9 @@ news_event = {
 		name = news.153.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -5042,8 +5042,8 @@ news_event = {
 		name = news.154.b
 		trigger = {
 			OR = {
-				TAG = GER
-				is_in_faction_with = GER
+				TAG = SAX
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -5064,10 +5064,10 @@ news_event = {
 
 	trigger = {
 		NOT = { has_global_flag = rhineland_militarized_war }
-		GER = {
+		SAX = {
 			OR = {
-				has_country_flag = GER_rhineland_backed_down
-				NOT = { has_completed_focus = GER_rhineland }
+				has_country_flag = SAX_rhineland_backed_down
+				NOT = { has_completed_focus = SAX_rhineland }
 			}
 			has_offensive_war = yes
 		}
@@ -5086,11 +5086,11 @@ news_event = {
 	}
 	
 	option = {
-		trigger = { NOT = { tag = GER } }
+		trigger = { NOT = { tag = SAX } }
 		name = news.155.a
 	}
 	option = {
-		trigger = { tag = GER } 
+		trigger = { tag = SAX } 
 		name = news.155.b
 	}
 }
@@ -5107,7 +5107,7 @@ news_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = GER
+		tag = SAX
 		has_tech = rocket_engines
 	}
 
@@ -5239,10 +5239,10 @@ news_event = {
 
 	trigger = {
 		NOT = { has_global_flag = rhineland_militarized_war }
-		GER = {
+		SAX = {
 			OR = {
-				has_country_flag = GER_rhineland_backed_down
-				NOT = { has_completed_focus = GER_rhineland }
+				has_country_flag = SAX_rhineland_backed_down
+				NOT = { has_completed_focus = SAX_rhineland }
 			}
 			has_defensive_war = yes
 			NOT = { has_civil_war = yes }
@@ -5262,11 +5262,11 @@ news_event = {
 	}
 	
 	option = {
-		trigger = { NOT = { tag = GER } }
+		trigger = { NOT = { tag = SAX } }
 		name = news.160.a
 	}	
 	option = {
-		trigger = { tag = GER }
+		trigger = { tag = SAX }
 		name = news.160.b
 	}
 }
@@ -5362,7 +5362,7 @@ news_event = {
 		name = news.163.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 				TAG = YUG
 			}
@@ -5370,7 +5370,7 @@ news_event = {
 	}
 	option = {
 		name = news.163.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.163.c
@@ -5404,7 +5404,7 @@ news_event = {
 		name = news.164.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 				TAG = FRA
 				TAG = YUG
@@ -5413,7 +5413,7 @@ news_event = {
 	}
 	option = {
 		name = news.164.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.164.c
@@ -5455,7 +5455,7 @@ news_event = {
 		name = news.165.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ENG
 				TAG = FRA
 				TAG = YUG
@@ -5464,7 +5464,7 @@ news_event = {
 	}
 	option = {
 		name = news.165.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.165.c
@@ -5495,14 +5495,14 @@ news_event = {
 		name = news.166.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = YUG
 			}
 		}
 	}
 	option = {
 		name = news.166.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.166.c
@@ -5525,7 +5525,7 @@ news_event = {
 		name = news.167.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ITA
 				TAG = YUG
 			}
@@ -5533,7 +5533,7 @@ news_event = {
 	}
 	option = {
 		name = news.167.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.167.e
@@ -5561,8 +5561,8 @@ news_event = {
 		name = news.168.a
 		trigger = {
 			OR = {
-				TAG = GER 
-				is_in_faction_with = GER
+				TAG = SAX 
+				is_in_faction_with = SAX
 			}
 			NOT = { tag = HUN }
 			NOT = { tag = BUL }
@@ -5577,12 +5577,12 @@ news_event = {
 	option = {
 		name = news.168.c
 		trigger = { 
-			NOT = { TAG = GER } 
+			NOT = { TAG = SAX } 
 			NOT = { TAG = YUG }
 			NOT = { tag = HUN }
 			NOT = { tag = BUL }
 			NOT = { tag = ITA }			
-			NOT = { is_in_faction_with = GER }
+			NOT = { is_in_faction_with = SAX }
 		}
 	}
 	option = {
@@ -5590,7 +5590,7 @@ news_event = {
 		trigger = {
 			TAG = HUN
 			HUN = {
-				has_country_flag = GER_first_ljubljana_award			
+				has_country_flag = SAX_first_ljubljana_award			
 			}
 		}
 	}
@@ -5599,7 +5599,7 @@ news_event = {
 		trigger = {
 			TAG = HUN
 			HUN = {
-				NOT = { has_country_flag = GER_first_ljubljana_award }
+				NOT = { has_country_flag = SAX_first_ljubljana_award }
 			}
 		}
 	}
@@ -5608,7 +5608,7 @@ news_event = {
 		trigger = {
 			TAG = BUL
 			BUL = {
-				has_country_flag = GER_first_ljubljana_award			
+				has_country_flag = SAX_first_ljubljana_award			
 			}
 		}
 	}
@@ -5617,7 +5617,7 @@ news_event = {
 		trigger = {
 			TAG = BUL
 			BUL = {
-				NOT = { has_country_flag = GER_first_ljubljana_award }
+				NOT = { has_country_flag = SAX_first_ljubljana_award }
 			}
 		}
 	}
@@ -5626,7 +5626,7 @@ news_event = {
 		trigger = {
 			TAG = ITA
 			ITA = {
-				has_country_flag = GER_first_ljubljana_award			
+				has_country_flag = SAX_first_ljubljana_award			
 			}
 		}
 	}
@@ -5635,7 +5635,7 @@ news_event = {
 		trigger = {
 			TAG = ITA
 			ITA = {
-				NOT = { has_country_flag = GER_first_ljubljana_award }
+				NOT = { has_country_flag = SAX_first_ljubljana_award }
 			}
 		}
 	}
@@ -5647,19 +5647,19 @@ news_event = {
 	desc = {
 		text = news.169.d_annex_YUG
 		trigger = {
-			has_global_flag = GER_fate_of_yugoslavia_annex_YUG
+			has_global_flag = SAX_fate_of_yugoslavia_annex_YUG
 		}
 	}
 	desc = {
 		text = news.169.d_puppet_CRO_annex_YUG
 		trigger = {
-			has_global_flag = GER_fate_of_yugoslavia_puppet_CRO_annex_YUG
+			has_global_flag = SAX_fate_of_yugoslavia_puppet_CRO_annex_YUG
 		}
 	}
 	desc = {
 		text = news.169.d_puppet_CRO_YUG
 		trigger = {
-			has_global_flag = GER_fate_of_yugoslavia_puppet_CRO_YUG
+			has_global_flag = SAX_fate_of_yugoslavia_puppet_CRO_YUG
 		}
 	}
 
@@ -5672,28 +5672,28 @@ news_event = {
 	option = {
 		name = news.169.a
 		trigger = {
-			TAG = GER
+			TAG = SAX
 		}
 	}
 	option = {
 		name = news.169.b
 		trigger = {
-			NOT = { TAG = GER }
-			is_in_faction_with = GER
+			NOT = { TAG = SAX }
+			is_in_faction_with = SAX
 		}
 	}
 	option = {
 		name = news.169.c
 		trigger = {
-			NOT = { TAG = GER }
-			NOT = { is_in_faction_with = GER }
+			NOT = { TAG = SAX }
+			NOT = { is_in_faction_with = SAX }
 			is_in_faction = yes
 		}
 	}
 	option = {
 		name = news.169.e
 		trigger = {
-			NOT = { TAG = GER }
+			NOT = { TAG = SAX }
 			is_in_faction = no
 		}
 	}
@@ -5705,28 +5705,28 @@ news_event = {
 	desc = {
 		text = news.170.d_BUL
 		trigger = {
-			has_global_flag = GER_second_ljubljana_award_BUL_event
-			NOT = { has_global_flag = GER_second_ljubljana_award_ITA_event }
+			has_global_flag = SAX_second_ljubljana_award_BUL_event
+			NOT = { has_global_flag = SAX_second_ljubljana_award_ITA_event }
 		}
 	}
 	desc = {
 		text = news.170.d_ITA
 		trigger = {
-			has_global_flag = GER_second_ljubljana_award_ITA_event
-			NOT = { has_global_flag = GER_second_ljubljana_award_BUL_event }
+			has_global_flag = SAX_second_ljubljana_award_ITA_event
+			NOT = { has_global_flag = SAX_second_ljubljana_award_BUL_event }
 		}
 	}
 	desc = {
 		text = news.170.d_ITA_BUL
 		trigger = {
-			has_global_flag = GER_second_ljubljana_award_ITA_event
-			has_global_flag = GER_second_ljubljana_award_BUL_event
+			has_global_flag = SAX_second_ljubljana_award_ITA_event
+			has_global_flag = SAX_second_ljubljana_award_BUL_event
 		}
 	}
 	desc = {
-		text = news.170.d_GER
+		text = news.170.d_SAX
 		trigger = {
-			has_global_flag = GER_second_ljubljana_award_GER_event
+			has_global_flag = SAX_second_ljubljana_award_SAX_event
 		}
 	}
 
@@ -5739,28 +5739,28 @@ news_event = {
 	option = {
 		name = news.170.a
 		trigger = {
-			TAG = GER
+			TAG = SAX
 		}
 	}
 	option = {
 		name = news.170.b
 		trigger = {
-			NOT = { TAG = GER }
-			is_in_faction_with = GER
+			NOT = { TAG = SAX }
+			is_in_faction_with = SAX
 		}
 	}
 	option = {
 		name = news.170.c
 		trigger = {
-			NOT = { TAG = GER }
-			NOT = { is_in_faction_with = GER }
+			NOT = { TAG = SAX }
+			NOT = { is_in_faction_with = SAX }
 			is_in_faction = yes
 		}
 	}
 	option = {
 		name = news.170.e
 		trigger = {
-			NOT = { TAG = GER }
+			NOT = { TAG = SAX }
 			is_in_faction = no
 		}
 	}
@@ -5772,28 +5772,28 @@ news_event = {
 	desc = {
 		text = news.171.d_BUL
 		trigger = {
-			has_global_flag = GER_second_ljubljana_award_BUL_event
-			NOT = { has_global_flag = GER_second_ljubljana_award_ITA_event }
+			has_global_flag = SAX_second_ljubljana_award_BUL_event
+			NOT = { has_global_flag = SAX_second_ljubljana_award_ITA_event }
 		}
 	}
 	desc = {
 		text = news.171.d_ITA
 		trigger = {
-			has_global_flag = GER_second_ljubljana_award_ITA_event
-			NOT = { has_global_flag = GER_second_ljubljana_award_BUL_event }
+			has_global_flag = SAX_second_ljubljana_award_ITA_event
+			NOT = { has_global_flag = SAX_second_ljubljana_award_BUL_event }
 		}
 	}
 	desc = {
 		text = news.171.d_ITA_BUL
 		trigger = {
-			has_global_flag = GER_second_ljubljana_award_ITA_event
-			has_global_flag = GER_second_ljubljana_award_BUL_event
+			has_global_flag = SAX_second_ljubljana_award_ITA_event
+			has_global_flag = SAX_second_ljubljana_award_BUL_event
 		}
 	}
 	desc = {
-		text = news.171.d_GER
+		text = news.171.d_SAX
 		trigger = {
-			has_global_flag = GER_second_ljubljana_award_GER_event
+			has_global_flag = SAX_second_ljubljana_award_SAX_event
 		}
 	}
 
@@ -5806,21 +5806,21 @@ news_event = {
 	option = {
 		name = news.171.a
 		trigger = {
-			TAG = GER
+			TAG = SAX
 		}
 	}
 	option = {
 		name = news.171.b
 		trigger = {
-			NOT = { TAG = GER }
-			is_in_faction_with = GER
+			NOT = { TAG = SAX }
+			is_in_faction_with = SAX
 		}
 	}
 	option = {
 		name = news.171.c
 		trigger = {
-			NOT = { TAG = GER }
-			NOT = { is_in_faction_with = GER }
+			NOT = { TAG = SAX }
+			NOT = { is_in_faction_with = SAX }
 			is_in_faction = yes
 			NOT = { tag = GRE }
 		}
@@ -5828,7 +5828,7 @@ news_event = {
 	option = {
 		name = news.171.e
 		trigger = {
-			NOT = { TAG = GER }
+			NOT = { TAG = SAX }
 			is_in_faction = no
 			NOT = { tag = GRE }
 		}
@@ -5855,22 +5855,22 @@ news_event = {
 	option = {
 		name = news.172.a
 		trigger = {
-			TAG = GER
+			TAG = SAX
 		}
 	}
 	option = {
 		name = news.172.b
 		trigger = {
-			NOT = { TAG = GER }
+			NOT = { TAG = SAX }
 			NOT = { TAG = GRE }
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 		}		
 	}
 	option = {
 		name = news.172.c
 		trigger = {
-			NOT = { TAG = GER }
-			NOT = { is_in_faction_with = GER }
+			NOT = { TAG = SAX }
+			NOT = { is_in_faction_with = SAX }
 			is_in_faction = yes
 			NOT = { tag = GRE }
 		}
@@ -5878,7 +5878,7 @@ news_event = {
 	option = {
 		name = news.172.e
 		trigger = {
-			NOT = { TAG = GER }
+			NOT = { TAG = SAX }
 			is_in_faction = no
 			NOT = { tag = GRE }
 		}
@@ -6112,7 +6112,7 @@ news_event = {
 				OR = {
 					tag = FRA
 					tag = ENG
-					tag = GER
+					tag = SAX
 				}
 			}
 		}
@@ -6123,7 +6123,7 @@ news_event = {
 		name = news.175.c
 		trigger = {
 			OR = {
-				tag = GER
+				tag = SAX
 				has_war_with = FRA
 			}
 		}
@@ -6143,7 +6143,7 @@ news_event = {
 				OR = {
 					tag = FRA
 					tag = ENG
-					tag = GER
+					tag = SAX
 				}
 			}
 		}
@@ -6177,7 +6177,7 @@ news_event = {
 	option = {
 		name = news.176.b
 		trigger = {
-			tag = GER
+			tag = SAX
 		}
 	}
 
@@ -6188,7 +6188,7 @@ news_event = {
 			NOT = {
 				OR = {
 					tag = ENG
-					tag = GER
+					tag = SAX
 				}
 			}
 		}
@@ -6227,7 +6227,7 @@ news_event = {
 		name = news.177.c
 		trigger = {
 			OR = {
-				tag = GER
+				tag = SAX
 				tag = ITA
 				AND = {
 					original_tag = SPR
@@ -6254,7 +6254,7 @@ news_event = {
 		name = news.177.f
 		trigger = {
 			NOT = {
-				tag = GER
+				tag = SAX
 				tag = ITA
 				tag = SOV
 				AND = {
@@ -6514,7 +6514,7 @@ news_event = {
 	option = {
 		name = news.182.a
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 		}
 	}
 
@@ -6523,7 +6523,7 @@ news_event = {
 		name = news.182.b
 		trigger = {
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 			is_in_faction = yes
 			NOT = {
@@ -6616,7 +6616,7 @@ news_event = {
 	option = {
 		name = news.184.a
 		trigger = {
-			tag = GER
+			tag = SAX
 		}
 	}
 
@@ -6624,7 +6624,7 @@ news_event = {
 	option = {
 		name = news.184.b
 		trigger = {
-			NOT = { tag = GER }
+			NOT = { tag = SAX }
 		}
 	}
 }
@@ -7102,7 +7102,7 @@ news_event = {
 		SOV = {
 			save_event_target_as = Soviet
 		}
-		GER = {
+		SAX = {
 			save_event_target_as = Germany
 		}
 	}
@@ -7376,7 +7376,7 @@ news_event = {
 	option = {
 		name = news.200.b
 		trigger = {
-			tag = GER
+			tag = SAX
 		}
 	}
 
@@ -7390,7 +7390,7 @@ news_event = {
 			}
 			NOT = {
 				OR = {
-					tag = GER
+					tag = SAX
 					tag = CZE
 					tag = ENG
 				}
@@ -7410,7 +7410,7 @@ news_event = {
 			}
 			NOT = {
 				OR = {
-					tag = GER
+					tag = SAX
 					tag = CZE
 					tag = ENG
 				}
@@ -7440,7 +7440,7 @@ news_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		GER = {
+		SAX = {
 			save_event_target_as = Germany
 		}
 		SOV = {
@@ -7458,7 +7458,7 @@ news_event = {
 	option = {
 		name = news.201.a
 		trigger = {
-			tag = GER
+			tag = SAX
 		}
 	}
 
@@ -7467,7 +7467,7 @@ news_event = {
 		name = news.201.b
 		trigger = {
 			OR = {
-				has_war_with = GER
+				has_war_with = SAX
 				has_war_with = SOV
 			}
 		}
@@ -7477,10 +7477,10 @@ news_event = {
 	option = {
 		name = news.201.c
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 			NOT = {
 				OR = {
-					tag = GER
+					tag = SAX
 					tag = SOV
 				}
 			}
@@ -7500,11 +7500,11 @@ news_event = {
 		name = news.201.f
 		trigger = {
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 			NOT = {
 				OR = {
-					tag = GER
+					tag = SAX
 					tag = SOV
 				}
 			}
@@ -7539,7 +7539,7 @@ news_event = {
 	option = {
 		name = news.202.a
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 		}
 	}
 
@@ -7549,7 +7549,7 @@ news_event = {
 		trigger = {
 			is_in_faction_with = POL
 			NOT = {
-				is_in_faction_with = GER 
+				is_in_faction_with = SAX 
 			}
 		}
 	}
@@ -7579,7 +7579,7 @@ news_event = {
 				is_in_faction_with = POL
 			}
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -7603,7 +7603,7 @@ news_event = {
 		trigger = {
 			has_government = democratic
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -7611,7 +7611,7 @@ news_event = {
 	option = {
 		name = news.203.b
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 		}
 	}
 
@@ -7620,7 +7620,7 @@ news_event = {
 		trigger = {
 			has_government = neutrality
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -7630,7 +7630,7 @@ news_event = {
 		trigger = {
 			has_government = communism
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -7656,7 +7656,7 @@ news_event = {
 		trigger = {
 			is_in_faction = yes
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 			NOT = {
 				is_in_faction_with = POL
@@ -7668,7 +7668,7 @@ news_event = {
 	option = {
 		name = news.204.b
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 		}
 	}
 
@@ -8103,7 +8103,7 @@ news_event = {
 	option = {
 		name = news.211.b
 		trigger = {
-			tag = GER
+			tag = SAX
 			NOT = {
 				is_in_faction_with = JAP
 			}
@@ -8150,7 +8150,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				OR = {
-					tag = GER
+					tag = SAX
 					tag = SOV
 					tag = USA
 					tag = ENG
@@ -8174,8 +8174,8 @@ news_event = {
 		text = news.212.d_axis
 		trigger = {
 			OR = {
-				tag = GER
-				is_in_faction_with = GER
+				tag = SAX
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -8184,8 +8184,8 @@ news_event = {
 		trigger = {
 			NOT = {
 				OR = {
-					tag = GER
-					is_in_faction_with = GER
+					tag = SAX
+					is_in_faction_with = SAX
 				}
 			}
 		}
@@ -8200,8 +8200,8 @@ news_event = {
 		name = news.212.a
 		trigger = {
 			OR = {
-				tag = GER
-				is_in_faction_with = GER
+				tag = SAX
+				is_in_faction_with = SAX
 			}
 			NOT = {
 				has_war_with = JAP
@@ -8214,7 +8214,7 @@ news_event = {
 		trigger = {
 			OR = {
 				has_war_with = JAP
-				has_war_with = GER
+				has_war_with = SAX
 			}
 		}
 	}
@@ -8224,13 +8224,13 @@ news_event = {
 		trigger = {
 			NOT = {
 				OR = {
-					tag = GER
-					is_in_faction_with = GER
+					tag = SAX
+					is_in_faction_with = SAX
 				}
 			}
 			NOT = {
 				OR = {
-					has_war_with = GER
+					has_war_with = SAX
 					has_war_with = JAP
 				}
 			}
@@ -8248,7 +8248,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				USA = {
-					has_war_with = GER
+					has_war_with = SAX
 				}
 			}
 		}
@@ -8258,11 +8258,11 @@ news_event = {
 		trigger = {
 			OR = {
 				USA = {
-					has_war_with = GER
+					has_war_with = SAX
 				}
 				any_other_country = {
 					is_in_faction_with = USA
-					has_war_with = GER
+					has_war_with = SAX
 				}
 			}
 		}
@@ -8278,16 +8278,16 @@ news_event = {
 	option = {
 		name = news.213.a
 		trigger = {
-			tag = GER
+			tag = SAX
 		}
 	}
 
 	option = {
 		name = news.213.b
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 			NOT = {
-				tag = GER
+				tag = SAX
 			}
 		}
 	}
@@ -8295,7 +8295,7 @@ news_event = {
 	option = {
 		name = news.213.c
 		trigger = {
-			has_war_with = GER
+			has_war_with = SAX
 		}
 	}
 
@@ -8303,13 +8303,13 @@ news_event = {
 		name = news.213.e
 		trigger = {
 			NOT = {
-				tag = GER
+				tag = SAX
 			}
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 			NOT = {
-				has_war_with = GER
+				has_war_with = SAX
 			}
 		}
 	}
@@ -8357,7 +8357,7 @@ news_event = {
 					tag = EST
 					tag = LAT
 					tag = LIT
-					tag = GER
+					tag = SAX
 					tag = SOV
 				}
 			}
@@ -8374,7 +8374,7 @@ news_event = {
 	option = {
 		name = news.214.c
 		trigger = {
-			tag = GER
+			tag = SAX
 		}
 	}
 
@@ -8461,7 +8461,7 @@ news_event = {
 	option = {
 		name = news.216.a
 		trigger = {
-			has_war_with = GER
+			has_war_with = SAX
 			NOT = {
 				is_in_faction_with = TUR
 			}
@@ -8473,7 +8473,7 @@ news_event = {
 		trigger = {
 			is_in_faction_with = TUR
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -8481,7 +8481,7 @@ news_event = {
 	option = {
 		name = news.216.c
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 		}
 	}
 
@@ -8490,9 +8490,9 @@ news_event = {
 		trigger = {
 			NOT = {
 				OR = {
-					is_in_faction_with = GER
+					is_in_faction_with = SAX
 					is_in_faction_with = TUR
-					has_war_with = GER
+					has_war_with = SAX
 				}
 			}
 		}
@@ -8522,7 +8522,7 @@ news_event = {
 	option = {
 		name = news.217.b
 		trigger = {
-			has_war_with = GER
+			has_war_with = SAX
 			NOT = {
 				is_in_faction_with = TUR
 			}
@@ -8533,8 +8533,8 @@ news_event = {
 		name = news.217.c
 		trigger = {
 			OR = {
-				tag = GER
-				is_in_faction_with = GER
+				tag = SAX
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -8544,10 +8544,10 @@ news_event = {
 		trigger = {
 			NOT = {
 				OR = {
-					tag = GER
-					is_in_faction_with = GER
+					tag = SAX
+					is_in_faction_with = SAX
 					is_in_faction_with = TUR
-					has_war_with = GER
+					has_war_with = SAX
 				}
 			}
 		}
@@ -9053,13 +9053,13 @@ news_event = {
 
 	trigger = {
 		tag = USA
-		has_war_with = GER
+		has_war_with = SAX
 		divisions_in_state = {
 			state = 64
 			size > 0
 		}
 		NOT = {
-			GER = {
+			SAX = {
 				has_capitulated = yes
 			}
 		}
@@ -9103,7 +9103,7 @@ news_event = {
 				tag = ROM
 			}
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -9112,9 +9112,9 @@ news_event = {
 		name = news.228.b
 		trigger = {
 			OR = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 				AND = {
-					tag = GER
+					tag = SAX
 					NOT = {
 						is_in_faction_with = ENG
 					}
@@ -9168,10 +9168,10 @@ news_event = {
 					tag = GRE
 					tag = ROM
 					tag = BUL
-					tag = GER
+					tag = SAX
 					tag = ENG
 				}				
-			is_in_faction_with = GER	
+			is_in_faction_with = SAX	
 			is_in_faction_with = ENG	
 			}	
 		}
@@ -9197,7 +9197,7 @@ news_event = {
 		trigger = {
 			OR = {
 				tag = ENG
-				has_war_with = GER
+				has_war_with = SAX
 				is_in_faction_with = ENG
 			}
 		}
@@ -9207,7 +9207,7 @@ news_event = {
 		name = news.229.b
 		trigger = {
 			OR = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 				has_war_with = GRE
 			}
 		}
@@ -9219,9 +9219,9 @@ news_event = {
 			NOT = {
 				OR = {
 					tag = ENG
-					has_war_with = GER
+					has_war_with = SAX
 					is_in_faction_with = ENG
-					is_in_faction_with = GER
+					is_in_faction_with = SAX
 					has_war_with = GRE
 				}
 			}
@@ -9326,7 +9326,7 @@ news_event = {
 
 	trigger = {
 		NOT = {
-			tag = GER
+			tag = SAX
 		}
 	}
 
@@ -9339,7 +9339,7 @@ news_event = {
 				tag = NOR
 			}
 			NOT = {
-				has_war_with = GER
+				has_war_with = SAX
 			}
 		}
 	}
@@ -9347,7 +9347,7 @@ news_event = {
 	option = {
 		name = news.232.b
 		trigger = {
-			has_war_with = GER
+			has_war_with = SAX
 		}
 	}
 
@@ -9359,7 +9359,7 @@ news_event = {
 					tag = DEN
 					tag = SWE
 					tag = NOR
-					has_war_with = GER
+					has_war_with = SAX
 				}
 			}
 		}
@@ -9376,10 +9376,10 @@ news_event = {
 		trigger = {
 			OR = {
 				NOR = {
-					has_war_with = GER
+					has_war_with = SAX
 				}
 				DEN = {
-					has_war_with = GER
+					has_war_with = SAX
 				}
 			}
 		}
@@ -9390,10 +9390,10 @@ news_event = {
 			NOT = {
 				OR = {
 					NOR = {
-						has_war_with = GER
+						has_war_with = SAX
 					}
 					DEN = {
-						has_war_with = GER
+						has_war_with = SAX
 					}
 				}
 			}
@@ -9420,7 +9420,7 @@ news_event = {
 	option = {
 		name = news.233.b
 		trigger = {
-			has_war_with = GER
+			has_war_with = SAX
 			NOT = {
 				OR = {
 					tag = DEN
@@ -9437,7 +9437,7 @@ news_event = {
 				OR = {
 					tag = DEN
 					tag = NOR
-					has_war_with = GER
+					has_war_with = SAX
 				}
 			}
 		}
@@ -9475,7 +9475,7 @@ news_event = {
 				is_in_faction_with = LUX
 				is_in_faction_with = HOL
 			}
-			has_war_with = GER
+			has_war_with = SAX
 		}
 	}
 
@@ -9505,7 +9505,7 @@ news_event = {
 	fire_only_once = yes
 
 	trigger = {
-		tag = GER
+		tag = SAX
 		has_government = fascism
 		has_war_with = USA
 		divisions_in_state = {
@@ -9549,7 +9549,7 @@ news_event = {
 	option = {
 		name = news.236.a
 		trigger = {
-			tag = GER
+			tag = SAX
 		}
 	}
 
@@ -9580,7 +9580,7 @@ news_event = {
 					}
 				}
 			}
-			has_war_with = GER				
+			has_war_with = SAX				
 		}
 	}
 
@@ -9598,10 +9598,10 @@ news_event = {
 				}
 			}
 			NOT = {
-				has_war_with = GER
+				has_war_with = SAX
 			}
 			NOT = {
-				tag = GER
+				tag = SAX
 			}
 		}
 	}
@@ -9622,7 +9622,7 @@ news_event = {
 		name = news.237.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = ITA
 				TAG = FRA
 				TAG = ENG
@@ -9631,7 +9631,7 @@ news_event = {
 	}
 	option = {
 		name = news.237.b
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.237.c
@@ -9959,10 +9959,10 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = CAN
-				TAG = GER
+				TAG = SAX
 			}
 			NOT = {
-				has_war_with = GER
+				has_war_with = SAX
 			}
 		}
 	}
@@ -9972,12 +9972,12 @@ news_event = {
 	}
 	option = {
 		name = news.247.c
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.247.e
 		trigger = {	
-			has_war_with = GER
+			has_war_with = SAX
 		}
 	}
 }
@@ -10157,7 +10157,7 @@ news_event = {
 		trigger = {
 			NOT = {
 				TAG = CAN
-				TAG = GER
+				TAG = SAX
 			}
 			is_in_faction = no
 		}
@@ -10168,7 +10168,7 @@ news_event = {
 	}
 	option = {
 		name = news.252.c
-		trigger = { TAG = GER }
+		trigger = { TAG = SAX }
 	}
 	option = {
 		name = news.252.e
@@ -10177,11 +10177,11 @@ news_event = {
 				tag = CAN
 			}
 			NOT = {
-				tag = GER
+				tag = SAX
 			}
 			is_in_faction = yes
 			NOT = {
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -10192,9 +10192,9 @@ news_event = {
 				tag = CAN
 			}
 			NOT = {
-				tag = GER
+				tag = SAX
 			}
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 		}
 	}
 }
@@ -10675,7 +10675,7 @@ news_event = {
 		}
 	}
 }
-# News event - RAJ release GER helps
+# News event - RAJ release SAX helps
 news_event = {
 	id = news.280
 	title = news.280.t
@@ -10697,8 +10697,8 @@ news_event = {
 		trigger = { 
 			NOT = {
 				TAG = RAJ
-				TAG = GER
-				is_in_faction_with = GER
+				TAG = SAX
+				is_in_faction_with = SAX
 				TAG = ENG
 				is_in_faction_with = ENG	
 			}
@@ -10708,8 +10708,8 @@ news_event = {
 		name = news.280.c
 		trigger = { 
 			OR = { 
-				TAG = GER
-				is_in_faction_with = GER
+				TAG = SAX
+				is_in_faction_with = SAX
 			}
 		}
 	}
@@ -10722,8 +10722,8 @@ news_event = {
 				is_in_faction_with = ENG
 			}
 			NOT = { TAG = RAJ }
-			NOT = { TAG = GER } #in case of alliance between Germany and England
-			NOT = { is_in_faction_with = GER }
+			NOT = { TAG = SAX } #in case of alliance between Germany and England
+			NOT = { is_in_faction_with = SAX }
 		}
 	}
 
@@ -10958,9 +10958,9 @@ news_event = {
 		name = news.287.a
 		trigger = {
 			NOT = {
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
-				is_in_faction_with = GER
+				is_in_faction_with = SAX
 				is_in_faction_with = SOV
 			}
 		}
@@ -10970,15 +10970,15 @@ news_event = {
 		trigger = { 
 			NOT = { TAG = SOV } #fix for unholy alliance
 			OR = {
-				TAG = GER
-				is_in_faction_with = GER
+				TAG = SAX
+				is_in_faction_with = SAX
 			}
 		}
 	}
 	option = {
 		name = news.287.c
 		trigger = { 
-			NOT = { TAG = GER } # fix for unholy alliance
+			NOT = { TAG = SAX } # fix for unholy alliance
 			OR = {
 				TAG = SOV
 				is_in_faction_with = SOV
@@ -11180,7 +11180,7 @@ news_event = {
 	option = {
 		name = news.290.c
 		trigger = { 
-			TAG = GER
+			TAG = SAX
 		}
 	}
 	option = { 
@@ -11189,7 +11189,7 @@ news_event = {
 			NOT = {
 				TAG = HUN
 				TAG = AUS
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -11215,7 +11215,7 @@ news_event = {
 	option = {
 		name = news.291.b
 		trigger = { 
-			TAG = GER
+			TAG = SAX
 		}
 	}
 	option = { 
@@ -11223,7 +11223,7 @@ news_event = {
 		trigger = { 
 			NOT = {
 				TAG = HUN
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -11249,7 +11249,7 @@ news_event = {
 	option = {
 		name = news.292.b
 		trigger = { 
-			TAG = GER
+			TAG = SAX
 		}
 	}
 	option = { 
@@ -11257,7 +11257,7 @@ news_event = {
 		trigger = { 
 			NOT = {
 				TAG = HUN
-				TAG = GER
+				TAG = SAX
 				has_government = democratic
 			}
 		}
@@ -11267,7 +11267,7 @@ news_event = {
 		trigger = { 
 			NOT = {
 				TAG = HUN
-				TAG = GER
+				TAG = SAX
 			}
 			has_government = democratic
 		}
@@ -11300,7 +11300,7 @@ news_event = {
 	option = {
 		name = news.293.c
 		trigger = { 
-			TAG = GER
+			TAG = SAX
 		}
 	}
 	option = { 
@@ -11309,7 +11309,7 @@ news_event = {
 			NOT = {
 				TAG = HUN
 				TAG = AUS
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -11341,7 +11341,7 @@ news_event = {
 	option = {
 		name = news.294.c
 		trigger = { 
-			TAG = GER
+			TAG = SAX
 		}
 	}
 	option = { 
@@ -11350,7 +11350,7 @@ news_event = {
 			NOT = {
 				TAG = HUN
 				TAG = AUS
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -11376,7 +11376,7 @@ news_event = {
 	option = {
 		name = news.295.b
 		trigger = { 
-			TAG = GER
+			TAG = SAX
 		}
 	}
 	option = { 
@@ -11384,7 +11384,7 @@ news_event = {
 		trigger = { 
 			NOT = {
 				TAG = HUN
-				TAG = GER
+				TAG = SAX
 				TAG = CZE
 				TAG = ROM
 				TAG = YUG
@@ -12058,7 +12058,7 @@ news_event = {
 	option = {
 		name = news.312.b
 		trigger = { 
-			TAG = GER
+			TAG = SAX
 		}
 	}
 	option = {
@@ -12068,7 +12068,7 @@ news_event = {
 				TAG = HUN
 				TAG = ITA
 				TAG = AUS
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -12109,7 +12109,7 @@ news_event = {
 	option = {
 		name = news.313.b
 		trigger = { 
-			TAG = GER
+			TAG = SAX
 		}
 	}
 	option = {
@@ -12119,7 +12119,7 @@ news_event = {
 				TAG = HUN
 				TAG = ITA
 				TAG = AUS
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -12186,7 +12186,7 @@ news_event = {
 	option = {
 		name = news.294.c
 		trigger = { 
-			TAG = GER
+			TAG = SAX
 		}
 	}
 	option = { 
@@ -12195,7 +12195,7 @@ news_event = {
 			NOT = {
 				TAG = HUN
 				TAG = AUS
-				TAG = GER
+				TAG = SAX
 			}
 		}
 	}
@@ -12225,7 +12225,7 @@ news_event = {
 		name = news.316.b
 		trigger = { 
 			OR = {
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
 			}
 		}
@@ -12236,7 +12236,7 @@ news_event = {
 			NOT = {
 				TAG = ROM
 				TAG = POL
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
 			}
 		}
@@ -12279,7 +12279,7 @@ news_event = {
 		name = news.317.g
 		trigger = { 
 			OR = {
-				TAG = GER
+				TAG = SAX
 				TAG = SOV
 			}
 		}
@@ -12292,7 +12292,7 @@ news_event = {
 					TAG = ROM
 					TAG = POL
 					TAG = CZE
-					TAG = GER
+					TAG = SAX
 					TAG = SOV
 					has_government = communism
 					has_government = fascism
@@ -12318,7 +12318,7 @@ news_event = {
 						TAG = ROM
 						TAG = POL
 						TAG = CZE
-						TAG = GER
+						TAG = SAX
 						TAG = SOV
 					}
 					OR = {
@@ -12438,9 +12438,9 @@ news_event = {
 		trigger = { 
 			OR = {
 				AND = {
-					TAG = GER
+					TAG = SAX
 					ROM = {
-						has_country_flag = ROM_YUG_GER_approves
+						has_country_flag = ROM_YUG_SAX_approves
 					}
 				}
 				AND = {
@@ -12461,9 +12461,9 @@ news_event = {
 					TAG = YUG
 				}
 				AND = {
-					TAG = GER
+					TAG = SAX
 					ROM = {
-						NOT = { has_country_flag = ROM_YUG_GER_approves }
+						NOT = { has_country_flag = ROM_YUG_SAX_approves }
 					}
 				}
 				AND = {
@@ -12499,9 +12499,9 @@ news_event = {
 		trigger = { 
 			OR = {
 				AND = {
-					TAG = GER
+					TAG = SAX
 					ROM = {
-						has_country_flag = ROM_YUG_GER_approves
+						has_country_flag = ROM_YUG_SAX_approves
 					}
 				}
 				AND = {
@@ -12521,13 +12521,13 @@ news_event = {
 					TAG = ROM
 					TAG = YUG
 					TAG = POL
-					TAG = GER
+					TAG = SAX
 					TAG = ITA
 				}
 				AND = {
-					TAG = GER
+					TAG = SAX
 					ROM = {
-						NOT = { has_country_flag = ROM_YUG_GER_approves }
+						NOT = { has_country_flag = ROM_YUG_SAX_approves }
 					}
 				}
 				AND = {
@@ -12884,14 +12884,14 @@ news_event = {
 	option = {
 		name = news.332.c
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 			NOT = { original_tag = FRA }
 		}
 	}
 	option = {
 		name = news.332.d
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 			original_tag = FRA
 		}
 	}
@@ -12899,7 +12899,7 @@ news_event = {
 		name = news.332.e
 		trigger = {
 			NOT = { is_in_faction_with = ENG }
-			NOT = { is_in_faction_with = GER }
+			NOT = { is_in_faction_with = SAX }
 		}
 	}
 }
@@ -12932,14 +12932,14 @@ news_event = {
 	option = {
 		name = news.333.c
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 			NOT = { original_tag = FRA }
 		}
 	}
 	option = {
 		name = news.333.d
 		trigger = {
-			is_in_faction_with = GER
+			is_in_faction_with = SAX
 			original_tag = FRA
 		}
 	}
@@ -12947,7 +12947,7 @@ news_event = {
 		name = news.333.e
 		trigger = {
 			NOT = { is_in_faction_with = ENG }
-			NOT = { is_in_faction_with = GER }
+			NOT = { is_in_faction_with = SAX }
 		}
 	}
 }

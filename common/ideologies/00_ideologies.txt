@@ -155,7 +155,7 @@ ideologies = {
 	
 		types = {
 		
-			Monarchist  = {
+			despotism  = {
 			}
 			
 			oligarchism  = {
