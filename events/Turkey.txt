@@ -39,7 +39,7 @@ country_event = {
 				desc = "POLITICS_ISMET_INÖNÜ_DESC"
 				picture = "Portrait_Turkey_Ismet_Inonu.dds"
 				expire = "1965.1.1"
-				ideology = despotism
+				ideology = Monarchist
 				traits = {
 					#
 				}

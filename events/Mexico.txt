@@ -157,7 +157,7 @@ country_event = {
 						desc = "POLITICS_SATURNINO_CEDILLO_DESC"
 						picture = "GFX_portrait_mex_saturnino_cedillo"
 						expire = "1965.1.1"
-						ideology = despotism
+						ideology = Monarchist
 						traits = {
 							strongman_of_san_luis_potosi
 						}
@@ -1463,7 +1463,7 @@ country_event = {
 			desc = "POLITICS_SATURNINO_CEDILLO_DESC"
 			picture = "GFX_portrait_mex_saturnino_cedillo"
 			expire = "1965.1.1"
-			ideology = despotism
+			ideology = Monarchist
 			traits = {
 				strongman_of_san_luis_potosi
 			}
@@ -2750,7 +2750,7 @@ country_event = {
 					desc = "POLITICS_PLUTARCO_E_CALLES_DESC"
 					picture = GFX_portrait_mex_calles_military
 					expire = "1965.1.1"
-					ideology = despotism
+					ideology = Monarchist
 					traits = {
 						el_jefe_maximo
 					}

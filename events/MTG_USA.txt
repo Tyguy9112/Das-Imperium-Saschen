@@ -2358,7 +2358,7 @@ country_event = {
 			desc = "POLITICS_DOUGLAS_MACARTHUR_DESC"
 			picture = "Portrait_USA_Douglas_MacArthur.dds"
 			expire = "1965.1.1"
-			ideology = despotism
+			ideology = Monarchist
 			traits = {
 				american_caesar
 			}
